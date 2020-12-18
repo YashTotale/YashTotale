@@ -5,13 +5,14 @@ _Table of Contents_
 - [Projects](#projects)
   - [React Hash Scroll](#react-hash-scroll)
   - [Terminal All In One](#terminal-all-in-one)
+  - [AV Clubs](#av-clubs)
   - [Personal Website](#personal-website)
 
 ## Projects
 
 ### React Hash Scroll
 
-An NPM package that provides quick & easy scrolling in React with refs
+An [NPM](https://www.npmjs.com/) package that provides quick & easy scrolling in [React](https://reactjs.org/) with refs
 
 - [Repository](https://github.com/YashTotale/react-hash-scroll)
 - [Readme](https://github.com/YashTotale/react-hash-scroll#readme)
@@ -22,12 +23,18 @@ An NPM package that provides quick & easy scrolling in React with refs
 
 ### Terminal All In One
 
-A VS Code extension that supercharges the integrated terminal with themes, scripts, keybindings, and commands
+A [VS Code](https://code.visualstudio.com/) extension that supercharges the integrated terminal with themes, scripts, keybindings, and commands
 
 - [Repository](https://github.com/YashTotale/terminal-all-in-one)
 - [Readme](https://github.com/YashTotale/terminal-all-in-one#readme)
 - [Changelog](https://github.com/YashTotale/terminal-all-in-one/blob/master/CHANGELOG.md)
 - [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=yasht.terminal-all-in-one)
+
+### AV Clubs
+
+A website for [Amador Valley High School](https://amador.pleasantonusd.net/) (my high school) that compiles information about all the clubs at Amador
+
+- [Website](https://clubs.amadorweb.org/)
 
 ### Personal Website
 
