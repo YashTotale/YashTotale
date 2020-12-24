@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YashTotale&count_private=true&show_icons=true&theme=great-gatsby" alt="Yash Totale's Github Stats">
+  <img src="https://github-readme-stats.vercel.app/api?username=YashTotale&count_private=true&show_icons=true&theme=vision-friendly-dark" alt="Yash Totale's Github Stats">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=YashT&theme=vision-friendly-dark&custom_title=Yash%20Totale%27s%20Weekly%20Wakatime%20Stats" alt="Yash Totale's Weekly Wakatime Stats">
 </p>
 
 - [Projects](#projects)
