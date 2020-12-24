@@ -1,6 +1,6 @@
-# Yash Totale <!-- omit in TOC -->
-
-_Table of Contents_
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YashTotale&count_private=true&show_icons=true&theme=great-gatsby" alt="Yash Totale's Github Stats">
+</p>
 
 - [Projects](#projects)
   - [React Hash Scroll](#react-hash-scroll)
