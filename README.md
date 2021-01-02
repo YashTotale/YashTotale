@@ -3,15 +3,9 @@
   <img src="https://github-readme-stats.vercel.app/api/wakatime?username=YashT&theme=vision-friendly-dark&custom_title=Yash%20Totale%27s%20Weekly%20Wakatime%20Stats" alt="Yash Totale's Weekly Wakatime Stats">
 </p>
 
-- [Projects](#projects)
-  - [React Hash Scroll](#react-hash-scroll)
-  - [Terminal All In One](#terminal-all-in-one)
-  - [AV Clubs](#av-clubs)
-  - [Personal Website](#personal-website)
+# Projects
 
-## Projects
-
-### React Hash Scroll
+## React Hash Scroll
 
 An [NPM](https://www.npmjs.com/) package that provides quick & easy scrolling in [React](https://reactjs.org/) with refs
 
@@ -22,7 +16,7 @@ An [NPM](https://www.npmjs.com/) package that provides quick & easy scrolling in
 - [Website](https://react-hash-scroll.web.app/)
 - [Demos](https://codesandbox.io/s/react-hash-scroll-demos-ge3b4)
 
-### Terminal All In One
+## Terminal All In One
 
 A [VS Code](https://code.visualstudio.com/) extension that supercharges the integrated terminal with themes, scripts, keybindings, and commands
 
@@ -31,13 +25,23 @@ A [VS Code](https://code.visualstudio.com/) extension that supercharges the inte
 - [Changelog](https://github.com/YashTotale/terminal-all-in-one/blob/master/CHANGELOG.md)
 - [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=yasht.terminal-all-in-one)
 
-### AV Clubs
+## Introspect
+
+A Chrome/Firefox extension that allows users to rate, describe, and reflect on their daily lives
+
+- [Repository](https://github.com/YashTotale/introspect)
+- [Readme](https://github.com/YashTotale/introspect#readme)
+- [Changelog](https://github.com/YashTotale/introspect/blob/main/CHANGELOG.md)
+- [Firefox Add-On](https://addons.mozilla.org/en-US/firefox/addon/introspect/) (Pending Review)
+- Chrome Extension (Pending Review)
+
+## AV Clubs
 
 A website for [Amador Valley High School](https://amador.pleasantonusd.net/) (my high school) that compiles information about all the clubs at Amador
 
 - [Website](https://clubs.amadorweb.org/)
 
-### Personal Website
+## Personal Website
 
 My personal portfolio website
 
@@ -46,8 +50,6 @@ My personal portfolio website
 - [Website](https://yashtotale.github.io/#/) (Unfinished)
 
 <!--
-**YashTotale/YashTotale** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
