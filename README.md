@@ -23,6 +23,11 @@ An [NPM](https://www.npmjs.com/) package that provides quick & easy scrolling in
 
 ## Terminal All In One
 
+<a href="https://marketplace.visualstudio.com/items?itemName=yasht.terminal-all-in-one"><img src="https://img.shields.io/visual-studio-marketplace/v/yasht.terminal-all-in-one?logo=visual-studio-code&labelColor=000000&label=Version&style=flat-square" alt="Version"></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=yasht.terminal-all-in-one"><img src="https://img.shields.io/visual-studio-marketplace/i/yasht.terminal-all-in-one?logo=visual-studio-code&labelColor=000000&label=Installs&style=flat-square" alt="Installs"></a>
+<a href="https://travis-ci.com/github/YashTotale/terminal-all-in-one"><img src="https://img.shields.io/travis/com/YashTotale/terminal-all-in-one?logo=travis-ci&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build"></a>
+<a href="https://lgtm.com/projects/g/YashTotale/terminal-all-in-one/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/YashTotale/terminal-all-in-one?labelColor=000000&logo=lgtm&label=Code%20Quality&style=flat-square" alt="Code Quality"></a>
+
 A [VS Code](https://code.visualstudio.com/) extension that supercharges the integrated terminal with themes, scripts, keybindings, and commands
 
 - [Repository](https://github.com/YashTotale/terminal-all-in-one)
