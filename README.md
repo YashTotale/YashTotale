@@ -38,7 +38,7 @@ A Chrome/Firefox extension that allows users to rate, describe, and reflect on t
 - [Readme](https://github.com/YashTotale/introspect#readme)
 - [Changelog](https://github.com/YashTotale/introspect/blob/main/CHANGELOG.md)
 - [Firefox Add-On](https://addons.mozilla.org/en-US/firefox/addon/introspect/)
-- Chrome Extension (Pending Review)
+- [Chrome Extension](https://chrome.google.com/webstore/detail/introspect/bbdoepdgmnjbcgmhgkfmnfcomjjoepcp)
 
 ## AV Clubs
 
