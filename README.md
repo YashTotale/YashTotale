@@ -38,7 +38,7 @@ A [VS Code](https://code.visualstudio.com/) extension that supercharges the inte
 ## Introspect
 
 <a href="https://chrome.google.com/webstore/detail/introspect/bbdoepdgmnjbcgmhgkfmnfcomjjoepcp"><img src="https://img.shields.io/chrome-web-store/v/bbdoepdgmnjbcgmhgkfmnfcomjjoepcp?logo=google-chrome&logoColor=FFFFFF&labelColor=000000&label=Version&style=flat-square" alt="Chrome Version"></a>
-<a href="https://chrome.google.com/webstore/detail/introspect/bbdoepdgmnjbcgmhgkfmnfcomjjoepcp"><img src="https://img.shields.io/chrome-web-store/rating/bbdoepdgmnjbcgmhgkfmnfcomjjoepcp?logo=google-chrome&logoColor=FFFFFF&labelColor=000000&label=Rating&style=flat-square" alt="Chrome Rating"></a>
+<a href="https://chrome.google.com/webstore/detail/introspect/bbdoepdgmnjbcgmhgkfmnfcomjjoepcp/reviews"><img src="https://img.shields.io/chrome-web-store/rating/bbdoepdgmnjbcgmhgkfmnfcomjjoepcp?logo=google-chrome&logoColor=FFFFFF&labelColor=000000&label=Rating&style=flat-square" alt="Chrome Rating"></a>
 <br>
 <a href="https://addons.mozilla.org/en-US/firefox/addon/introspect/"><img src="https://img.shields.io/amo/v/introspect?logo=firefox-browser&logoColor=FFFFFF&labelColor=000000&label=Version&style=flat-square" alt="Firefox Version"></a>
 <a href="https://addons.mozilla.org/en-US/firefox/addon/introspect/"><img src="https://img.shields.io/amo/rating/introspect?logo=firefox-browser&logoColor=FFFFFF&labelColor=000000&label=Rating&style=flat-square" alt="Firefox Rating"></a>
