@@ -68,15 +68,20 @@ My personal portfolio website
 - [Readme](https://github.com/YashTotale/YashTotale.github.io#readme)
 - [Website](https://yashtotale.github.io/#/) (Unfinished)
 
-<!--
-Here are some ideas to get you started:
+# Contributions
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Shields
+
+[Shields.io](https://www.shields.io/) is a website that provides SVG badges ![Example Badge](https://img.shields.io/badge/badge-example-brightgreen?style=flat-square) that can be included in project READMEs and web pages. It supports continuous integration services, package registries, distributions, app stores, social networks, code coverage services, and code analysis services, etc.
+
+### Project Links
+
+- [Repository](https://github.com/badges/shields)
+- [Readme](https://github.com/badges/shields#readme)
+- [Website](https://www.shields.io/)
+
+### My Contributions
+
+- [VS Code Marketplace Last Updated and Release Date Badges](https://github.com/badges/shields/pull/5388)
+- [Redesign of LGTM Alerts badge](https://github.com/badges/shields/pull/5391)
+- [VS Code Marketplace Trending Badges](https://github.com/badges/shields/pull/5411)
