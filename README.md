@@ -72,7 +72,7 @@ My personal portfolio website
 
 ## Shields
 
-[Shields.io](https://www.shields.io/) is a website that provides SVG badges ![Example Badge](https://img.shields.io/badge/badge-example-brightgreen?style=flat-square) that can be included in project READMEs and web pages. It supports continuous integration services, package registries, distributions, app stores, social networks, code coverage services, and code analysis services, etc.
+[Shields.io](https://www.shields.io/) is a website that provides SVG badges ![Example Badge](https://img.shields.io/badge/badge-example-brightgreen?style=flat-square) that can be included in project READMEs and web pages. It supports continuous integration services, package registries, distributions, app stores, social networks, code coverage services, code analysis services, etc.
 
 ### Project Links
 
