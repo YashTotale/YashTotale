@@ -10,7 +10,7 @@
   - [Terminal All In One](#terminal-all-in-one)
   - [Introspect](#introspect)
   - [AV Clubs](#av-clubs)
-  - [Personal Website](#personal-website)
+  - [Portfolio Website](#portfolio-website)
 - [Contributions](#contributions)
   - [Shields](#shields)
 
@@ -71,7 +71,7 @@ A website for [Amador Valley High School](https://amador.pleasantonusd.net/) (my
 
 - [Website](https://clubs.amadorweb.org/)
 
-## Personal Website
+## Portfolio Website
 
 My personal portfolio website
 
