@@ -16,5 +16,6 @@
 
     ".huskyrc": "json",
     ".lintstagedrc": "json"
-  }
+  },
+  "markdown.extension.toc.levels": "1..2"
 }
