@@ -47,6 +47,7 @@ A project that automates the process of creating, sending, and storing feedback 
 
 ## React Hash Scroll
 
+<img src="https://raw.githubusercontent.com/YashTotale/react-hash-scroll/main/static/icon.png" alt="React Hash Scroll Icon" height="20">
 <a href="https://www.npmjs.com/package/react-hash-scroll"><img src="https://img.shields.io/npm/v/react-hash-scroll?logo=npm&logoColor=FFFFFF&labelColor=000000&label=Version&style=flat-square" alt="Version"></a>
 <a href="https://www.npmjs.com/package/react-hash-scroll"><img src="https://img.shields.io/npm/dt/react-hash-scroll?logo=npm&logoColor=FFFFFF&labelColor=000000&label=Downloads&style=flat-square" alt="Downloads"></a>
 <a href="https://github.com/YashTotale/react-hash-scroll/actions?query=workflow%3A%22Node+CI%22"><img src="https://img.shields.io/github/workflow/status/YashTotale/react-hash-scroll/Node%20CI?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build"></a>
@@ -63,6 +64,7 @@ An [NPM](https://www.npmjs.com/) package that provides [React](https://reactjs.o
 
 ## Terminal All In One
 
+<img src="https://raw.githubusercontent.com/YashTotale/terminal-all-in-one/master/images/terminal-icon.jpg" alt="Terminal All In One Icon" height="20">
 <a href="https://marketplace.visualstudio.com/items?itemName=yasht.terminal-all-in-one"><img src="https://img.shields.io/visual-studio-marketplace/v/yasht.terminal-all-in-one?logo=visual-studio-code&labelColor=000000&label=Version&style=flat-square" alt="Version"></a>
 <a href="https://marketplace.visualstudio.com/items?itemName=yasht.terminal-all-in-one"><img src="https://img.shields.io/visual-studio-marketplace/i/yasht.terminal-all-in-one?logo=visual-studio-code&labelColor=000000&label=Installs&style=flat-square" alt="Installs"></a>
 <a href="https://travis-ci.com/github/YashTotale/terminal-all-in-one"><img src="https://img.shields.io/travis/com/YashTotale/terminal-all-in-one?logo=travis-ci&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build"></a>
@@ -77,6 +79,7 @@ A [VS Code](https://code.visualstudio.com/) extension that supercharges the [int
 
 ## Introspect
 
+<img src="https://raw.githubusercontent.com/YashTotale/introspect/main/static/images/logo512.png" alt="Introspect Icon" height="20">
 <a href="https://chrome.google.com/webstore/detail/introspect/bbdoepdgmnjbcgmhgkfmnfcomjjoepcp"><img src="https://img.shields.io/chrome-web-store/v/bbdoepdgmnjbcgmhgkfmnfcomjjoepcp?logo=google-chrome&logoColor=FFFFFF&labelColor=000000&label=Version&style=flat-square" alt="Chrome Version"></a>
 <a href="https://chrome.google.com/webstore/detail/introspect/bbdoepdgmnjbcgmhgkfmnfcomjjoepcp/reviews"><img src="https://img.shields.io/chrome-web-store/rating/bbdoepdgmnjbcgmhgkfmnfcomjjoepcp?logo=google-chrome&logoColor=FFFFFF&labelColor=000000&label=Rating&style=flat-square" alt="Chrome Rating"></a>
 <a href="https://addons.mozilla.org/en-US/firefox/addon/introspect/"><img src="https://img.shields.io/amo/v/introspect?logo=firefox-browser&logoColor=FFFFFF&labelColor=000000&label=Version&style=flat-square" alt="Firefox Version"></a>
@@ -94,6 +97,7 @@ A Chrome/Firefox extension that allows users to rate, describe, and reflect on t
 
 ## Hurl
 
+<img src="https://raw.githubusercontent.com/hurl-org/hurl/main/static/logo-dark.png" alt="Hurl Icon" height="20">
 <a href="https://github.com/hurl-org/hurl/releases/latest"><img src="https://img.shields.io/github/lerna-json/v/hurl-org/hurl?logo=npm&logoColor=FFFFFF&labelColor=000000&label=Version&style=flat-square" alt="Version"></a>
 <a href="https://www.npmjs.com/package/@hurl/cli"><img src="https://img.shields.io/npm/dt/@hurl/cli?logo=npm&logoColor=FFFFFF&labelColor=000000&label=CLI%20Downloads&style=flat-square" alt="CLI Downloads"></a>
 <a href="https://www.npmjs.com/package/@hurl/core"><img src="https://img.shields.io/npm/dt/@hurl/core?logo=npm&logoColor=FFFFFF&labelColor=000000&label=Core%20Downloads&style=flat-square" alt="Core Downloads"></a>
