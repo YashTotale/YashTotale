@@ -25,7 +25,8 @@
 
 As a contributor, I help different departments of Hack4Impact with miscellaneous tasks related to automation and testing while also working on internal Hack4Impact projects (such as the Hack4Impact website).
 
-### Airtable Automation
+<h3 style="display: flex; align-items: center;">
+Airtable Automation &nbsp; <img alt="Icon" width="30" src="https://raw.githubusercontent.com/YashTotale/airtable-automation/main/static/images/icon.png"></img></h3>
 
 <a href="https://github.com/YashTotale/react-hash-scroll/actions?query=workflow%3A%22Node+CI%22"><img src="https://img.shields.io/github/workflow/status/YashTotale/react-hash-scroll/Node%20CI?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build"></a>
 <a href="https://github.com/YashTotale/airtable-automation/actions?query=workflow%3A%22Automated+Run%22"><img alt="Automated Run" src="https://img.shields.io/github/workflow/status/YashTotale/airtable-automation/Automated%20Run?style=flat-square&labelColor=000000&logo=github&logoColor=FFFFFF&label=Automated%20Run"></img></a>
