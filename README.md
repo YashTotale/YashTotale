@@ -27,10 +27,12 @@ As a contributor, I help different departments of Hack4Impact with miscellaneous
 
 ### Airtable Automation
 
+<p>
 <img alt="Airtable Automation Icon" height="20" src="https://raw.githubusercontent.com/YashTotale/airtable-automation/main/static/images/icon.png"></img>
 <a href="https://github.com/YashTotale/react-hash-scroll/actions?query=workflow%3A%22Node+CI%22"><img src="https://img.shields.io/github/workflow/status/YashTotale/react-hash-scroll/Node%20CI?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build"></a>
 <a href="https://github.com/YashTotale/airtable-automation/actions?query=workflow%3A%22Automated+Run%22"><img alt="Automated Run" src="https://img.shields.io/github/workflow/status/YashTotale/airtable-automation/Automated%20Run?style=flat-square&labelColor=000000&logo=github&logoColor=FFFFFF&label=Automated%20Run"></img></a>
 <a href="https://lgtm.com/projects/g/YashTotale/airtable-automation/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/YashTotale/airtable-automation?logo=lgtm&logoColor=FFFFFF&labelColor=000000&label=Code%20Quality&style=flat-square" alt="Code Quality"></a>
+</p>
 
 A project that automates the process of creating, sending, and storing feedback surveys for all projects created by Hack4Impact chapters.
 
@@ -47,11 +49,13 @@ A project that automates the process of creating, sending, and storing feedback 
 
 ## React Hash Scroll
 
+<p>
 <img src="https://raw.githubusercontent.com/YashTotale/react-hash-scroll/main/static/icon.png" alt="React Hash Scroll Icon" height="20">
 <a href="https://www.npmjs.com/package/react-hash-scroll"><img src="https://img.shields.io/npm/v/react-hash-scroll?logo=npm&logoColor=FFFFFF&labelColor=000000&label=Version&style=flat-square" alt="Version"></a>
 <a href="https://www.npmjs.com/package/react-hash-scroll"><img src="https://img.shields.io/npm/dt/react-hash-scroll?logo=npm&logoColor=FFFFFF&labelColor=000000&label=Downloads&style=flat-square" alt="Downloads"></a>
 <a href="https://github.com/YashTotale/react-hash-scroll/actions?query=workflow%3A%22Node+CI%22"><img src="https://img.shields.io/github/workflow/status/YashTotale/react-hash-scroll/Node%20CI?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build"></a>
 <a href="https://lgtm.com/projects/g/YashTotale/react-hash-scroll/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/YashTotale/react-hash-scroll?logo=lgtm&logoColor=FFFFFF&labelColor=000000&label=Code%20Quality&style=flat-square" alt="Code Quality"></a>
+</p>
 
 An [NPM](https://www.npmjs.com/) package that provides [React](https://reactjs.org/) components and hooks for hash scrolling with refs.
 
@@ -64,11 +68,13 @@ An [NPM](https://www.npmjs.com/) package that provides [React](https://reactjs.o
 
 ## Terminal All In One
 
+<p>
 <img src="https://raw.githubusercontent.com/YashTotale/terminal-all-in-one/master/images/terminal-icon.jpg" alt="Terminal All In One Icon" height="20">
 <a href="https://marketplace.visualstudio.com/items?itemName=yasht.terminal-all-in-one"><img src="https://img.shields.io/visual-studio-marketplace/v/yasht.terminal-all-in-one?logo=visual-studio-code&labelColor=000000&label=Version&style=flat-square" alt="Version"></a>
 <a href="https://marketplace.visualstudio.com/items?itemName=yasht.terminal-all-in-one"><img src="https://img.shields.io/visual-studio-marketplace/i/yasht.terminal-all-in-one?logo=visual-studio-code&labelColor=000000&label=Installs&style=flat-square" alt="Installs"></a>
 <a href="https://travis-ci.com/github/YashTotale/terminal-all-in-one"><img src="https://img.shields.io/travis/com/YashTotale/terminal-all-in-one?logo=travis-ci&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build"></a>
 <a href="https://lgtm.com/projects/g/YashTotale/terminal-all-in-one/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/YashTotale/terminal-all-in-one?labelColor=000000&logo=lgtm&label=Code%20Quality&style=flat-square" alt="Code Quality"></a>
+</p>
 
 A [VS Code](https://code.visualstudio.com/) extension that supercharges the [integrated terminal](https://code.visualstudio.com/docs/editor/integrated-terminal) with themes, scripts, keybindings, and commands.
 
@@ -79,6 +85,7 @@ A [VS Code](https://code.visualstudio.com/) extension that supercharges the [int
 
 ## Introspect
 
+<p>
 <img src="https://raw.githubusercontent.com/YashTotale/introspect/main/static/images/logo512.png" alt="Introspect Icon" height="20">
 <a href="https://chrome.google.com/webstore/detail/introspect/bbdoepdgmnjbcgmhgkfmnfcomjjoepcp"><img src="https://img.shields.io/chrome-web-store/v/bbdoepdgmnjbcgmhgkfmnfcomjjoepcp?logo=google-chrome&logoColor=FFFFFF&labelColor=000000&label=Version&style=flat-square" alt="Chrome Version"></a>
 <a href="https://chrome.google.com/webstore/detail/introspect/bbdoepdgmnjbcgmhgkfmnfcomjjoepcp/reviews"><img src="https://img.shields.io/chrome-web-store/rating/bbdoepdgmnjbcgmhgkfmnfcomjjoepcp?logo=google-chrome&logoColor=FFFFFF&labelColor=000000&label=Rating&style=flat-square" alt="Chrome Rating"></a>
@@ -86,6 +93,7 @@ A [VS Code](https://code.visualstudio.com/) extension that supercharges the [int
 <a href="https://addons.mozilla.org/en-US/firefox/addon/introspect/"><img src="https://img.shields.io/amo/rating/introspect?logo=firefox-browser&logoColor=FFFFFF&labelColor=000000&label=Rating&style=flat-square" alt="Firefox Rating"></a>
 <a href="https://github.com/YashTotale/introspect/actions?query=workflow%3A%22Node+CI%22"><img src="https://img.shields.io/github/workflow/status/YashTotale/introspect/Node%20CI?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build"></a>
 <a href="https://lgtm.com/projects/g/YashTotale/introspect/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/YashTotale/introspect?labelColor=000000&logo=lgtm&label=Code%20Quality&style=flat-square" alt="Code Quality"></a>
+</p>
 
 A Chrome/Firefox extension that allows users to rate, describe, and reflect on their daily lives.
 
@@ -97,6 +105,7 @@ A Chrome/Firefox extension that allows users to rate, describe, and reflect on t
 
 ## Hurl
 
+<p>
 <img src="https://raw.githubusercontent.com/hurl-org/hurl/main/static/logo-dark.png" alt="Hurl Icon" height="20">
 <a href="https://github.com/hurl-org/hurl/releases/latest"><img src="https://img.shields.io/github/lerna-json/v/hurl-org/hurl?logo=npm&logoColor=FFFFFF&labelColor=000000&label=Version&style=flat-square" alt="Version"></a>
 <a href="https://www.npmjs.com/package/@hurl/cli"><img src="https://img.shields.io/npm/dt/@hurl/cli?logo=npm&logoColor=FFFFFF&labelColor=000000&label=CLI%20Downloads&style=flat-square" alt="CLI Downloads"></a>
@@ -104,6 +113,7 @@ A Chrome/Firefox extension that allows users to rate, describe, and reflect on t
 <a href="https://www.npmjs.com/package/@hurl/utils"><img src="https://img.shields.io/npm/dt/@hurl/utils?logo=npm&logoColor=FFFFFF&labelColor=000000&label=Utils%20Downloads&style=flat-square" alt="Utils Downloads"></a>
 <a href="https://github.com/hurl-org/hurl/actions?query=workflow%3A%22Node+CI%22"><img src="https://img.shields.io/github/workflow/status/hurl-org/hurl/Node%20CI?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build"></a>
 <a href="https://lgtm.com/projects/g/hurl-org/hurl/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/hurl-org/hurl?logo=lgtm&logoColor=FFFFFF&labelColor=000000&label=Code%20Quality&style=flat-square" alt="Code Quality"></a>
+</p>
 
 An [NPM](https://www.npmjs.com/) package and [CLI](https://en.wikipedia.org/wiki/Command-line_interface) tool that allows for file generation from templates.
 
