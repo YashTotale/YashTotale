@@ -5,6 +5,8 @@
 
 # Contents <!-- omit in toc -->
 
+- [Experience](#experience)
+  - [Hack4Impact Individual Contributor](#hack4impact-individual-contributor)
 - [Projects](#projects)
   - [React Hash Scroll](#react-hash-scroll)
   - [Terminal All In One](#terminal-all-in-one)
@@ -14,6 +16,31 @@
   - [Portfolio Website](#portfolio-website)
 - [Contributions](#contributions)
   - [Shields](#shields)
+
+# Experience
+
+## Hack4Impact Individual Contributor
+
+[Hack4Impact](https://hack4impact.org/) is an organization made up of university chapters around the country that develop projects for non-profits.
+
+As a contributor, I help different departments of Hack4Impact with miscellaneous tasks related to automation and testing while also working on internal Hack4Impact projects (such as the Hack4Impact website).
+
+### Airtable Automation
+
+<a href="https://github.com/YashTotale/react-hash-scroll/actions?query=workflow%3A%22Node+CI%22"><img src="https://img.shields.io/github/workflow/status/YashTotale/react-hash-scroll/Node%20CI?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build"></a>
+<a href="https://github.com/YashTotale/airtable-automation/actions?query=workflow%3A%22Automated+Run%22"><img alt="Automated Run" src="https://img.shields.io/github/workflow/status/YashTotale/airtable-automation/Automated%20Run?style=flat-square&labelColor=000000&logo=github&logoColor=FFFFFF&label=Automated%20Run"></img></a>
+<a href="https://lgtm.com/projects/g/YashTotale/airtable-automation/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/YashTotale/airtable-automation?logo=lgtm&logoColor=FFFFFF&labelColor=000000&label=Code%20Quality&style=flat-square" alt="Code Quality"></a>
+
+A project that automates the process of creating, sending, and storing feedback surveys for all projects created by Hack4Impact chapters.
+
+- [Repository](https://github.com/YashTotale/airtable-automation)
+- [Readme](https://github.com/YashTotale/airtable-automation#readme)
+
+### Organization Links
+
+- [Hack4Impact Website](https://hack4impact.org/)
+- [Hack4Impact GitHub](https://github.com/hack4impact)
+- [Hack4Impact LinkedIn](https://www.linkedin.com/company/hack4impact/)
 
 # Projects
 
@@ -102,14 +129,14 @@ My personal portfolio website.
 
 [Shields.io](https://www.shields.io/) is a website that provides SVG badges ![Example Badge](https://img.shields.io/badge/badge-example-brightgreen?style=flat-square) that can be included in project READMEs and web pages. It supports continuous integration services, package registries, distributions, app stores, social networks, code coverage services, code analysis services, etc.
 
-### Project Links
-
-- [Repository](https://github.com/badges/shields)
-- [Readme](https://github.com/badges/shields#readme)
-- [Website](https://www.shields.io/)
-
 ### My Contributions
 
 - [VS Code Marketplace Last Updated and Release Date Badges](https://github.com/badges/shields/pull/5388)
 - [Redesign of LGTM Alerts badge](https://github.com/badges/shields/pull/5391)
 - [VS Code Marketplace Trending Badges](https://github.com/badges/shields/pull/5411)
+
+### Project Links
+
+- [Repository](https://github.com/badges/shields)
+- [Readme](https://github.com/badges/shields#readme)
+- [Website](https://www.shields.io/)
