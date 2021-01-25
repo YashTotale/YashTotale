@@ -151,6 +151,7 @@ My personal portfolio website.
 
 ### My Contributions
 
+- [GitHub Total Commits Badge](https://github.com/badges/shields/pull/6081)
 - [VS Code Marketplace Last Updated and Release Date Badges](https://github.com/badges/shields/pull/5388)
 - [Redesign of LGTM Alerts badge](https://github.com/badges/shields/pull/5391)
 - [VS Code Marketplace Trending Badges](https://github.com/badges/shields/pull/5411)
