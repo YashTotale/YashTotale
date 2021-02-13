@@ -28,17 +28,35 @@ As a contributor, I help different departments of Hack4Impact with miscellaneous
 ### Airtable Automation
 
 <p>
-<img alt="Airtable Automation Icon" height="20" src="https://raw.githubusercontent.com/YashTotale/airtable-automation/main/static/images/icon.png"></img>
-<a href="https://github.com/YashTotale/airtable-automation/actions?query=workflow%3A%22Node+CI%22"><img src="https://img.shields.io/github/workflow/status/YashTotale/airtable-automation/Node%20CI?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build"></a>
-<a href="https://github.com/YashTotale/airtable-automation/actions?query=workflow%3A%22Automated+Run%22"><img alt="Automated Run" src="https://img.shields.io/github/workflow/status/YashTotale/airtable-automation/Automated%20Run?style=flat-square&labelColor=000000&logo=github&logoColor=FFFFFF&label=Automated%20Run"></img></a>
-<a href="https://github.com/YashTotale/airtable-automation/search?l=typescript&type=code"><img src="https://img.shields.io/github/languages/top/YashTotale/airtable-automation?logo=typescript&labelColor=000000&label=TypeScript&style=flat-square" alt="Top Language"></a>
-<a href="https://lgtm.com/projects/g/YashTotale/airtable-automation/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/YashTotale/airtable-automation?logo=lgtm&logoColor=FFFFFF&labelColor=000000&label=Code%20Quality&style=flat-square" alt="Code Quality"></a>
+<img alt="Airtable Automation Icon" height="20" src="https://raw.githubusercontent.com/hack4impact/airtable-automation/main/static/images/icon.png"></img>
+<a href="https://github.com/hack4impact/airtable-automation/actions?query=workflow%3A%22Node+CI%22"><img src="https://img.shields.io/github/workflow/status/hack4impact/airtable-automation/Node%20CI?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build"></a>
+<a href="https://github.com/hack4impact/airtable-automation/actions?query=workflow%3A%22Automated+Run%22"><img alt="Automated Run" src="https://img.shields.io/github/workflow/status/hack4impact/airtable-automation/Automated%20Run?style=flat-square&labelColor=000000&logo=github&logoColor=FFFFFF&label=Automated%20Run"></img></a>
+<a href="https://github.com/hack4impact/airtable-automation/search?l=typescript&type=code"><img src="https://img.shields.io/github/languages/top/hack4impact/airtable-automation?logo=typescript&labelColor=000000&label=TypeScript&style=flat-square" alt="Top Language"></a>
+<a href="https://lgtm.com/projects/g/hack4impact/airtable-automation/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/hack4impact/airtable-automation?logo=lgtm&logoColor=FFFFFF&labelColor=000000&label=Code%20Quality&style=flat-square" alt="Code Quality"></a>
 </p>
 
 A project that automates the process of creating, sending, and storing feedback surveys for all projects created by Hack4Impact chapters.
 
-- [Repository](https://github.com/YashTotale/airtable-automation)
-- [Readme](https://github.com/YashTotale/airtable-automation#readme)
+- [Repository](https://github.com/hack4impact/airtable-automation)
+- [Readme](https://github.com/hack4impact/airtable-automation#readme)
+
+### Logger
+
+<p>
+<a href="https://www.npmjs.com/package/@hack4impact/logger"><img src="https://img.shields.io/npm/v/@hack4impact/logger?logo=npm&logoColor=FFFFFF&labelColor=000000&label=Version&style=flat-square" alt="Version"></a>
+<a href="https://www.npmjs.com/package/@hack4impact/logger"><img src="https://img.shields.io/npm/dt/@hack4impact/logger?logo=npm&logoColor=FFFFFF&labelColor=000000&label=Downloads&style=flat-square" alt="Downloads"></a>
+<a href="https://github.com/hack4impact/logger/actions?query=workflow%3A%22Node+CI%22"><img src="https://img.shields.io/github/workflow/status/hack4impact/logger/Node%20CI?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build"></a>
+<a href="https://github.com/hack4impact/logger/search?l=typescript&type=code"><img src="https://img.shields.io/github/languages/top/hack4impact/logger?logo=typescript&labelColor=000000&label=TypeScript&style=flat-square" alt="Top Language"></a>
+<a href="https://lgtm.com/projects/g/hack4impact/logger/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/hack4impact/logger?logo=lgtm&logoColor=FFFFFF&labelColor=000000&label=Code%20Quality&style=flat-square" alt="Code Quality"></a>
+</p>
+
+A lightweight Logger Utility used by Hack4Impact Projects.
+
+- [Repository](https://github.com/hack4impact/logger)
+- [Readme](https://github.com/hack4impact/logger#readme)
+- [Changelog](https://github.com/hack4impact/logger/blob/main/CHANGELOG.md)
+- [NPM Package](https://www.npmjs.com/package/@hack4impact/logger)
+- [Docs](https://github.com/hack4impact/logger/tree/main/docs)
 
 ### Organization Links
 
