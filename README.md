@@ -1,19 +1,18 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=YashTotale&count_private=true&show_icons=true&theme=vision-friendly-dark" alt="Yash Totale's Github Stats">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=YashT&theme=vision-friendly-dark&custom_title=Yash%20Totale%27s%20Weekly%20Wakatime%20Stats" alt="Yash Totale's Weekly Wakatime Stats">
+  <!-- <img src="https://github-readme-stats.vercel.app/api/wakatime?username=YashT&theme=vision-friendly-dark&custom_title=Yash%20Totale%27s%20Weekly%20Wakatime%20Stats" alt="Yash Totale's Weekly Wakatime Stats"> -->
 </p>
 
 # Contents <!-- omit in toc -->
 
 - [Experience](#experience)
   - [Hack4Impact Individual Contributor](#hack4impact-individual-contributor)
-- [Projects](#projects)
+- [Featured Projects](#featured-projects)
   - [React Hash Scroll](#react-hash-scroll)
   - [Terminal All In One](#terminal-all-in-one)
   - [Introspect](#introspect)
   - [Hurl](#hurl)
   - [AV Clubs](#av-clubs)
-  - [Portfolio Website](#portfolio-website)
 - [Contributions](#contributions)
   - [Shields](#shields)
 
@@ -65,7 +64,7 @@ A lightweight Logger Utility used by Hack4Impact Projects.
 - [Hack4Impact GitHub](https://github.com/hack4impact)
 - [Hack4Impact LinkedIn](https://www.linkedin.com/company/hack4impact/)
 
-# Projects
+# Featured Projects
 
 ## React Hash Scroll
 
@@ -154,13 +153,13 @@ A website for [Amador Valley High School](https://amador.pleasantonusd.net/) (my
 
 - [Website](https://clubs.amadorweb.org/)
 
-## Portfolio Website
+<!-- ## Portfolio Website
 
 My personal portfolio website.
 
 - [Repository](https://github.com/YashTotale/YashTotale.github.io)
 - [Readme](https://github.com/YashTotale/YashTotale.github.io#readme)
-- [Website](https://yashtotale.github.io/#/) (Unfinished)
+- [Website](https://yashtotale.github.io/#/) (Unfinished) -->
 
 # Contributions
 
