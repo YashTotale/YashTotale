@@ -57,7 +57,7 @@ A lightweight Logger Utility used by Hack4Impact Projects.
 - [Readme](https://github.com/hack4impact/logger#readme)
 - [Changelog](https://github.com/hack4impact/logger/blob/main/CHANGELOG.md)
 - [NPM Package](https://www.npmjs.com/package/@hack4impact/logger)
-- [Docs](https://github.com/hack4impact/logger/tree/main/docs)
+- [Website](https://hack4impact.github.io/logger/)
 
 ### Organization Links
 
