@@ -22,7 +22,7 @@
 
 [Hack4Impact](https://hack4impact.org/) is an organization made up of university chapters around the country that develop projects for non-profits.
 
-As a contributor, I help different departments of Hack4Impact with miscellaneous tasks related to automation and testing while also working on internal Hack4Impact projects (such as the Hack4Impact website).
+As a contributor, I help different departments of Hack4Impact with miscellaneous tasks related to automation while also working on internal Hack4Impact projects (such as the Hack4Impact website). Here are some of my projects:
 
 ### Feedback Survey Automation
 
@@ -50,13 +50,31 @@ A project that automates the process of creating, sending, and storing feedback 
 <a href="https://lgtm.com/projects/g/hack4impact/logger/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/hack4impact/logger?logo=lgtm&logoColor=FFFFFF&labelColor=000000&label=Code%20Quality&style=flat-square" alt="Code Quality"></a>
 </p>
 
-A lightweight Logger Utility used by Hack4Impact Projects.
+A lightweight Logger utility used by Hack4Impact Projects.
 
 - [Repository](https://github.com/hack4impact/logger)
 - [Readme](https://github.com/hack4impact/logger#readme)
 - [Changelog](https://github.com/hack4impact/logger/blob/main/CHANGELOG.md)
 - [NPM Package](https://www.npmjs.com/package/@hack4impact/logger)
 - [Website](https://hack4impact.github.io/logger/)
+
+### VS Code Extension
+
+<p>
+<img alt="Hack4Impact Icon" height="20" src="https://raw.githubusercontent.com/hack4impact/vscode-extension/main/static/rotating-icon.gif"></img>
+<a href="https://marketplace.visualstudio.com/items?itemName=hack4impact.h4i-recommendations"><img src="https://img.shields.io/visual-studio-marketplace/v/hack4impact.h4i-recommendations?style=flat-square&label=Version&logo=visual-studio-code&logoColor=FFFFFF&labelColor=000000"alt="Version"></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=hack4impact.h4i-recommendations&ssr=false#review-details"><img src="https://img.shields.io/visual-studio-marketplace/r/hack4impact.h4i-recommendations?style=flat-square&label=Rating&logo=visual-studio-code&logoColor=FFFFFF&labelColor=000000" alt="Rating"></a>
+<a href="https://github.com/hack4impact/vscode-extension/actions?query=workflow%3A%22Node+CI%22"><img src="https://img.shields.io/github/workflow/status/hack4impact/vscode-extension/Node%20CI?style=flat-square&label=Build&logo=github&logoColor=FFFFFF&labelColor=000000" alt="Build"/></a>
+<a href="https://github.com/hack4impact/vscode-extension/search?l=typescript&type=code"><img src="https://img.shields.io/github/languages/top/hack4impact/vscode-extension?logo=typescript&labelColor=000000&label=TypeScript&style=flat-square" alt="Top Language"></a>
+<a href="https://lgtm.com/projects/g/hack4impact/vscode-extension/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/hack4impact/vscode-extension?style=flat-square&label=Code%20Quality&logo=lgtm&logoColor=FFFFFF&labelColor=000000" alt="Code Quality"/></a>
+</p>
+
+Hack4Impact's VS Code Extension that provides recommended extensions and templates for quality project development.
+
+- [Repository](https://github.com/hack4impact/vscode-extension)
+- [Readme](https://github.com/hack4impact/vscode-extension#readme)
+- [Changelog](https://github.com/hack4impact/vscode-extension/blob/main/CHANGELOG.md)
+- [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=hack4impact.h4i-recommendations)
 
 ### Organization Links
 
