@@ -1,8 +1,4 @@
 {
-  "**/*.@(js|jsx|ts|tsx)": [
-    "eslint --fix",
-    "prettier --write"
-  ],
   "**/*@(md)": [
     "markdownlint --fix",
     "prettier --write"
