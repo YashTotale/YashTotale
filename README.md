@@ -69,7 +69,22 @@ A lightweight Logger utility used by Hack4Impact Projects.
 <a href="https://lgtm.com/projects/g/hack4impact/vscode-extension/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/hack4impact/vscode-extension?style=flat-square&label=Code%20Quality&logo=lgtm&logoColor=FFFFFF&labelColor=000000" alt="Code Quality"/></a>
 </p>
 
-Hack4Impact's VS Code Extension that provides recommended extensions and templates for quality project development.
+Hack4Impact's [VS Code](https://code.visualstudio.com/) Extension that provides recommended extensions and templates for quality project development.
+
+- [Repository](https://github.com/hack4impact/vscode-extension)
+- [Readme](https://github.com/hack4impact/vscode-extension#readme)
+- [Changelog](https://github.com/hack4impact/vscode-extension/blob/main/CHANGELOG.md)
+- [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=hack4impact.h4i-recommendations)
+
+### JetBrains Plugin
+
+<p>
+<img alt="Hack4Impact Icon" height="20" src="https://raw.githubusercontent.com/hack4impact/jetbrains-plugin/main/src/main/resources/icons/rotating-icon.gif"></img>
+<a href="https://github.com/hack4impact/jetbrains-plugin/actions?query=workflow%3A%22CI%22"><img src="https://img.shields.io/github/workflow/status/hack4impact/jetbrains-plugin/CI?style=flat-square&label=Build&logo=github&logoColor=FFFFFF&labelColor=000000" alt="Build"/></a>
+<a href="https://github.com/hack4impact/jetbrains-plugin/search?l=typescript&type=code"><img src="https://img.shields.io/github/languages/top/hack4impact/jetbrains-plugin?logo=kotlin&logoColor=orange&color=orange&labelColor=000000&label=Kotlin&style=flat-square" alt="Top Language"></a>
+</p>
+
+Hack4Impact's [JetBrains](https://www.jetbrains.com/) plugin that provides recommended templates for quality project development
 
 - [Repository](https://github.com/hack4impact/vscode-extension)
 - [Readme](https://github.com/hack4impact/vscode-extension#readme)
