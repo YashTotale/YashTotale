@@ -32,6 +32,7 @@ As a contributor, I help different departments of Hack4Impact with miscellaneous
 <a href="https://github.com/hack4impact/feedback-survey-automation/actions?query=workflow%3A%22Automated+Run%22"><img alt="Automated Run" src="https://img.shields.io/github/workflow/status/hack4impact/feedback-survey-automation/Automated%20Run?style=flat-square&labelColor=000000&logo=github&logoColor=FFFFFF&label=Automated%20Run"></img></a>
 <a href="https://github.com/hack4impact/feedback-survey-automation/search?l=typescript&type=code"><img src="https://img.shields.io/github/languages/top/hack4impact/feedback-survey-automation?logo=typescript&labelColor=000000&label=TypeScript&style=flat-square" alt="Top Language"></a>
 <a href="https://lgtm.com/projects/g/hack4impact/feedback-survey-automation/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/hack4impact/feedback-survey-automation?logo=lgtm&logoColor=FFFFFF&labelColor=000000&label=Code%20Quality&style=flat-square" alt="Code Quality"></a>
+<a href="https://github.com/hack4impact/feedback-survey-automation/stargazers"><img src="https://img.shields.io/github/stars/hack4impact/feedback-survey-automation?style=social" alt="Stars"></a>
 </p>
 
 A project that automates the process of creating, sending, and storing feedback surveys for all projects created by Hack4Impact chapters.
@@ -48,6 +49,7 @@ A project that automates the process of creating, sending, and storing feedback 
 <a href="https://github.com/hack4impact/logger/actions?query=workflow%3A%22Node+CI%22"><img src="https://img.shields.io/github/workflow/status/hack4impact/logger/Node%20CI?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build"></a>
 <a href="https://github.com/hack4impact/logger/search?l=typescript&type=code"><img src="https://img.shields.io/github/languages/top/hack4impact/logger?logo=typescript&labelColor=000000&label=TypeScript&style=flat-square" alt="Top Language"></a>
 <a href="https://lgtm.com/projects/g/hack4impact/logger/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/hack4impact/logger?logo=lgtm&logoColor=FFFFFF&labelColor=000000&label=Code%20Quality&style=flat-square" alt="Code Quality"></a>
+<a href="https://github.com/hack4impact/logger/stargazers"><img src="https://img.shields.io/github/stars/hack4impact/logger?style=social" alt="Stars"></a>
 </p>
 
 A lightweight Logger utility used by Hack4Impact Projects.
@@ -67,6 +69,7 @@ A lightweight Logger utility used by Hack4Impact Projects.
 <a href="https://github.com/hack4impact/vscode-extension/actions?query=workflow%3A%22Node+CI%22"><img src="https://img.shields.io/github/workflow/status/hack4impact/vscode-extension/Node%20CI?style=flat-square&label=Build&logo=github&logoColor=FFFFFF&labelColor=000000" alt="Build"/></a>
 <a href="https://github.com/hack4impact/vscode-extension/search?l=typescript&type=code"><img src="https://img.shields.io/github/languages/top/hack4impact/vscode-extension?logo=typescript&labelColor=000000&label=TypeScript&style=flat-square" alt="Top Language"></a>
 <a href="https://lgtm.com/projects/g/hack4impact/vscode-extension/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/hack4impact/vscode-extension?style=flat-square&label=Code%20Quality&logo=lgtm&logoColor=FFFFFF&labelColor=000000" alt="Code Quality"/></a>
+<a href="https://github.com/hack4impact/vscode-extension/stargazers"><img src="https://img.shields.io/github/stars/hack4impact/vscode-extension?style=social" alt="Stars"></a>
 </p>
 
 Hack4Impact's [VS Code](https://code.visualstudio.com/) Extension that provides recommended extensions and templates for quality project development.
@@ -82,6 +85,7 @@ Hack4Impact's [VS Code](https://code.visualstudio.com/) Extension that provides 
 <img alt="Hack4Impact Icon" height="20" src="https://raw.githubusercontent.com/hack4impact/jetbrains-plugin/main/src/main/resources/icons/rotating-icon.gif"></img>
 <a href="https://github.com/hack4impact/jetbrains-plugin/actions?query=workflow%3A%22CI%22"><img src="https://img.shields.io/github/workflow/status/hack4impact/jetbrains-plugin/CI?style=flat-square&label=Build&logo=github&logoColor=FFFFFF&labelColor=000000" alt="Build"/></a>
 <a href="https://github.com/hack4impact/jetbrains-plugin/search?l=kotlin&type=code"><img src="https://img.shields.io/github/languages/top/hack4impact/jetbrains-plugin?logo=kotlin&logoColor=orange&color=orange&labelColor=000000&label=Kotlin&style=flat-square" alt="Top Language"></a>
+<a href="https://github.com/hack4impact/jetbrains-plugin/stargazers"><img src="https://img.shields.io/github/stars/hack4impact/jetbrains-plugin?style=social" alt="Stars"></a>
 </p>
 
 Hack4Impact's [JetBrains](https://www.jetbrains.com/) plugin that provides recommended templates for quality project development.
@@ -107,6 +111,7 @@ Hack4Impact's [JetBrains](https://www.jetbrains.com/) plugin that provides recom
 <a href="https://github.com/YashTotale/react-hash-scroll/actions?query=workflow%3A%22Node+CI%22"><img src="https://img.shields.io/github/workflow/status/YashTotale/react-hash-scroll/Node%20CI?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build"></a>
 <a href="https://github.com/YashTotale/react-hash-scroll/search?l=typescript&type=code"><img src="https://img.shields.io/github/languages/top/YashTotale/react-hash-scroll?logo=typescript&labelColor=000000&label=TypeScript&style=flat-square" alt="Top Language"></a>
 <a href="https://lgtm.com/projects/g/YashTotale/react-hash-scroll/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/YashTotale/react-hash-scroll?logo=lgtm&logoColor=FFFFFF&labelColor=000000&label=Code%20Quality&style=flat-square" alt="Code Quality"></a>
+<a href="https://github.com/YashTotale/react-hash-scroll/stargazers"><img src="https://img.shields.io/github/stars/YashTotale/react-hash-scroll?style=social" alt="Stars"></a>
 </p>
 
 An [NPM](https://www.npmjs.com/) package that provides [React](https://reactjs.org/) components and hooks for hash scrolling with refs.
@@ -128,6 +133,7 @@ An [NPM](https://www.npmjs.com/) package that provides [React](https://reactjs.o
 <a href="https://travis-ci.com/github/YashTotale/terminal-all-in-one"><img src="https://img.shields.io/travis/com/YashTotale/terminal-all-in-one?logo=travis-ci&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build"></a>
 <a href="https://github.com/YashTotale/terminal-all-in-one/search?l=typescript&type=code"><img src="https://img.shields.io/github/languages/top/YashTotale/terminal-all-in-one?logo=typescript&labelColor=000000&label=TypeScript&style=flat-square" alt="Top Language"></a>
 <a href="https://lgtm.com/projects/g/YashTotale/terminal-all-in-one/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/YashTotale/terminal-all-in-one?labelColor=000000&logo=lgtm&label=Code%20Quality&style=flat-square" alt="Code Quality"></a>
+<a href="https://github.com/YashTotale/terminal-all-in-one/stargazers"><img src="https://img.shields.io/github/stars/YashTotale/terminal-all-in-one?style=social" alt="Stars"></a>
 </p>
 
 A [VS Code](https://code.visualstudio.com/) extension that supercharges the [integrated terminal](https://code.visualstudio.com/docs/editor/integrated-terminal) with themes, scripts, keybindings, and commands.
@@ -148,6 +154,7 @@ A [VS Code](https://code.visualstudio.com/) extension that supercharges the [int
 <a href="https://github.com/YashTotale/introspect/actions?query=workflow%3A%22Node+CI%22"><img src="https://img.shields.io/github/workflow/status/YashTotale/introspect/Node%20CI?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build"></a>
 <a href="https://github.com/YashTotale/introspect/search?l=typescript&type=code"><img src="https://img.shields.io/github/languages/top/YashTotale/introspect?logo=typescript&labelColor=000000&label=TypeScript&style=flat-square" alt="Top Language"></a>
 <a href="https://lgtm.com/projects/g/YashTotale/introspect/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/YashTotale/introspect?labelColor=000000&logo=lgtm&label=Code%20Quality&style=flat-square" alt="Code Quality"></a>
+<a href="https://github.com/YashTotale/introspect/stargazers"><img src="https://img.shields.io/github/stars/YashTotale/introspect?style=social" alt="Stars"></a>
 </p>
 
 A Chrome/Firefox extension that allows users to rate, describe, and reflect on their daily lives.
@@ -169,6 +176,7 @@ A Chrome/Firefox extension that allows users to rate, describe, and reflect on t
 <a href="https://github.com/hurl-org/hurl/actions?query=workflow%3A%22Node+CI%22"><img src="https://img.shields.io/github/workflow/status/hurl-org/hurl/Node%20CI?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build"></a>
 <a href="https://github.com/hurl-org/hurl/search?l=typescript&type=code"><img src="https://img.shields.io/github/languages/top/hurl-org/hurl?logo=typescript&labelColor=000000&label=TypeScript&style=flat-square" alt="Top Language"></a>
 <a href="https://lgtm.com/projects/g/hurl-org/hurl/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/hurl-org/hurl?logo=lgtm&logoColor=FFFFFF&labelColor=000000&label=Code%20Quality&style=flat-square" alt="Code Quality"></a>
+<a href="https://github.com/hurl-org/hurl/stargazers"><img src="https://img.shields.io/github/stars/hurl-org/hurl?style=social" alt="Stars"></a>
 </p>
 
 An [NPM](https://www.npmjs.com/) package and [CLI](https://en.wikipedia.org/wiki/Command-line_interface) tool that allows for file generation from templates.
