@@ -94,12 +94,6 @@ Hack4Impact's [JetBrains](https://www.jetbrains.com/) plugin that provides recom
 - [Readme](https://github.com/hack4impact/jetbrains-plugin#readme)
 - [Changelog](https://github.com/hack4impact/jetbrains-plugin/blob/main/CHANGELOG.md)
 
-### Organization Links
-
-- [Hack4Impact Website](https://hack4impact.org/)
-- [Hack4Impact GitHub](https://github.com/hack4impact)
-- [Hack4Impact LinkedIn](https://www.linkedin.com/company/hack4impact/)
-
 # Featured Projects
 
 ## React Hash Scroll
