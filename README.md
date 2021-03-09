@@ -5,9 +5,12 @@
 
 # Contents <!-- omit in toc -->
 
-- [Experience](#experience)
-  - [Hack4Impact Individual Contributor](#hack4impact-individual-contributor)
-- [Featured Projects](#featured-projects)
+- [Hack4Impact Individual Contributor](#hack4impact-individual-contributor)
+  - [Feedback Survey Automation](#feedback-survey-automation)
+  - [Logger](#logger)
+  - [VS Code Extension](#vs-code-extension)
+  - [JetBrains Plugin](#jetbrains-plugin)
+- [Featured Personal Projects](#featured-personal-projects)
   - [React Hash Scroll](#react-hash-scroll)
   - [Terminal All In One](#terminal-all-in-one)
   - [Introspect](#introspect)
@@ -16,15 +19,13 @@
 - [Contributions](#contributions)
   - [Shields](#shields)
 
-# Experience
-
-## Hack4Impact Individual Contributor
+# Hack4Impact Individual Contributor
 
 [Hack4Impact](https://hack4impact.org/) is an organization made up of university chapters around the country that develop projects for non-profits.
 
 As a contributor, I help different departments of Hack4Impact with miscellaneous tasks related to automation while also working on internal Hack4Impact projects (such as the Hack4Impact website). Here are some of my projects:
 
-### Feedback Survey Automation
+## Feedback Survey Automation
 
 <p>
 <img alt="Feedback Survey Automation Icon" height="20" src="https://raw.githubusercontent.com/hack4impact/feedback-survey-automation/main/static/images/airtable-automation.png"></img>
@@ -32,15 +33,18 @@ As a contributor, I help different departments of Hack4Impact with miscellaneous
 <a href="https://github.com/hack4impact/feedback-survey-automation/actions?query=workflow%3A%22Automated+Run%22"><img alt="Automated Run" src="https://img.shields.io/github/workflow/status/hack4impact/feedback-survey-automation/Automated%20Run?style=flat-square&labelColor=000000&logo=github&logoColor=FFFFFF&label=Automated%20Run"></img></a>
 <a href="https://github.com/hack4impact/feedback-survey-automation/search?l=typescript&type=code"><img src="https://img.shields.io/github/languages/top/hack4impact/feedback-survey-automation?logo=typescript&labelColor=000000&label=TypeScript&style=flat-square" alt="Top Language"></a>
 <a href="https://lgtm.com/projects/g/hack4impact/feedback-survey-automation/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/hack4impact/feedback-survey-automation?logo=lgtm&logoColor=FFFFFF&labelColor=000000&label=Code%20Quality&style=flat-square" alt="Code Quality"></a>
-<a href="https://github.com/hack4impact/feedback-survey-automation/stargazers"><img src="https://img.shields.io/github/stars/hack4impact/feedback-survey-automation?style=social" alt="Stars"></a>
 </p>
 
+### Description
+
 A project that automates the process of creating, sending, and storing feedback surveys for all projects created by Hack4Impact chapters.
+
+### Links
 
 - [Repository](https://github.com/hack4impact/feedback-survey-automation)
 - [Readme](https://github.com/hack4impact/feedback-survey-automation#readme)
 
-### Logger
+## Logger
 
 <p>
 <img alt="Logger Icon" height="20" src="https://raw.githubusercontent.com/hack4impact/logger/main/static/images/icon.svg"></img>
@@ -52,7 +56,11 @@ A project that automates the process of creating, sending, and storing feedback 
 <a href="https://github.com/hack4impact/logger/stargazers"><img src="https://img.shields.io/github/stars/hack4impact/logger?style=social" alt="Stars"></a>
 </p>
 
+### Description
+
 A lightweight Logger utility used by Hack4Impact Projects.
+
+### Links
 
 - [Repository](https://github.com/hack4impact/logger)
 - [Readme](https://github.com/hack4impact/logger#readme)
@@ -60,7 +68,7 @@ A lightweight Logger utility used by Hack4Impact Projects.
 - [NPM Package](https://www.npmjs.com/package/@hack4impact/logger)
 - [Website](https://hack4impact.github.io/logger/)
 
-### VS Code Extension
+## VS Code Extension
 
 <p>
 <img alt="Hack4Impact Icon" height="20" src="https://raw.githubusercontent.com/hack4impact/vscode-extension/main/static/rotating-icon.gif"></img>
@@ -72,14 +80,18 @@ A lightweight Logger utility used by Hack4Impact Projects.
 <a href="https://github.com/hack4impact/vscode-extension/stargazers"><img src="https://img.shields.io/github/stars/hack4impact/vscode-extension?style=social" alt="Stars"></a>
 </p>
 
+### Description
+
 Hack4Impact's [VS Code](https://code.visualstudio.com/) Extension that provides recommended extensions and templates for quality project development.
+
+### Links
 
 - [Repository](https://github.com/hack4impact/vscode-extension)
 - [Readme](https://github.com/hack4impact/vscode-extension#readme)
 - [Changelog](https://github.com/hack4impact/vscode-extension/blob/main/CHANGELOG.md)
 - [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=hack4impact.h4i-recommendations)
 
-### JetBrains Plugin
+## JetBrains Plugin
 
 <p>
 <img alt="Hack4Impact Icon" height="20" src="https://raw.githubusercontent.com/hack4impact/jetbrains-plugin/main/src/main/resources/icons/rotating-icon.gif"></img>
@@ -88,13 +100,17 @@ Hack4Impact's [VS Code](https://code.visualstudio.com/) Extension that provides 
 <a href="https://github.com/hack4impact/jetbrains-plugin/stargazers"><img src="https://img.shields.io/github/stars/hack4impact/jetbrains-plugin?style=social" alt="Stars"></a>
 </p>
 
+### Description
+
 Hack4Impact's [JetBrains](https://www.jetbrains.com/) plugin that provides recommended templates for quality project development.
+
+### Links
 
 - [Repository](https://github.com/hack4impact/jetbrains-plugin)
 - [Readme](https://github.com/hack4impact/jetbrains-plugin#readme)
 - [Changelog](https://github.com/hack4impact/jetbrains-plugin/blob/main/CHANGELOG.md)
 
-# Featured Projects
+# Featured Personal Projects
 
 ## React Hash Scroll
 
@@ -108,7 +124,11 @@ Hack4Impact's [JetBrains](https://www.jetbrains.com/) plugin that provides recom
 <a href="https://github.com/YashTotale/react-hash-scroll/stargazers"><img src="https://img.shields.io/github/stars/YashTotale/react-hash-scroll?style=social" alt="Stars"></a>
 </p>
 
+### Description
+
 An [NPM](https://www.npmjs.com/) package that provides [React](https://reactjs.org/) components and hooks for hash scrolling with refs.
+
+### Links
 
 - [Repository](https://github.com/YashTotale/react-hash-scroll)
 - [Readme](https://github.com/YashTotale/react-hash-scroll#readme)
@@ -130,7 +150,11 @@ An [NPM](https://www.npmjs.com/) package that provides [React](https://reactjs.o
 <a href="https://github.com/YashTotale/terminal-all-in-one/stargazers"><img src="https://img.shields.io/github/stars/YashTotale/terminal-all-in-one?style=social" alt="Stars"></a>
 </p>
 
+### Description
+
 A [VS Code](https://code.visualstudio.com/) extension that supercharges the [integrated terminal](https://code.visualstudio.com/docs/editor/integrated-terminal) with themes, scripts, keybindings, and commands.
+
+### Links
 
 - [Repository](https://github.com/YashTotale/terminal-all-in-one)
 - [Readme](https://github.com/YashTotale/terminal-all-in-one#readme)
@@ -151,7 +175,11 @@ A [VS Code](https://code.visualstudio.com/) extension that supercharges the [int
 <a href="https://github.com/YashTotale/introspect/stargazers"><img src="https://img.shields.io/github/stars/YashTotale/introspect?style=social" alt="Stars"></a>
 </p>
 
+### Description
+
 A Chrome/Firefox extension that allows users to rate, describe, and reflect on their daily lives.
+
+### Links
 
 - [Repository](https://github.com/YashTotale/introspect)
 - [Readme](https://github.com/YashTotale/introspect#readme)
@@ -173,7 +201,11 @@ A Chrome/Firefox extension that allows users to rate, describe, and reflect on t
 <a href="https://github.com/hurl-org/hurl/stargazers"><img src="https://img.shields.io/github/stars/hurl-org/hurl?style=social" alt="Stars"></a>
 </p>
 
+### Description
+
 An [NPM](https://www.npmjs.com/) package and [CLI](https://en.wikipedia.org/wiki/Command-line_interface) tool that allows for file generation from templates.
+
+### Links
 
 - [Repository](https://github.com/hurl-org/hurl)
 - [Readme](https://github.com/hurl-org/hurl#readme)
@@ -184,7 +216,11 @@ An [NPM](https://www.npmjs.com/) package and [CLI](https://en.wikipedia.org/wiki
 
 ## AV Clubs
 
+### Description
+
 A website for [Amador Valley High School](https://amador.pleasantonusd.net/) (my high school) that compiles information about all the clubs at Amador.
+
+### Links
 
 - [Website](https://clubs.amadorweb.org/)
 

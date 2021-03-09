@@ -1,5 +1,4 @@
 {
-  "name": "YashTotale",
   "private": true,
   "devDependencies": {
     "husky": "^5.1.3",
