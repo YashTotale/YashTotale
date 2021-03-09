@@ -177,7 +177,7 @@ A [VS Code](https://code.visualstudio.com/) extension that supercharges the [int
 
 ### Description
 
-A Chrome/Firefox extension that allows users to rate, describe, and reflect on their daily lives.
+A [Chrome](https://www.google.com/chrome/)/[Firefox](https://www.mozilla.org/en-US/firefox/) extension that allows users to rate, describe, and reflect on their daily lives.
 
 ### Links
 
@@ -218,7 +218,7 @@ An [NPM](https://www.npmjs.com/) package and [CLI](https://en.wikipedia.org/wiki
 
 ### Description
 
-A website for [Amador Valley High School](https://amador.pleasantonusd.net/) (my high school) that compiles information about all the clubs at Amador.
+A website that centralizes all information about clubs, club-related activities, and club applications at [Amador Valley High School](https://amador.pleasantonusd.net/) (my high school).
 
 ### Links
 
