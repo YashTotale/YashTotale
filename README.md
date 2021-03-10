@@ -50,6 +50,7 @@ A project that automates the process of creating, sending, and storing feedback 
 <a href="https://developers.google.com/apps-script"><img src="https://img.shields.io/badge/Apps%20Script-34A853?style=for-the-badge&logo=google&logoColor=white" alt="Apps Script"></a>
 <a href="https://airtable.com/"><img src="https://img.shields.io/badge/Airtable-FCB401?style=for-the-badge&logo=airtable&logoColor=white" alt="Airtable"></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"></a>
+<a href="https://github.com/features/actions"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions"></a>
 </p>
 
 ## Logger
@@ -82,6 +83,7 @@ A lightweight Logger utility used by Hack4Impact Projects.
 <a href="https://www.npmjs.com/"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="NPM"></a>
 <a href="https://v2.docusaurus.io/"><img src="https://img.shields.io/badge/Docusaurus-26BA99?style=for-the-badge&logo=facebook&logoColor=white" alt="Docusaurus"></a>
 <a href="https://jestjs.io/"><img src="https://img.shields.io/badge/Jest-15C213?style=for-the-badge&logo=jest&logoColor=white" alt="Jest"></a>
+<a href="https://github.com/features/actions"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions"></a>
 </p>
 
 ## VS Code Extension
@@ -112,6 +114,7 @@ Hack4Impact's [VS Code](https://code.visualstudio.com/) Extension that provides 
 <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
 <a href="https://code.visualstudio.com/api"><img src="https://img.shields.io/badge/Visual_Studio_Code_API-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="Visual Studio Code API"></a>
 <a href="https://jestjs.io/"><img src="https://img.shields.io/badge/Jest-15C213?style=for-the-badge&logo=jest&logoColor=white" alt="Jest"></a>
+<a href="https://github.com/features/actions"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions"></a>
 </p>
 
 ## JetBrains Plugin
@@ -119,7 +122,7 @@ Hack4Impact's [VS Code](https://code.visualstudio.com/) Extension that provides 
 <p>
 <img alt="Hack4Impact Icon" height="20" src="https://raw.githubusercontent.com/hack4impact/jetbrains-plugin/main/src/main/resources/icons/rotating-icon.gif"></img>
 <a href="https://plugins.jetbrains.com/plugin/16260-hack4impact-s-recommendations"><img src="https://img.shields.io/jetbrains/plugin/v/16260?style=flat-square&label=Version&logo=jetbrains&logoColor=FFFFFF&labelColor=000000" alt="Version" /></a>
-<a href="https://plugins.jetbrains.com/plugin/16260-hack4impact-s-recommendations/reviews"><img src="https://img.shields.io/jetbrains/plugin/r/rating/16260?style=flat-square&label=Rating&logo=jetbrains&logoColor=FFFFFF&labelColor=000000" /></a>
+<a href="https://plugins.jetbrains.com/plugin/16260-hack4impact-s-recommendations/reviews"><img src="https://img.shields.io/jetbrains/plugin/r/rating/16260?style=flat-square&label=Rating&logo=jetbrains&logoColor=FFFFFF&labelColor=000000" alt="Rating"/></a>
 <a href="https://github.com/hack4impact/jetbrains-plugin/actions?query=workflow%3A%22CI%22"><img src="https://img.shields.io/github/workflow/status/hack4impact/jetbrains-plugin/CI?style=flat-square&label=Build&logo=github&logoColor=FFFFFF&labelColor=000000" alt="Build"/></a>
 <a href="https://github.com/hack4impact/jetbrains-plugin/stargazers"><img src="https://img.shields.io/github/stars/hack4impact/jetbrains-plugin?style=social" alt="Stars"></a>
 </p>
@@ -140,6 +143,7 @@ Hack4Impact's [JetBrains](https://www.jetbrains.com/) plugin that provides recom
 <a href="https://kotlinlang.org/"><img src="https://img.shields.io/badge/Kotlin-orange?&style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin"></a>
 <a href="https://gradle.org/"><img src="https://img.shields.io/badge/Gradle-02303A?&style=for-the-badge&logo=gradle&logoColor=white" alt="Gradle"></a>
 <a href="https://plugins.jetbrains.com/docs/intellij/"><img src="https://img.shields.io/badge/IntelliJ_Platform_Plugin_SDK-000000?&style=for-the-badge&logo=jetbrains&logoColor=white" alt="IntelliJ Platform Plugin SDK"></a>
+<a href="https://github.com/features/actions"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions"></a>
 </p>
 
 # Featured Personal Projects
@@ -173,8 +177,9 @@ An [NPM](https://www.npmjs.com/) package that provides [React](https://reactjs.o
 <p>
 <a href="https://reactjs.org/"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"></a>
 <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
-<a href="https://rollupjs.org/"><img src="https://img.shields.io/badge/Rollup-EC4A3F?style=for-the-badge&logo=rollup.js&logoColor=white" alt="Rollup"></a>
 <a href="https://www.npmjs.com/"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="NPM"></a>
+<a href="https://rollupjs.org/"><img src="https://img.shields.io/badge/Rollup-EC4A3F?style=for-the-badge&logo=rollup.js&logoColor=white" alt="Rollup"></a>
+<a href="https://github.com/features/actions"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions"></a>
 </p>
 
 ## Terminal All In One
@@ -205,9 +210,9 @@ A [VS Code](https://code.visualstudio.com/) extension that supercharges the [int
 <p>
 <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
 <a href="https://code.visualstudio.com/api"><img src="https://img.shields.io/badge/Visual_Studio_Code_API-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="Visual Studio Code API"></a>
-<a href="https://travis-ci.com/"><img src="https://img.shields.io/badge/Travis_CI-3EAAAF?style=for-the-badge&logo=travis" alt="Travis CI"></a>
 <a href="https://webpack.js.org/"><img src="https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black" alt="Webpack"></a>
 <a href="https://mochajs.org/"><img src="https://img.shields.io/badge/Mocha-8D6748?style=for-the-badge&logo=mocha&logoColor=white" alt="Mocha"></a>
+<a href="https://travis-ci.com/"><img src="https://img.shields.io/badge/Travis_CI-3EAAAF?style=for-the-badge&logo=travis" alt="Travis CI"></a>
 </p>
 
 ## Introspect
@@ -247,6 +252,7 @@ A [Chrome](https://www.google.com/chrome/)/[Firefox](https://www.mozilla.org/en-
 <a href="https://developer.chrome.com/docs/extensions/mv3/"><img src="https://img.shields.io/badge/Chrome_Extension_Development-4285F4?style=for-the-badge&logo=google%20chrome&logoColor=white" alt="Chrome Extension Development"></a>
 <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons"><img src="https://img.shields.io/badge/Firefox_Add_On_Development-FF7139?style=for-the-badge&logo=firefox&logoColor=white" alt="Firefox Add-On Development"></a>
 <a href="https://jestjs.io/"><img src="https://img.shields.io/badge/Jest-15C213?style=for-the-badge&logo=jest&logoColor=white" alt="Jest"></a>
+<a href="https://github.com/features/actions"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions"></a>
 </p>
 
 ## Hurl
@@ -280,6 +286,7 @@ An [NPM](https://www.npmjs.com/) package and [CLI](https://en.wikipedia.org/wiki
 <p>
 <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
 <a href="https://www.npmjs.com/"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="NPM"></a>
+<a href="https://github.com/features/actions"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions"></a>
 </p>
 
 ## AV Clubs
@@ -303,6 +310,7 @@ A website that centralizes all information about clubs, club-related activities,
 <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"></a>
 <a href="https://cloud.google.com/"><img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Google Cloud"></a>
 <a><img src="https://img.shields.io/badge/Google_Sheets_API-34A853?style=for-the-badge&logo=google-sheets&logoColor=white" alt="Google Sheets API"></a>
+
 </p>
 
 <!-- ## Portfolio Website
