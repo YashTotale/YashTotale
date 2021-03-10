@@ -114,6 +114,7 @@ Hack4Impact's [VS Code](https://code.visualstudio.com/) Extension that provides 
 <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
 <a href="https://code.visualstudio.com/api"><img src="https://img.shields.io/badge/Visual_Studio_Code_API-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="Visual Studio Code API"></a>
 <a href="https://jestjs.io/"><img src="https://img.shields.io/badge/Jest-15C213?style=for-the-badge&logo=jest&logoColor=white" alt="Jest"></a>
+<a href="https://webpack.js.org/"><img src="https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black" alt="Webpack"></a>
 <a href="https://github.com/features/actions"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions"></a>
 </p>
 
