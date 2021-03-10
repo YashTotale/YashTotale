@@ -44,6 +44,15 @@ A project that automates the process of creating, sending, and storing feedback 
 - [Repository](https://github.com/hack4impact/feedback-survey-automation)
 - [Readme](https://github.com/hack4impact/feedback-survey-automation#readme)
 
+### Tech Stack
+
+<p>
+<a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
+<a href="https://developers.google.com/apps-script"><img src="https://img.shields.io/badge/Apps%20Script-34A853?style=for-the-badge&logo=google&logoColor=white" alt="Apps Script"></a>
+<a href="https://airtable.com/"><img src="https://img.shields.io/badge/Airtable-FCB401?style=for-the-badge&logo=airtable&logoColor=white" alt="Airtable"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"></a>
+</p>
+
 ## Logger
 
 <p>
@@ -68,6 +77,15 @@ A lightweight Logger utility used by Hack4Impact Projects.
 - [NPM Package](https://www.npmjs.com/package/@hack4impact/logger)
 - [Website](https://hack4impact.github.io/logger/)
 
+### Tech Stack
+
+<p>
+<a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
+<a href="https://www.npmjs.com/"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="NPM"></a>
+<a href="https://v2.docusaurus.io/"><img src="https://img.shields.io/badge/Docusaurus-26BA99?style=for-the-badge&logo=facebook&logoColor=white" alt="Docusaurus"></a>
+<a href="https://jestjs.io/"><img src="https://img.shields.io/badge/Jest-15C213?style=for-the-badge&logo=jest&logoColor=white" alt="Jest"></a>
+</p>
+
 ## VS Code Extension
 
 <p>
@@ -91,6 +109,14 @@ Hack4Impact's [VS Code](https://code.visualstudio.com/) Extension that provides 
 - [Changelog](https://github.com/hack4impact/vscode-extension/blob/main/CHANGELOG.md)
 - [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=hack4impact.h4i-recommendations)
 
+### Tech Stack
+
+<p>
+<a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
+<img src="https://img.shields.io/badge/Visual_Studio_Code_API-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="Visual Studio Code API">
+<a href="https://jestjs.io/"><img src="https://img.shields.io/badge/Jest-15C213?style=for-the-badge&logo=jest&logoColor=white" alt="Jest"></a>
+</p>
+
 ## JetBrains Plugin
 
 <p>
@@ -109,6 +135,14 @@ Hack4Impact's [JetBrains](https://www.jetbrains.com/) plugin that provides recom
 - [Repository](https://github.com/hack4impact/jetbrains-plugin)
 - [Readme](https://github.com/hack4impact/jetbrains-plugin#readme)
 - [Changelog](https://github.com/hack4impact/jetbrains-plugin/blob/main/CHANGELOG.md)
+
+### Tech Stack
+
+<p>
+<a href="https://kotlinlang.org/"><img src="https://img.shields.io/badge/Kotlin-orange?&style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin"></a>
+<a href="https://gradle.org/"><img src="https://img.shields.io/badge/Gradle-02303A?&style=for-the-badge&logo=gradle&logoColor=white" alt="Gradle"></a>
+<a href="https://plugins.jetbrains.com/docs/intellij/"><img src="https://img.shields.io/badge/IntelliJ_Platform_Plugin_SDK-000000?&style=for-the-badge&logo=jetbrains&logoColor=white" alt="IntelliJ Platform Plugin SDK"></a>
+</p>
 
 # Featured Personal Projects
 
