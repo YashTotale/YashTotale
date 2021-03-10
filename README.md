@@ -31,7 +31,6 @@ As a contributor, I help different departments of Hack4Impact with miscellaneous
 <img alt="Feedback Survey Automation Icon" height="20" src="https://raw.githubusercontent.com/hack4impact/feedback-survey-automation/main/static/images/airtable-automation.png"></img>
 <a href="https://github.com/hack4impact/feedback-survey-automation/actions?query=workflow%3A%22Node+CI%22"><img src="https://img.shields.io/github/workflow/status/hack4impact/feedback-survey-automation/Node%20CI?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build"></a>
 <a href="https://github.com/hack4impact/feedback-survey-automation/actions?query=workflow%3A%22Automated+Run%22"><img alt="Automated Run" src="https://img.shields.io/github/workflow/status/hack4impact/feedback-survey-automation/Automated%20Run?style=flat-square&labelColor=000000&logo=github&logoColor=FFFFFF&label=Automated%20Run"></img></a>
-<a href="https://github.com/hack4impact/feedback-survey-automation/search?l=typescript&type=code"><img src="https://img.shields.io/github/languages/top/hack4impact/feedback-survey-automation?logo=typescript&labelColor=000000&label=TypeScript&style=flat-square" alt="Top Language"></a>
 <a href="https://lgtm.com/projects/g/hack4impact/feedback-survey-automation/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/hack4impact/feedback-survey-automation?logo=lgtm&logoColor=FFFFFF&labelColor=000000&label=Code%20Quality&style=flat-square" alt="Code Quality"></a>
 </p>
 
@@ -60,7 +59,6 @@ A project that automates the process of creating, sending, and storing feedback 
 <a href="https://www.npmjs.com/package/@hack4impact/logger"><img src="https://img.shields.io/npm/v/@hack4impact/logger?logo=npm&logoColor=FFFFFF&labelColor=000000&label=Version&style=flat-square" alt="Version"></a>
 <a href="https://www.npmjs.com/package/@hack4impact/logger"><img src="https://img.shields.io/npm/dt/@hack4impact/logger?logo=npm&logoColor=FFFFFF&labelColor=000000&label=Downloads&style=flat-square" alt="Downloads"></a>
 <a href="https://github.com/hack4impact/logger/actions?query=workflow%3A%22Node+CI%22"><img src="https://img.shields.io/github/workflow/status/hack4impact/logger/Node%20CI?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build"></a>
-<a href="https://github.com/hack4impact/logger/search?l=typescript&type=code"><img src="https://img.shields.io/github/languages/top/hack4impact/logger?logo=typescript&labelColor=000000&label=TypeScript&style=flat-square" alt="Top Language"></a>
 <a href="https://lgtm.com/projects/g/hack4impact/logger/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/hack4impact/logger?logo=lgtm&logoColor=FFFFFF&labelColor=000000&label=Code%20Quality&style=flat-square" alt="Code Quality"></a>
 <a href="https://github.com/hack4impact/logger/stargazers"><img src="https://img.shields.io/github/stars/hack4impact/logger?style=social" alt="Stars"></a>
 </p>
@@ -93,7 +91,6 @@ A lightweight Logger utility used by Hack4Impact Projects.
 <a href="https://marketplace.visualstudio.com/items?itemName=hack4impact.h4i-recommendations"><img src="https://img.shields.io/visual-studio-marketplace/v/hack4impact.h4i-recommendations?style=flat-square&label=Version&logo=visual-studio-code&logoColor=FFFFFF&labelColor=000000"alt="Version"></a>
 <a href="https://marketplace.visualstudio.com/items?itemName=hack4impact.h4i-recommendations&ssr=false#review-details"><img src="https://img.shields.io/visual-studio-marketplace/r/hack4impact.h4i-recommendations?style=flat-square&label=Rating&logo=visual-studio-code&logoColor=FFFFFF&labelColor=000000" alt="Rating"></a>
 <a href="https://github.com/hack4impact/vscode-extension/actions?query=workflow%3A%22Node+CI%22"><img src="https://img.shields.io/github/workflow/status/hack4impact/vscode-extension/Node%20CI?style=flat-square&label=Build&logo=github&logoColor=FFFFFF&labelColor=000000" alt="Build"/></a>
-<a href="https://github.com/hack4impact/vscode-extension/search?l=typescript&type=code"><img src="https://img.shields.io/github/languages/top/hack4impact/vscode-extension?logo=typescript&labelColor=000000&label=TypeScript&style=flat-square" alt="Top Language"></a>
 <a href="https://lgtm.com/projects/g/hack4impact/vscode-extension/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/hack4impact/vscode-extension?style=flat-square&label=Code%20Quality&logo=lgtm&logoColor=FFFFFF&labelColor=000000" alt="Code Quality"/></a>
 <a href="https://github.com/hack4impact/vscode-extension/stargazers"><img src="https://img.shields.io/github/stars/hack4impact/vscode-extension?style=social" alt="Stars"></a>
 </p>
@@ -113,7 +110,7 @@ Hack4Impact's [VS Code](https://code.visualstudio.com/) Extension that provides 
 
 <p>
 <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
-<img src="https://img.shields.io/badge/Visual_Studio_Code_API-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="Visual Studio Code API">
+<a href="https://code.visualstudio.com/api"><img src="https://img.shields.io/badge/Visual_Studio_Code_API-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="Visual Studio Code API"></a>
 <a href="https://jestjs.io/"><img src="https://img.shields.io/badge/Jest-15C213?style=for-the-badge&logo=jest&logoColor=white" alt="Jest"></a>
 </p>
 
@@ -124,7 +121,6 @@ Hack4Impact's [VS Code](https://code.visualstudio.com/) Extension that provides 
 <a href="https://plugins.jetbrains.com/plugin/16260-hack4impact-s-recommendations"><img src="https://img.shields.io/jetbrains/plugin/v/16260?style=flat-square&label=Version&logo=jetbrains&logoColor=FFFFFF&labelColor=000000" alt="Version" /></a>
 <a href="https://plugins.jetbrains.com/plugin/16260-hack4impact-s-recommendations/reviews"><img src="https://img.shields.io/jetbrains/plugin/r/rating/16260?style=flat-square&label=Rating&logo=jetbrains&logoColor=FFFFFF&labelColor=000000" /></a>
 <a href="https://github.com/hack4impact/jetbrains-plugin/actions?query=workflow%3A%22CI%22"><img src="https://img.shields.io/github/workflow/status/hack4impact/jetbrains-plugin/CI?style=flat-square&label=Build&logo=github&logoColor=FFFFFF&labelColor=000000" alt="Build"/></a>
-<a href="https://github.com/hack4impact/jetbrains-plugin/search?l=kotlin&type=code"><img src="https://img.shields.io/github/languages/top/hack4impact/jetbrains-plugin?logo=kotlin&logoColor=orange&color=orange&labelColor=000000&label=Kotlin&style=flat-square" alt="Top Language"></a>
 <a href="https://github.com/hack4impact/jetbrains-plugin/stargazers"><img src="https://img.shields.io/github/stars/hack4impact/jetbrains-plugin?style=social" alt="Stars"></a>
 </p>
 
@@ -155,7 +151,6 @@ Hack4Impact's [JetBrains](https://www.jetbrains.com/) plugin that provides recom
 <a href="https://www.npmjs.com/package/react-hash-scroll"><img src="https://img.shields.io/npm/v/react-hash-scroll?logo=npm&logoColor=FFFFFF&labelColor=000000&label=Version&style=flat-square" alt="Version"></a>
 <a href="https://www.npmjs.com/package/react-hash-scroll"><img src="https://img.shields.io/npm/dt/react-hash-scroll?logo=npm&logoColor=FFFFFF&labelColor=000000&label=Downloads&style=flat-square" alt="Downloads"></a>
 <a href="https://github.com/YashTotale/react-hash-scroll/actions?query=workflow%3A%22Node+CI%22"><img src="https://img.shields.io/github/workflow/status/YashTotale/react-hash-scroll/Node%20CI?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build"></a>
-<a href="https://github.com/YashTotale/react-hash-scroll/search?l=typescript&type=code"><img src="https://img.shields.io/github/languages/top/YashTotale/react-hash-scroll?logo=typescript&labelColor=000000&label=TypeScript&style=flat-square" alt="Top Language"></a>
 <a href="https://lgtm.com/projects/g/YashTotale/react-hash-scroll/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/YashTotale/react-hash-scroll?logo=lgtm&logoColor=FFFFFF&labelColor=000000&label=Code%20Quality&style=flat-square" alt="Code Quality"></a>
 <a href="https://github.com/YashTotale/react-hash-scroll/stargazers"><img src="https://img.shields.io/github/stars/YashTotale/react-hash-scroll?style=social" alt="Stars"></a>
 </p>
@@ -173,6 +168,15 @@ An [NPM](https://www.npmjs.com/) package that provides [React](https://reactjs.o
 - [Website](https://react-hash-scroll.web.app/)
 - [Demos](https://codesandbox.io/s/react-hash-scroll-demos-ge3b4)
 
+### Tech Stack
+
+<p>
+<a href="https://reactjs.org/"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"></a>
+<a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
+<a href="https://rollupjs.org/"><img src="https://img.shields.io/badge/Rollup-EC4A3F?style=for-the-badge&logo=rollup.js&logoColor=white" alt="Rollup"></a>
+<a href="https://www.npmjs.com/"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="NPM"></a>
+</p>
+
 ## Terminal All In One
 
 <p>
@@ -181,7 +185,6 @@ An [NPM](https://www.npmjs.com/) package that provides [React](https://reactjs.o
 <a href="https://marketplace.visualstudio.com/items?itemName=yasht.terminal-all-in-one"><img src="https://img.shields.io/visual-studio-marketplace/i/yasht.terminal-all-in-one?logo=visual-studio-code&labelColor=000000&label=Installs&style=flat-square" alt="Installs"></a>
 <a href="https://marketplace.visualstudio.com/items?itemName=yasht.terminal-all-in-one&ssr=false#review-details"><img src="https://img.shields.io/visual-studio-marketplace/r/yasht.terminal-all-in-one?logo=visual-studio-code&style=flat-square&labelColor=000000&label=Rating" alt="Rating"></a>
 <a href="https://travis-ci.com/github/YashTotale/terminal-all-in-one"><img src="https://img.shields.io/travis/com/YashTotale/terminal-all-in-one?logo=travis-ci&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build"></a>
-<a href="https://github.com/YashTotale/terminal-all-in-one/search?l=typescript&type=code"><img src="https://img.shields.io/github/languages/top/YashTotale/terminal-all-in-one?logo=typescript&labelColor=000000&label=TypeScript&style=flat-square" alt="Top Language"></a>
 <a href="https://lgtm.com/projects/g/YashTotale/terminal-all-in-one/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/YashTotale/terminal-all-in-one?labelColor=000000&logo=lgtm&label=Code%20Quality&style=flat-square" alt="Code Quality"></a>
 <a href="https://github.com/YashTotale/terminal-all-in-one/stargazers"><img src="https://img.shields.io/github/stars/YashTotale/terminal-all-in-one?style=social" alt="Stars"></a>
 </p>
@@ -197,6 +200,16 @@ A [VS Code](https://code.visualstudio.com/) extension that supercharges the [int
 - [Changelog](https://github.com/YashTotale/terminal-all-in-one/blob/master/CHANGELOG.md)
 - [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=yasht.terminal-all-in-one)
 
+### Tech Stack
+
+<p>
+<a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
+<a href="https://code.visualstudio.com/api"><img src="https://img.shields.io/badge/Visual_Studio_Code_API-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="Visual Studio Code API"></a>
+<a href="https://travis-ci.com/"><img src="https://img.shields.io/badge/Travis_CI-3EAAAF?style=for-the-badge&logo=travis" alt="Travis CI"></a>
+<a href="https://webpack.js.org/"><img src="https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black" alt="Webpack"></a>
+<a href="https://mochajs.org/"><img src="https://img.shields.io/badge/Mocha-8D6748?style=for-the-badge&logo=mocha&logoColor=white" alt="Mocha"></a>
+</p>
+
 ## Introspect
 
 <p>
@@ -206,7 +219,6 @@ A [VS Code](https://code.visualstudio.com/) extension that supercharges the [int
 <a href="https://addons.mozilla.org/en-US/firefox/addon/introspect/"><img src="https://img.shields.io/amo/v/introspect?logo=firefox-browser&logoColor=FFFFFF&labelColor=000000&label=Version&style=flat-square" alt="Firefox Version"></a>
 <a href="https://addons.mozilla.org/en-US/firefox/addon/introspect/"><img src="https://img.shields.io/amo/rating/introspect?logo=firefox-browser&logoColor=FFFFFF&labelColor=000000&label=Rating&style=flat-square" alt="Firefox Rating"></a>
 <a href="https://github.com/YashTotale/introspect/actions?query=workflow%3A%22Node+CI%22"><img src="https://img.shields.io/github/workflow/status/YashTotale/introspect/Node%20CI?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build"></a>
-<a href="https://github.com/YashTotale/introspect/search?l=typescript&type=code"><img src="https://img.shields.io/github/languages/top/YashTotale/introspect?logo=typescript&labelColor=000000&label=TypeScript&style=flat-square" alt="Top Language"></a>
 <a href="https://lgtm.com/projects/g/YashTotale/introspect/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/YashTotale/introspect?labelColor=000000&logo=lgtm&label=Code%20Quality&style=flat-square" alt="Code Quality"></a>
 <a href="https://github.com/YashTotale/introspect/stargazers"><img src="https://img.shields.io/github/stars/YashTotale/introspect?style=social" alt="Stars"></a>
 </p>
@@ -223,6 +235,20 @@ A [Chrome](https://www.google.com/chrome/)/[Firefox](https://www.mozilla.org/en-
 - [Firefox Add-On](https://addons.mozilla.org/en-US/firefox/addon/introspect/)
 - [Chrome Extension](https://chrome.google.com/webstore/detail/introspect/bbdoepdgmnjbcgmhgkfmnfcomjjoepcp)
 
+### Tech Stack
+
+<p>
+<a href="https://reactjs.org/"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"></a>
+<a href="https://redux.js.org/"><img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="Redux"></a>
+<a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
+<a href="https://firebase.google.com/"><img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase"></a>
+<a href="https://material-ui.com/"><img src="https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white" alt="Material UI"></a>
+<a href="https://reactrouter.com/"><img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" alt="React Router"></a>
+<a href="https://developer.chrome.com/docs/extensions/mv3/"><img src="https://img.shields.io/badge/Chrome_Extension_Development-4285F4?style=for-the-badge&logo=google%20chrome&logoColor=white" alt="Chrome Extension Development"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons"><img src="https://img.shields.io/badge/Firefox_Add_On_Development-FF7139?style=for-the-badge&logo=firefox&logoColor=white" alt="Firefox Add-On Development"></a>
+<a href="https://jestjs.io/"><img src="https://img.shields.io/badge/Jest-15C213?style=for-the-badge&logo=jest&logoColor=white" alt="Jest"></a>
+</p>
+
 ## Hurl
 
 <p>
@@ -232,7 +258,6 @@ A [Chrome](https://www.google.com/chrome/)/[Firefox](https://www.mozilla.org/en-
 <a href="https://www.npmjs.com/package/@hurl/core"><img src="https://img.shields.io/npm/dt/@hurl/core?logo=npm&logoColor=FFFFFF&labelColor=000000&label=Core%20Downloads&style=flat-square" alt="Core Downloads"></a>
 <a href="https://www.npmjs.com/package/@hurl/utils"><img src="https://img.shields.io/npm/dt/@hurl/utils?logo=npm&logoColor=FFFFFF&labelColor=000000&label=Utils%20Downloads&style=flat-square" alt="Utils Downloads"></a>
 <a href="https://github.com/hurl-org/hurl/actions?query=workflow%3A%22Node+CI%22"><img src="https://img.shields.io/github/workflow/status/hurl-org/hurl/Node%20CI?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build"></a>
-<a href="https://github.com/hurl-org/hurl/search?l=typescript&type=code"><img src="https://img.shields.io/github/languages/top/hurl-org/hurl?logo=typescript&labelColor=000000&label=TypeScript&style=flat-square" alt="Top Language"></a>
 <a href="https://lgtm.com/projects/g/hurl-org/hurl/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/hurl-org/hurl?logo=lgtm&logoColor=FFFFFF&labelColor=000000&label=Code%20Quality&style=flat-square" alt="Code Quality"></a>
 <a href="https://github.com/hurl-org/hurl/stargazers"><img src="https://img.shields.io/github/stars/hurl-org/hurl?style=social" alt="Stars"></a>
 </p>
@@ -250,6 +275,13 @@ An [NPM](https://www.npmjs.com/) package and [CLI](https://en.wikipedia.org/wiki
 - [Core Package](https://www.npmjs.com/package/@hurl/core)
 - [Utils Package](https://www.npmjs.com/package/@hurl/utils)
 
+### Tech Stack
+
+<p>
+<a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
+<a href="https://www.npmjs.com/"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="NPM"></a>
+</p>
+
 ## AV Clubs
 
 ### Description
@@ -259,6 +291,19 @@ A website that centralizes all information about clubs, club-related activities,
 ### Links
 
 - [Website](https://clubs.amadorweb.org/)
+
+### Tech Stack
+
+<p>
+<a href="https://www.javascript.com/"><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript"></a>
+<a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"></a>
+<a href="https://expressjs.com/"><img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white" alt="Express.js"></a>
+<a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"></a>
+<a href="https://cloud.google.com/"><img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Google Cloud"></a>
+<a><img src="https://img.shields.io/badge/Google_Sheets_API-34A853?style=for-the-badge&logo=google-sheets&logoColor=white" alt="Google Sheets API"></a>
+</p>
 
 <!-- ## Portfolio Website
 
