@@ -17,7 +17,9 @@
     ".huskyrc": "json",
     ".lintstagedrc": "json",
 
-    ".imgbotconfig": "json"
+    ".imgbotconfig": "json",
+
+    ".linkinatorrc": "json"
   },
   "markdown.extension.toc.levels": "1..2"
 }
