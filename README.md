@@ -144,6 +144,7 @@ Hack4Impact's [JetBrains](https://www.jetbrains.com/) plugin that provides recom
 - [Repository](https://github.com/hack4impact/jetbrains-plugin)
 - [Readme](https://github.com/hack4impact/jetbrains-plugin#readme)
 - [Changelog](https://github.com/hack4impact/jetbrains-plugin/blob/main/CHANGELOG.md)
+- [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/16260-hack4impact-s-recommendations)
 
 ### Tech Stack
 
