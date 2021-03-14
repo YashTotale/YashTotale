@@ -220,7 +220,7 @@ A [VS Code](https://code.visualstudio.com/) extension that supercharges the [int
 <a href="https://code.visualstudio.com/api"><img src="https://img.shields.io/badge/Visual_Studio_Code_API-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="Visual Studio Code API"></a>
 <a href="https://webpack.js.org/"><img src="https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black" alt="Webpack"></a>
 <a href="https://mochajs.org/"><img src="https://img.shields.io/badge/Mocha-8D6748?style=for-the-badge&logo=mocha&logoColor=white" alt="Mocha"></a>
-<a href="https://travis-ci.com/"><img src="https://img.shields.io/badge/Travis_CI-3EAAAF?style=for-the-badge&logo=travis" alt="Travis CI"></a>
+<a href="https://github.com/features/actions"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions"></a>
 </p>
 
 ## Introspect
