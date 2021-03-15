@@ -37,6 +37,7 @@ As a contributor, I help different departments of Hack4Impact with miscellaneous
 <a href="https://github.com/hack4impact/feedback-survey-automation/actions?query=workflow%3A%22Node+CI%22"><img src="https://img.shields.io/github/workflow/status/hack4impact/feedback-survey-automation/Node%20CI?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build"></a>
 <a href="https://github.com/hack4impact/feedback-survey-automation/actions?query=workflow%3A%22Automated+Run%22"><img alt="Automated Run" src="https://img.shields.io/github/workflow/status/hack4impact/feedback-survey-automation/Automated%20Run?style=flat-square&labelColor=000000&logo=github&logoColor=FFFFFF&label=Automated%20Run"></img></a>
 <a href="https://lgtm.com/projects/g/hack4impact/feedback-survey-automation/context:javascript"><img src="https://img.shields.io/lgtm/grade/javascript/github/hack4impact/feedback-survey-automation?logo=lgtm&logoColor=FFFFFF&labelColor=000000&label=Code%20Quality&style=flat-square" alt="Code Quality"></a>
+<a href="https://github.com/hack4impact/feedback-survey-automation/stargazers"><img src="https://img.shields.io/github/stars/hack4impact/feedback-survey-automation?style=social" alt="Stars"></a>
 </p>
 
 ### Description
