@@ -1,8 +1,11 @@
 <p align="center">
-  <a href="https://www.npmjs.com/~yasht"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="NPM"></a>
+  <a href="https://www.hackerrank.com/yashtotale"><img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white" alt="HackerRank"/></a>
+  <a href="https://leetcode.com/YashTotale/"><img src="https://img.shields.io/badge/LeetCode-555555?style=for-the-badge&logo=LeetCode" alt="LeetCode"/></a>
   <a href="https://www.linkedin.com/in/yash-totale/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.npmjs.com/~yasht"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="NPM"></a>
   <a href="https://stackoverflow.com/users/13420056/yash-t"><img src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow"></a>
 </p>
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=YashTotale&count_private=true&show_icons=true&theme=vision-friendly-dark" alt="Github Stats">
   <!-- <img src="https://github-readme-stats.vercel.app/api/wakatime?username=YashT&theme=vision-friendly-dark&custom_title=Yash%20Totale%27s%20Weekly%20Wakatime%20Stats" alt="Yash Totale's Weekly Wakatime Stats"> -->
