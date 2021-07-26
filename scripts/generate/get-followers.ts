@@ -5,21 +5,14 @@ config();
 // Externals
 import { Octokit, RestEndpointMethodTypes } from "@octokit/rest";
 import { format } from "prettier";
-import { join } from "path";
 import { writeFile, mkdir } from "fs/promises";
 
-interface Follower {
-  username: string;
-  url: string;
-  name?: string;
-}
+// Internals
+import { DATA_PATH, FOLLOWERS_PATH, Follower } from "./constants";
 
 type ResponseFollower = NonNullable<
   RestEndpointMethodTypes["users"]["listFollowersForAuthenticatedUser"]["response"]["data"][number]
 >;
-
-const DATA_PATH = join(__dirname, "..", "data");
-const FOLLOWERS_PATH = join(DATA_PATH, "followers.json");
 
 const octokit = new Octokit({
   auth: `token ${process.env.GITHUB_TOKEN}`,

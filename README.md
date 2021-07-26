@@ -5,6 +5,16 @@
   <a href="https://www.linkedin.com/in/yash-totale/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
+<!-- START FOLLOWERS -->
+
+## My Followers
+
+[Edu Wass](https://github.com/eduwass), [Jeremy](https://github.com/jeremy-coleman), [Rupal Totale](https://github.com/rupaltotale), [Subha Das](https://github.com/subatuba21), [Evan Tu](https://github.com/evanjt06), [Mark O'deBeast](https://github.com/Skatan666), [@swim86unifyd](https://github.com/swim86unifyd)
+
+> Generated from [this script](https://github.com/YashTotale/YashTotale/blob/main/scripts/generate/get-followers.ts). Add yourself by following 🙂
+
+<!-- END FOLLOWERS -->
+
 ## GitHub Stats
 
 <p align="center">

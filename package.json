@@ -18,6 +18,7 @@
     "lint": "bash scripts/lint.sh",
     "lint:staged": "lint-staged",
     "check-links": "bash scripts/check-links.sh",
-    "get-followers": "ts-node scripts/get-followers.ts"
+    "generate-readme": "ts-node scripts/generate/generate-readme.ts",
+    "get-followers": "ts-node scripts/generate/get-followers.ts"
   }
 }
