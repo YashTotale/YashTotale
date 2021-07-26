@@ -1,0 +1,49 @@
+name: Generate
+
+on:
+  schedule:
+    - cron: "30 18 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v2.1.4
+        with:
+          node-version: 16.x
+
+      - name: Setup Environment Variables
+        run: echo '${{ secrets.ENV_FILE }}' > .env
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Get Followers
+        run: npm run get-followers
+
+      - name: Generate README
+        run: npm run generate-readme
+
+      - name: Check for Changes
+        id: changes
+        uses: UnicornGlobal/has-changes-action@v1.0.11
+
+      - name: Commit Files
+        if: steps.changes.outputs.changed == 1
+        run: |
+          git config --local user.email "totaleyash@gmail.com"
+          git config --local user.name "Yash Totale"
+          git add README.md
+          git commit -m "Update README (automated)"
+
+      - name: Push Changes
+        if: steps.changes.outputs.changed == 1
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GH_PAT }}
+          branch: main
