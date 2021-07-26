@@ -22,9 +22,11 @@ build/
 *.zip
 
 # private/secret files
+.env
 *.der
 *.key
 *.pem
 
 # misc
+data/
 .DS_Store
