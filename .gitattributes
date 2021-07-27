@@ -1,4 +1,5 @@
 .prettierrc linguist-language=JSON
+.eslintrc linguist-language=JSON
 
 .huskyrc linguist-language=JSON
 .lintstagedrc linguist-language=JSON
