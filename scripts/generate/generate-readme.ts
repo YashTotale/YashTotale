@@ -22,11 +22,12 @@ const generateFollowers = async (src: string) => {
   const raw = await readFile(FOLLOWERS_PATH, "utf-8");
   const followers = JSON.parse(raw) as Follower[];
 
-  const list = followers.reduce((currentStr, f, i) => {
+  const list = followers.reduce((currentStr, f) => {
     const name = f.name ? f.name : `@${f.username}`;
-    const followerStr = `[${name}](${f.url})`;
-    const isLast = i === followers.length - 1;
-    return `${currentStr}${followerStr}${isLast ? "" : ", "}`;
+    const followerStr = `[![${name}](https://img.shields.io/badge/-${encodeURI(
+      name
+    )}-24292e?style=flat&logo=Github&logoColor=white&link=${f.url})](${f.url})`;
+    return `${currentStr}${followerStr} `;
   }, "");
 
   const before = src.substring(0, src.indexOf(START) + START.length);
