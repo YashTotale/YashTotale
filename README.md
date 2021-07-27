@@ -1,7 +1,7 @@
 <h1 align="center">Yash Totale</h1>
 
 <p align="center">
-  <a href="https://www.hackerrank.com/yashtotale"><img src="https://img.shields.io/badge/Portfolio-lightblue?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portfolio"/></a>
+  <a href="https://yashtotale.web.app/"><img src="https://img.shields.io/badge/Portfolio-lightblue?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portfolio"/></a>
   <a href="https://www.linkedin.com/in/yash-totale/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
