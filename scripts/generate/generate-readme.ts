@@ -24,9 +24,10 @@ const generateFollowers = async (src: string) => {
 
   const list = followers.reduce((currentStr, f, i) => {
     const name = f.name ? f.name : `@${f.username}`;
-    const followerStr = `[${name}](${f.url})`;
-    const isLast = i === followers.length - 1;
-    return `${currentStr}${followerStr}${isLast ? "" : ", "}`;
+    const followerStr = `[![${name}](https://img.shields.io/badge/-${encodeURI(
+      name
+    )}-24292e?style=flat&logo=Github&logoColor=white&link=${f.url})](${f.url})`;
+    return `${currentStr}${followerStr} `;
   }, "");
 
   const before = src.substring(0, src.indexOf(START) + START.length);
@@ -39,3 +40,6 @@ const generateFollowers = async (src: string) => {
 };
 
 generateReadme();
+/*
+[![Github Badge](https://img.shields.io/badge/-@nurlan--aliyev-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/nurlan-aliyev)]
+*/

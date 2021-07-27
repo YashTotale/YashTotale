@@ -9,7 +9,7 @@
 
 ## My Followers
 
-[Edu Wass](https://github.com/eduwass), [Jeremy](https://github.com/jeremy-coleman), [Rupal Totale](https://github.com/rupaltotale), [Subha Das](https://github.com/subatuba21), [Evan Tu](https://github.com/evanjt06), [Mark O'deBeast](https://github.com/Skatan666), [@swim86unifyd](https://github.com/swim86unifyd)
+[![Edu Wass](https://img.shields.io/badge/-Edu%20Wass-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/eduwass)](https://github.com/eduwass) [![Jeremy](https://img.shields.io/badge/-Jeremy-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/jeremy-coleman)](https://github.com/jeremy-coleman) [![Rupal Totale](https://img.shields.io/badge/-Rupal%20Totale-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/rupaltotale)](https://github.com/rupaltotale) [![Subha Das](https://img.shields.io/badge/-Subha%20Das-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/subatuba21)](https://github.com/subatuba21) [![Evan Tu](https://img.shields.io/badge/-Evan%20Tu-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/evanjt06)](https://github.com/evanjt06) [![Mark O'deBeast](https://img.shields.io/badge/-Mark%20O'deBeast-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/Skatan666)](https://github.com/Skatan666) [![@swim86unifyd](https://img.shields.io/badge/-@swim86unifyd-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/swim86unifyd)](https://github.com/swim86unifyd)
 
 > Generated from [this script](https://github.com/YashTotale/YashTotale/blob/main/scripts/generate/get-followers.ts). Add yourself by following 🙂
 
