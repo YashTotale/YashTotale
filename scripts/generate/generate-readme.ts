@@ -8,7 +8,8 @@ import { Follower, FOLLOWERS_PATH, README_PATH } from "./constants";
 const generateReadme = async () => {
   const currentReadme = await readFile(README_PATH, "utf-8");
   const withFollowers = await generateFollowers(currentReadme);
-  const formatted = format(withFollowers, {
+  const withFooter = await generateFooter(withFollowers);
+  const formatted = format(withFooter, {
     parser: "markdown",
   });
 
@@ -37,6 +38,27 @@ const generateFollowers = async (src: string) => {
     "> Generated from [this script](https://github.com/YashTotale/YashTotale/blob/main/scripts/generate/get-followers.ts). Add yourself by following 🙂";
 
   return `${before}\n${heading}\n${list}\n\n${append}\n${after}`;
+};
+
+const generateFooter = async (src: string) => {
+  const START = "<!-- START FOOTER -->";
+  const before = src.substring(0, src.indexOf(START) + START.length);
+  const divider = "\n---";
+  const statement =
+    "<p align='center'>This <code>README</code> file is generated <strong>every day</strong>!</p>";
+  const date = new Date().toLocaleDateString("en-US", {
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+    hour: "numeric",
+    minute: "numeric",
+    timeZoneName: "short",
+    timeZone: "America/Los_Angeles",
+  });
+
+  const refresh = `<p align="center">Last refresh: ${date}</p>`;
+
+  return `${before}\n${divider}\n${statement}\n${refresh}`;
 };
 
 generateReadme();

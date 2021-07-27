@@ -36,3 +36,10 @@
 | [![Introspect](https://github-readme-stats.vercel.app/api/pin?username=YashTotale&repo=introspect)](https://github.com/YashTotale/introspect)                                     | [![Hack4Impact's VS Code Extension](https://github-readme-stats.vercel.app/api/pin?username=hack4impact&repo=vscode-extension)](https://github.com/hack4impact/vscode-extension)                |
 | [![AP Questions](https://github-readme-stats.vercel.app/api/pin?username=YashTotale&repo=ap-questions)](https://github.com/YashTotale/ap-questions)                               | [![Hack4Impact Logger](https://github-readme-stats.vercel.app/api/pin?username=hack4impact&repo=logger)](https://github.com/hack4impact/logger)                                                 |
 | [![Goodreads User Scraper](https://github-readme-stats.vercel.app/api/pin?username=YashTotale&repo=goodreads-user-scraper)](https://github.com/YashTotale/goodreads-user-scraper) |                                                                                                                                                                                                 |
+
+<!-- START FOOTER -->
+
+---
+
+<p align='center'>This <code>README</code> file is generated <strong>every day</strong>!</p>
+<p align="center">Last refresh: Tuesday, July 27, 1:10 PM PDT</p>
