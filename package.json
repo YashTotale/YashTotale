@@ -1,7 +1,7 @@
 {
   "private": true,
   "devDependencies": {
-    "@octokit/rest": "^18.7.1",
+    "@octokit/rest": "^18.8.0",
     "@types/dotenv-safe": "^8.1.2",
     "@types/prettier": "^2.3.2",
     "@typescript-eslint/eslint-plugin": "^4.28.5",
