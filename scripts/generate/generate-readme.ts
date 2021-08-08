@@ -62,6 +62,3 @@ const generateFooter = async (src: string) => {
 };
 
 generateReadme();
-/*
-[![Github Badge](https://img.shields.io/badge/-@nurlan--aliyev-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/nurlan-aliyev)]
-*/
