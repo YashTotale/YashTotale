@@ -75,8 +75,7 @@ const generateFooter = async (src: string) => {
   const START = "<!-- START FOOTER -->";
   const before = src.substring(0, src.indexOf(START) + START.length);
   const divider = "\n---";
-  const statement =
-    "<p align='center'>This <code>README</code> file is generated <strong>every 3 hours</strong>!</p>";
+
   const date = new Date().toLocaleDateString("en-US", {
     weekday: "long",
     month: "long",
@@ -86,10 +85,28 @@ const generateFooter = async (src: string) => {
     timeZoneName: "short",
     timeZone: "America/Los_Angeles",
   });
+  const statement = `<p align='center'>This <code>README</code> file is generated <strong>every 6 hours</strong>!<br>Last refresh: ${date}</p>`;
+  const badges = [
+    {
+      src:
+        "https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square",
+      link:
+        "https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml",
+    },
+    {
+      src:
+        "https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Generate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Generate&style=flat-square",
+      link:
+        "https://github.com/YashTotale/YashTotale/actions/workflows/generate.yml",
+    },
+  ];
+  const strBadges = `<p align="center">${badges
+    .map(
+      (b) => `<a href="${b.link}" target="_blank"><img src="${b.src}" /></a>`
+    )
+    .join(" ")}</p>`;
 
-  const refresh = `<p align="center">Last refresh: ${date}</p>`;
-
-  return `${before}\n${divider}\n${statement}\n${refresh}`;
+  return `${before}\n${divider}\n${statement}\n\n${strBadges}`;
 };
 
 generateReadme();

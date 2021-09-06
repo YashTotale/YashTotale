@@ -55,5 +55,6 @@
 
 ---
 
-<p align='center'>This <code>README</code> file is generated <strong>every 3 hours</strong>!</p>
-<p align="center">Last refresh: Monday, September 6, 1:35 PM PDT</p>
+<p align='center'>This <code>README</code> file is generated <strong>every 6 hours</strong>!<br>Last refresh: Monday, September 6, 1:51 PM PDT</p>
+
+<p align="center"><a href="https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml" target="_blank"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" /></a> <a href="https://github.com/YashTotale/YashTotale/actions/workflows/generate.yml" target="_blank"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Generate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Generate&style=flat-square" /></a></p>
