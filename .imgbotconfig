@@ -1,3 +1,5 @@
 {
-  "compressWiki": true
+  "compressWiki": true,
+  "schedule": "weekly",
+  "aggressiveCompression": "true"
 }
