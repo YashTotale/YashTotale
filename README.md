@@ -43,7 +43,11 @@
 
 **Current Weather**: Sunny. High near 98, with temperatures falling to around 96 in the afternoon. West northwest wind 2 to 7 mph.
 
-<img src="assets/pleasanton/1.jpeg" height="100" /> <img src="assets/pleasanton/2.png" height="100" /> <img src="assets/pleasanton/3.jpeg" height="100" />
+<img src="assets/pleasanton/static/1.jpeg" height="120" /> <img src="assets/pleasanton/static/2.png" height="120" /> <img src="assets/pleasanton/static/3.jpeg" height="120" />
+
+🔽 Below are the last 3 pictures posted by <a href="https://www.instagram.com/visittrivalley/" target="_blank"><img src="assets/instagram.png" width="10"/> @visittrivalley</a>!
+
+<img src="assets/pleasanton/instagram/0.jpg" height="120" /> <img src="assets/pleasanton/instagram/1.jpg" height="120" /> <img src="assets/pleasanton/instagram/2.jpg" height="120" />
 
 <!-- END WEATHER -->
 
@@ -52,4 +56,4 @@
 ---
 
 <p align='center'>This <code>README</code> file is generated <strong>every 3 hours</strong>!</p>
-<p align="center">Last refresh: Monday, September 6, 12:12 PM PDT</p>
+<p align="center">Last refresh: Monday, September 6, 1:35 PM PDT</p>

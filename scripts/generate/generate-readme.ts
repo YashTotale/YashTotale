@@ -6,6 +6,8 @@ import { format } from "prettier";
 import {
   Follower,
   FOLLOWERS_PATH,
+  INSTAGRAM_ACCOUNT,
+  NUM_INSTA_PICS,
   README_PATH,
   Weather,
   WEATHER_PATH,
@@ -58,11 +60,15 @@ const generateWeather = async (src: string) => {
   const after = src.substring(src.indexOf(END));
   const heading = "## 👋 from Pleasanton, CA";
   const forecast = `**Current Weather**: ${weather.forecast}`;
-  const images = weather.images
-    .map((img) => `<img src="${img}" height="100" />`)
+  const staticImages = weather.staticImages
+    .map((img) => `<img src="${img}" height="120" />`)
+    .join(" ");
+  const instagramHeading = `🔽 Below are the last ${NUM_INSTA_PICS} pictures posted by <a href="https://www.instagram.com/${INSTAGRAM_ACCOUNT}/" target="_blank"><img src="assets/instagram.png" width="10"/> @${INSTAGRAM_ACCOUNT}</a>!`;
+  const instagramImages = weather.instagramImages
+    .map((img) => `<img src="${img}" height="120" />`)
     .join(" ");
 
-  return `${before}\n${heading}\n${forecast}\n\n${images}\n\n${after}`;
+  return `${before}\n${heading}\n${forecast}\n\n${staticImages}\n\n${instagramHeading}\n\n${instagramImages}\n\n${after}`;
 };
 
 const generateFooter = async (src: string) => {
