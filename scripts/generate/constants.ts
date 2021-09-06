@@ -16,5 +16,7 @@ export interface Weather {
 export const ROOT_PATH = join(__dirname, "..", "..");
 export const README_PATH = join(ROOT_PATH, "README.md");
 export const DATA_PATH = join(ROOT_PATH, "data");
+export const ASSETS_PATH = join(ROOT_PATH, "assets");
+export const PLEASANTON_ASSETS_PATH = join(ASSETS_PATH, "pleasanton");
 export const FOLLOWERS_PATH = join(DATA_PATH, "followers.json");
 export const WEATHER_PATH = join(DATA_PATH, "weather.json");

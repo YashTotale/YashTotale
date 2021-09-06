@@ -5,18 +5,24 @@ config();
 // Externals
 import axios from "axios";
 import { format } from "prettier";
-import { writeFile, mkdir } from "fs/promises";
+import { join, relative } from "path";
+import { writeFile, mkdir, readdir } from "fs/promises";
 
 // Internals
-import { DATA_PATH, Weather, WEATHER_PATH } from "./constants";
+import {
+  DATA_PATH,
+  PLEASANTON_ASSETS_PATH,
+  ROOT_PATH,
+  Weather,
+  WEATHER_PATH,
+} from "./constants";
 
-const IMAGES = [
-  "https://trivalleyconnect.org/wp-content/uploads/2019/06/pleasanton-008.jpg",
-  "https://www.pleasantondowntown.net/assets/uploads/42c3d-gallery.png",
-  "https://ap.rdcpix.com/062b5c9978434bf1ec7f764d664cc194l-m1665611412xd-w1020_h770_q80.jpg",
-];
+interface RawWeather {
+  detailedForecast: string;
+  icon: string;
+}
 
-const fetchWeather = async () => {
+const fetchWeather = async (): Promise<RawWeather> => {
   const res = await axios.get(
     "https://api.weather.gov/gridpoints/MTR/102,97/forecast"
   );
@@ -24,13 +30,21 @@ const fetchWeather = async () => {
   return weather;
 };
 
+const getImages = async () => {
+  const assets = await readdir(PLEASANTON_ASSETS_PATH);
+  return assets.map((asset) =>
+    relative(ROOT_PATH, join(PLEASANTON_ASSETS_PATH, asset))
+  );
+};
+
 const getWeather = async () => {
   await mkdir(DATA_PATH, { recursive: true });
 
-  const weather = await fetchWeather();
+  const [weather, images] = await Promise.all([fetchWeather(), getImages()]);
+
   const data: Weather = {
     forecast: weather.detailedForecast,
-    images: IMAGES,
+    images,
     icon: weather.icon,
   };
   const formattedData = format(JSON.stringify(data), {

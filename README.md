@@ -41,9 +41,9 @@
 
 ## 👋 from Pleasanton, CA
 
-**Current Weather**: Mostly cloudy. Low around 58, with temperatures rising to around 60 overnight. Northwest wind around 2 mph.
+**Current Weather**: Sunny. High near 98, with temperatures falling to around 96 in the afternoon. West northwest wind 2 to 7 mph.
 
-<img src="https://trivalleyconnect.org/wp-content/uploads/2019/06/pleasanton-008.jpg" height="100" /> <img src="https://www.pleasantondowntown.net/assets/uploads/42c3d-gallery.png" height="100" /> <img src="https://ap.rdcpix.com/062b5c9978434bf1ec7f764d664cc194l-m1665611412xd-w1020_h770_q80.jpg" height="100" />
+<img src="assets/pleasanton/1.jpeg" height="100" /> <img src="assets/pleasanton/2.png" height="100" /> <img src="assets/pleasanton/3.jpeg" height="100" />
 
 <!-- END WEATHER -->
 
@@ -52,4 +52,4 @@
 ---
 
 <p align='center'>This <code>README</code> file is generated <strong>every 3 hours</strong>!</p>
-<p align="center">Last refresh: Sunday, September 5, 10:53 PM PDT</p>
+<p align="center">Last refresh: Monday, September 6, 12:12 PM PDT</p>
