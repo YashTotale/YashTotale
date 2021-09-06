@@ -2,7 +2,7 @@ name: Generate
 
 on:
   schedule:
-    - cron: "30 18 * * *"
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 jobs:
@@ -25,6 +25,9 @@ jobs:
 
       - name: Get Followers
         run: npm run get-followers
+
+      - name: Get Weather
+        run: npm run get-weather
 
       - name: Generate README
         run: npm run generate-readme

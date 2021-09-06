@@ -3,12 +3,19 @@ import { readFile, writeFile } from "fs/promises";
 import { format } from "prettier";
 
 // Internals
-import { Follower, FOLLOWERS_PATH, README_PATH } from "./constants";
+import {
+  Follower,
+  FOLLOWERS_PATH,
+  README_PATH,
+  Weather,
+  WEATHER_PATH,
+} from "./constants";
 
 const generateReadme = async () => {
   const currentReadme = await readFile(README_PATH, "utf-8");
   const withFollowers = await generateFollowers(currentReadme);
-  const withFooter = await generateFooter(withFollowers);
+  const withWeather = await generateWeather(withFollowers);
+  const withFooter = await generateFooter(withWeather);
   const formatted = format(withFooter, {
     parser: "markdown",
   });
@@ -40,12 +47,30 @@ const generateFollowers = async (src: string) => {
   return `${before}\n${heading}\n${list}\n\n${append}\n${after}`;
 };
 
+const generateWeather = async (src: string) => {
+  const START = "<!-- START WEATHER -->";
+  const END = "<!-- END WEATHER -->";
+
+  const raw = await readFile(WEATHER_PATH, "utf-8");
+  const weather = JSON.parse(raw) as Weather;
+
+  const before = src.substring(0, src.indexOf(START) + START.length);
+  const after = src.substring(src.indexOf(END));
+  const heading = "## 👋 from Pleasanton, CA";
+  const forecast = `**Current Weather**: ${weather.forecast}`;
+  const images = weather.images
+    .map((img) => `<img src="${img}" height="100" />`)
+    .join(" ");
+
+  return `${before}\n${heading}\n${forecast}\n\n${images}\n\n${after}`;
+};
+
 const generateFooter = async (src: string) => {
   const START = "<!-- START FOOTER -->";
   const before = src.substring(0, src.indexOf(START) + START.length);
   const divider = "\n---";
   const statement =
-    "<p align='center'>This <code>README</code> file is generated <strong>every day</strong>!</p>";
+    "<p align='center'>This <code>README</code> file is generated <strong>every 3 hours</strong>!</p>";
   const date = new Date().toLocaleDateString("en-US", {
     weekday: "long",
     month: "long",

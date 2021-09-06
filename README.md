@@ -37,9 +37,19 @@
 | [![AP Questions](https://github-readme-stats.vercel.app/api/pin?username=YashTotale&repo=ap-questions)](https://github.com/YashTotale/ap-questions)                               | [![Hack4Impact Logger](https://github-readme-stats.vercel.app/api/pin?username=hack4impact&repo=logger)](https://github.com/hack4impact/logger)                                                 |
 | [![Goodreads User Scraper](https://github-readme-stats.vercel.app/api/pin?username=YashTotale&repo=goodreads-user-scraper)](https://github.com/YashTotale/goodreads-user-scraper) |                                                                                                                                                                                                 |
 
+<!-- START WEATHER -->
+
+## 👋 from Pleasanton, CA
+
+**Current Weather**: Mostly cloudy. Low around 58, with temperatures rising to around 60 overnight. Northwest wind around 2 mph.
+
+<img src="https://trivalleyconnect.org/wp-content/uploads/2019/06/pleasanton-008.jpg" height="100" /> <img src="https://www.pleasantondowntown.net/assets/uploads/42c3d-gallery.png" height="100" /> <img src="https://ap.rdcpix.com/062b5c9978434bf1ec7f764d664cc194l-m1665611412xd-w1020_h770_q80.jpg" height="100" />
+
+<!-- END WEATHER -->
+
 <!-- START FOOTER -->
 
 ---
 
-<p align='center'>This <code>README</code> file is generated <strong>every day</strong>!</p>
-<p align="center">Last refresh: Sunday, September 5, 11:43 AM PDT</p>
+<p align='center'>This <code>README</code> file is generated <strong>every 3 hours</strong>!</p>
+<p align="center">Last refresh: Sunday, September 5, 10:53 PM PDT</p>
