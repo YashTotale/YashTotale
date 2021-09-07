@@ -14,6 +14,17 @@ export interface Weather {
   icon: string;
 }
 
+export interface Release {
+  repo: string;
+  url: string;
+  tagName: string;
+  updatedAt: string;
+  name: string;
+  owner: string;
+  isDraft: boolean;
+  isPrerelease: boolean;
+}
+
 export const INSTAGRAM_ACCOUNT = "visittrivalley";
 export const NUM_INSTA_PICS = 3;
 
@@ -32,3 +43,4 @@ export const PLEASANTON_INSTAGRAM_ASSETS_PATH = join(
 );
 export const FOLLOWERS_PATH = join(DATA_PATH, "followers.json");
 export const WEATHER_PATH = join(DATA_PATH, "weather.json");
+export const RELEASES_PATH = join(DATA_PATH, "releases.json");

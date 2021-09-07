@@ -1,6 +1,7 @@
 // Externals
 import { readFile, writeFile } from "fs/promises";
 import { format } from "prettier";
+import moment from "moment";
 
 // Internals
 import {
@@ -9,6 +10,8 @@ import {
   INSTAGRAM_ACCOUNT,
   NUM_INSTA_PICS,
   README_PATH,
+  Release,
+  RELEASES_PATH,
   Weather,
   WEATHER_PATH,
 } from "./constants";
@@ -16,7 +19,8 @@ import {
 const generateReadme = async () => {
   const currentReadme = await readFile(README_PATH, "utf-8");
   const withFollowers = await generateFollowers(currentReadme);
-  const withWeather = await generateWeather(withFollowers);
+  const withReleases = await generateReleases(withFollowers);
+  const withWeather = await generateWeather(withReleases);
   const withFooter = await generateFooter(withWeather);
   const formatted = format(withFooter, {
     parser: "markdown",
@@ -42,11 +46,42 @@ const generateFollowers = async (src: string) => {
 
   const before = src.substring(0, src.indexOf(START) + START.length);
   const after = src.substring(src.indexOf(END));
-  const heading = "## My Followers";
+  const heading = "## ⭐️ My Followers";
   const append =
     "> Generated from [this script](https://github.com/YashTotale/YashTotale/blob/main/scripts/generate/get-followers.ts). Add yourself by following 🙂";
 
   return `${before}\n${heading}\n${list}\n\n${append}\n${after}`;
+};
+
+const generateReleases = async (src: string) => {
+  const START = "<!-- START RELEASES -->";
+  const END = "<!-- END RELEASES -->";
+
+  const raw = await readFile(RELEASES_PATH, "utf-8");
+  const releases = JSON.parse(raw) as Release[];
+
+  const list = releases
+    .map((release) => {
+      const sup = release.isPrerelease
+        ? `pre-release`
+        : release.isDraft
+        ? "draft"
+        : null;
+
+      const link = `<a href="${release.url}" target="_blank">${
+        release.owner !== "YashTotale" ? `${release.owner}/` : ""
+      }${release.repo}@${release.tagName}${sup ? `<sup>${sup}</sup>` : ""}</a>`;
+      const date = moment(release.updatedAt).format("YYYY-MM-DD");
+
+      return `- ${link} - ${date}`;
+    })
+    .join("\n");
+
+  const before = src.substring(0, src.indexOf(START) + START.length);
+  const after = src.substring(src.indexOf(END));
+  const heading = "## ⛳️ Project Releases";
+
+  return `${before}\n${heading}\n${list}\n${after}`;
 };
 
 const generateWeather = async (src: string) => {
