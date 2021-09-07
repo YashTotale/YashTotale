@@ -41,7 +41,7 @@
 
 ## 👋 from Pleasanton, CA
 
-**Current Weather**: Sunny. High near 98, with temperatures falling to around 96 in the afternoon. West northwest wind 2 to 7 mph.
+**Current Weather**: Sunny. High near 98, with temperatures falling to around 96 in the afternoon. West wind around 7 mph.
 
 <img src="assets/pleasanton/static/1.jpeg" height="120" /> <img src="assets/pleasanton/static/2.png" height="120" /> <img src="assets/pleasanton/static/3.jpeg" height="120" />
 
@@ -55,6 +55,6 @@
 
 ---
 
-<p align='center'>This <code>README</code> file is generated <strong>every 6 hours</strong>!<br>Last refresh: Monday, September 6, 1:51 PM PDT</p>
+<p align='center'>This <code>README</code> file is generated <strong>every 6 hours</strong>!<br>Last refresh: Monday, September 6, 5:01 PM PDT</p>
 
 <p align="center"><a href="https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml" target="_blank"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" /></a> <a href="https://github.com/YashTotale/YashTotale/actions/workflows/generate.yml" target="_blank"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Generate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Generate&style=flat-square" /></a></p>
