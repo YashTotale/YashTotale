@@ -29,6 +29,9 @@ jobs:
       - name: Get Weather
         run: npm run get-weather
 
+      - name: Get Releases
+        run: npm run get-releases
+
       - name: Generate README
         run: npm run generate-readme
 
