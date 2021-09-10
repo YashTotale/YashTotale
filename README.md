@@ -51,7 +51,7 @@
 
 ## 👋 from Pleasanton, CA
 
-**Current Weather**: A chance of showers and thunderstorms before 5am. Mostly cloudy, with a low around 60. West wind around 6 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible.
+**Current Weather**: Sunny. High near 81, with temperatures falling to around 79 in the afternoon. West wind 5 to 9 mph, with gusts as high as 20 mph.
 
 <img src="assets/pleasanton/static/1.jpeg" height="120" /> <img src="assets/pleasanton/static/2.png" height="120" /> <img src="assets/pleasanton/static/3.jpeg" height="120" />
 
@@ -65,6 +65,6 @@
 
 ---
 
-<p align='center'>This <code>README</code> file is generated <strong>every 6 hours</strong>!<br>Last refresh: Thursday, September 9, 11:09 PM PDT</p>
+<p align='center'>This <code>README</code> file is generated <strong>every 6 hours</strong>!<br>Last refresh: Friday, September 10, 11:08 AM PDT</p>
 
 <p align="center"><a href="https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml" target="_blank"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" /></a> <a href="https://github.com/YashTotale/YashTotale/actions/workflows/generate.yml" target="_blank"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Generate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Generate&style=flat-square" /></a></p>
