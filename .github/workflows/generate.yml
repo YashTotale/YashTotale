@@ -23,14 +23,8 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
-      - name: Get Followers
-        run: npm run get-followers
-
-      - name: Get Weather
-        run: npm run get-weather
-
-      - name: Get Releases
-        run: npm run get-releases
+      - name: Get Data
+        run: npm run get
 
       - name: Generate README
         run: npm run generate-readme

@@ -36,21 +36,18 @@ const generateFollowers = async (src: string) => {
   const raw = await readFile(FOLLOWERS_PATH, "utf-8");
   const followers = JSON.parse(raw) as Follower[];
 
-  const list = followers.reduce((currentStr, f) => {
-    const name = f.name ? f.name : `@${f.username}`;
-    const followerStr = `[![${name}](https://img.shields.io/badge/-${encodeURI(
-      name
-    )}-24292e?style=flat&logo=Github&logoColor=white&link=${f.url})](${f.url})`;
-    return `${currentStr}${followerStr} `;
-  }, "");
+  const list = followers
+    .map((follower) => {
+      const name = follower.name ? follower.name : `@${follower.username}`;
+      const encodedName = encodeURI(name);
+      return `[![${name}](https://img.shields.io/badge/-${encodedName}-24292e?style=flat&logo=Github&logoColor=white&link=${follower.url})](${follower.url})`;
+    })
+    .join(" ");
 
   const before = src.substring(0, src.indexOf(START) + START.length);
   const after = src.substring(src.indexOf(END));
-  const heading = "## ⭐️ My Followers";
-  const append =
-    "> Generated from [this script](https://github.com/YashTotale/YashTotale/blob/main/scripts/generate/get-followers.ts). Add yourself by following 🙂";
 
-  return `${before}\n${heading}\n${list}\n\n${append}\n${after}`;
+  return `${before}\n${list}\n${after}`;
 };
 
 const generateReleases = async (src: string) => {
