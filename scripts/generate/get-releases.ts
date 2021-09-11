@@ -6,11 +6,13 @@ config();
 import axios from "axios";
 import { format } from "prettier";
 import { writeFile, mkdir } from "fs/promises";
+import Logger from "@hack4impact/logger";
 
 // Internals
 import { DATA_PATH, Release, RELEASES_PATH } from "./constants";
 
 const fetchReleases = async (): Promise<any[]> => {
+  Logger.log("Fetching releases...");
   const { data } = await axios.post(
     "https://api.github.com/graphql",
     {
@@ -42,10 +44,12 @@ const fetchReleases = async (): Promise<any[]> => {
     }
   );
 
+  Logger.success("Fetched releases!");
   return data.data.viewer.repositories.nodes;
 };
 
 const formatReleases = (raw: any[]) => {
+  Logger.log("Formatting releases...");
   const releases: Release[] = raw.reduce((arr: Release[], repo: any) => {
     if (!repo.releases.nodes.length) return arr;
     const release = repo.releases.nodes[0];
@@ -64,6 +68,7 @@ const formatReleases = (raw: any[]) => {
     (a, b) => Date.parse(b.updatedAt) - Date.parse(a.updatedAt)
   );
 
+  Logger.success("Formatted releases!");
   return sorted.slice(0, 10);
 };
 
@@ -76,7 +81,9 @@ const getReleases = async () => {
     parser: "json-stringify",
   });
 
+  Logger.log("Writing releases...");
   await writeFile(RELEASES_PATH, formattedData);
+  Logger.success("Wrote releases!");
 };
 
 getReleases();
