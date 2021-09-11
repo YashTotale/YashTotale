@@ -51,7 +51,7 @@
 
 ## 👋 from Pleasanton, CA
 
-**Current Weather**: Mostly clear. Low around 54, with temperatures rising to around 56 overnight. Northwest wind around 2 mph.
+**Current Weather**: Sunny, with a high near 80. West wind 3 to 9 mph.
 
 <img src="assets/pleasanton/static/1.jpeg" height="120" /> <img src="assets/pleasanton/static/2.png" height="120" /> <img src="assets/pleasanton/static/3.jpeg" height="120" />
 
@@ -65,6 +65,6 @@
 
 ---
 
-<p align='center'>This <code>README</code> file is generated <strong>every 6 hours</strong>!<br>Last refresh: Saturday, September 11, 5:10 AM PDT</p>
+<p align='center'>This <code>README</code> file is generated <strong>every 6 hours</strong>!<br>Last refresh: Saturday, September 11, 11:08 AM PDT</p>
 
 <p align="center"><a href="https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml" target="_blank"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" /></a> <a href="https://github.com/YashTotale/YashTotale/actions/workflows/generate.yml" target="_blank"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Generate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Generate&style=flat-square" /></a></p>
