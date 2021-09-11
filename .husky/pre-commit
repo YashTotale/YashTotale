@@ -1,4 +1,7 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
+npm run get
+npm run generate-readme
+git add README.md assets
 npm run lint:staged
