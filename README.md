@@ -9,7 +9,7 @@
 
 <!-- START FOLLOWERS -->
 
-[![Edu Wass](https://img.shields.io/badge/-Edu%20Wass-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/eduwass)](https://github.com/eduwass) [![Jeremy](https://img.shields.io/badge/-Jeremy-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/jeremy-coleman)](https://github.com/jeremy-coleman) [![Rupal Totale](https://img.shields.io/badge/-Rupal%20Totale-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/rupaltotale)](https://github.com/rupaltotale) [![Subha Das](https://img.shields.io/badge/-Subha%20Das-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/subatuba21)](https://github.com/subatuba21) [![Evan Tu](https://img.shields.io/badge/-Evan%20Tu-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/evanjt06)](https://github.com/evanjt06) [![Mark O'deBeast](https://img.shields.io/badge/-Mark%20O'deBeast-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/Skatan666)](https://github.com/Skatan666) [![@swim86unifyd](https://img.shields.io/badge/-@swim86unifyd-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/swim86unifyd)](https://github.com/swim86unifyd)
+[![@eduwass](https://img.shields.io/badge/-@eduwass-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/eduwass)](https://github.com/eduwass) [![@jeremy-coleman](https://img.shields.io/badge/-@jeremy-coleman-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/jeremy-coleman)](https://github.com/jeremy-coleman) [![@rupaltotale](https://img.shields.io/badge/-@rupaltotale-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/rupaltotale)](https://github.com/rupaltotale) [![@subatuba21](https://img.shields.io/badge/-@subatuba21-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/subatuba21)](https://github.com/subatuba21) [![@evanjt06](https://img.shields.io/badge/-@evanjt06-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/evanjt06)](https://github.com/evanjt06) [![@Skatan666](https://img.shields.io/badge/-@Skatan666-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/Skatan666)](https://github.com/Skatan666) [![@swim86unifyd](https://img.shields.io/badge/-@swim86unifyd-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/swim86unifyd)](https://github.com/swim86unifyd)
 
 <!-- END FOLLOWERS -->
 
@@ -64,7 +64,7 @@
 
 ---
 
-<p align='center'>This <code>README</code> file is generated <strong>every 6 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Saturday, September 11, 4:39 PM PDT<!-- END REFRESH --></p>
+<p align='center'>This <code>README</code> file is generated <strong>every 6 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Saturday, September 11, 4:43 PM PDT<!-- END REFRESH --></p>
 
 <p align="center">
   <a href="https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml" target="_blank"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" /></a>

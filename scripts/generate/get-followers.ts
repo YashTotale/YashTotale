@@ -6,6 +6,7 @@ config();
 import { Octokit, RestEndpointMethodTypes } from "@octokit/rest";
 import { format } from "prettier";
 import { writeFile, mkdir } from "fs/promises";
+import Logger from "@hack4impact/logger";
 
 // Internals
 import { DATA_PATH, FOLLOWERS_PATH, Follower } from "./constants";
@@ -22,30 +23,25 @@ const octokit = new Octokit({
 const getFollowers = async (): Promise<void> => {
   await mkdir(DATA_PATH, { recursive: true });
 
+  Logger.log("Getting followers...");
   const response = await octokit.users.listFollowersForAuthenticatedUser();
   const followers = response.data.filter(
     (f): f is ResponseFollower => f !== null
   );
-  const data: Follower[] = await Promise.all(followers.map(getFollower));
+  const data: Follower[] = followers.map((follower) => ({
+    username: follower.login,
+    url: follower.html_url,
+    name: follower.name ?? undefined,
+  }));
+  Logger.success("Got followers!");
 
+  Logger.log("Writing followers...");
   const formattedData = format(JSON.stringify(data), {
     parser: "json-stringify",
   });
 
   await writeFile(FOLLOWERS_PATH, formattedData);
-};
-
-const getFollower = async (follower: ResponseFollower): Promise<Follower> => {
-  const userResponse = await octokit.users.getByUsername({
-    username: follower.login,
-  });
-  const user = userResponse.data;
-
-  return {
-    username: user.login as string,
-    url: user.html_url as string,
-    name: (user.name ?? undefined) as Follower["name"],
-  };
+  Logger.success("Wrote followers!");
 };
 
 getFollowers();

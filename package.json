@@ -1,6 +1,7 @@
 {
   "private": true,
   "devDependencies": {
+    "@hack4impact/logger": "^3.0.3",
     "@octokit/rest": "^18.7.1",
     "@types/dotenv-safe": "^8.1.2",
     "@types/prettier": "^2.3.2",
