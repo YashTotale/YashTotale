@@ -6,6 +6,7 @@ import Logger from "@hack4impact/logger";
 
 // Internals
 import { DATA_PATH, Weather, WEATHER_PATH } from "./constants";
+import { retry } from "./services/helpers";
 
 interface RawWeather {
   detailedForecast: string;
@@ -14,8 +15,9 @@ interface RawWeather {
 
 const fetchWeather = async (): Promise<RawWeather> => {
   Logger.log("Fetching weather...");
-  const res = await axios.get(
-    "https://api.weather.gov/gridpoints/MTR/102,97/forecast"
+  const res = await retry(
+    () => axios.get("https://api.weather.gov/gridpoints/MTR/102,97/forecast"),
+    3
   );
   const weather = res.data.properties.periods[0];
   Logger.success("Fetched weather!");
