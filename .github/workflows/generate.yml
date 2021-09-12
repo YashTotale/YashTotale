@@ -39,7 +39,7 @@ jobs:
           git config --local user.email "totaleyash@gmail.com"
           git config --local user.name "Yash Totale"
           git add .
-          git commit -m "Update README (automated)"
+          git commit -m "Update README (automated)" --no-verify
 
       - name: Push Changes
         if: steps.changes.outputs.changed == 1
