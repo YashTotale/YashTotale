@@ -30,10 +30,10 @@
 <!-- START RELEASES -->
 
 - <a href="https://github.com/YashTotale/goodreads-user-scraper/releases/tag/v1.1.0" target="_blank">goodreads-user-scraper@v1.1.0</a> - 2021-09-03
-- <a href="https://github.com/YashTotale/react-hash-scroll/releases/tag/v1.4.6" target="_blank">react-hash-scroll@v1.4.6</a> - 2021-08-25
+- <a href="https://github.com/YashTotale/react-hash-scroll/releases/tag/v1.4.6" target="_blank">react-hash-scroll@v1.4.6</a> - 2021-08-26
 - <a href="https://github.com/hack4impact/logger/releases/tag/v3.0.3" target="_blank">hack4impact/logger@v3.0.3</a> - 2021-04-18
 - <a href="https://github.com/hack4impact/jetbrains-plugin/releases/tag/v0.1.0" target="_blank">hack4impact/jetbrains-plugin@v0.1.0</a> - 2021-03-17
-- <a href="https://github.com/YashTotale/introspect/releases/tag/v1.1.0" target="_blank">introspect@v1.1.0</a> - 2021-03-15
+- <a href="https://github.com/YashTotale/introspect/releases/tag/v1.1.0" target="_blank">introspect@v1.1.0</a> - 2021-03-16
 - <a href="https://github.com/hack4impact/vscode-extension/releases/tag/v0.8.0" target="_blank">hack4impact/vscode-extension@v0.8.0</a> - 2021-03-13
 
 <!-- END RELEASES -->
@@ -64,7 +64,7 @@
 
 ---
 
-<p align='center'>This <code>README</code> file is generated <strong>every 6 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Saturday, September 11, 5:31 PM PDT<!-- END REFRESH --></p>
+<p align='center'>This <code>README</code> file is generated <strong>every 6 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Saturday, September 11, 5:33 PM PDT<!-- END REFRESH --></p>
 
 <p align="center">
   <a href="https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml" target="_blank"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" /></a>
