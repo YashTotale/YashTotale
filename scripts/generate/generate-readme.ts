@@ -38,9 +38,9 @@ const generateFollowers = async (src: string) => {
 
   const list = followers
     .map((follower) => {
-      const name = follower.name ? follower.name : `@${follower.username}`;
-      const encodedName = encodeURI(name);
-      return `[![${name}](https://img.shields.io/badge/-${encodedName}-24292e?style=flat&logo=Github&logoColor=white&link=${follower.url})](${follower.url})`;
+      const name = follower.name ? follower.name : `@${follower.login}`;
+      const encodedName = encodeURI(name).replace("-", "--");
+      return `[![${name}](https://img.shields.io/badge/${encodedName}-24292e?style=flat&logo=Github&logoColor=white&link=${follower.url})](${follower.url})`;
     })
     .join(" ");
 

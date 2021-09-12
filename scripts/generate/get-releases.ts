@@ -1,22 +1,16 @@
-// Environment Variables
-import { config } from "dotenv-safe";
-config();
-
 // Externals
-import axios from "axios";
 import { format } from "prettier";
 import { writeFile, mkdir } from "fs/promises";
 import Logger from "@hack4impact/logger";
 
 // Internals
 import { DATA_PATH, Release, RELEASES_PATH } from "./constants";
+import githubService from "./services/github";
 
 const fetchReleases = async (): Promise<any[]> => {
   Logger.log("Fetching releases...");
-  const { data } = await axios.post(
-    "https://api.github.com/graphql",
-    {
-      query: `{
+  const data = await githubService.graphqlRequest(`
+  {
     viewer {
       repositories(first: 100, privacy: PUBLIC, orderBy: {field: PUSHED_AT, direction: DESC}, affiliations: [OWNER, ORGANIZATION_MEMBER], isFork: false, isLocked: false) {
         nodes {
@@ -37,15 +31,10 @@ const fetchReleases = async (): Promise<any[]> => {
         }
       }
     }
-  }`,
-    },
-    {
-      headers: { Authorization: `bearer ${process.env.GITHUB_TOKEN}` },
-    }
-  );
+  }`);
 
   Logger.success("Fetched releases!");
-  return data.data.viewer.repositories.nodes;
+  return data.viewer.repositories.nodes;
 };
 
 const formatReleases = (raw: any[]) => {

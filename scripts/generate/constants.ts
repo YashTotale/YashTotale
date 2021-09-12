@@ -2,9 +2,9 @@
 import { join } from "path";
 
 export interface Follower {
-  username: string;
+  login: string;
   url: string;
-  name?: string;
+  name: string | null;
 }
 
 export interface Weather {

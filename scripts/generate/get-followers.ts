@@ -1,42 +1,37 @@
-// Environment Variables
-import { config } from "dotenv-safe";
-config();
-
 // Externals
-import { Octokit, RestEndpointMethodTypes } from "@octokit/rest";
 import { format } from "prettier";
 import { writeFile, mkdir } from "fs/promises";
 import Logger from "@hack4impact/logger";
 
 // Internals
 import { DATA_PATH, FOLLOWERS_PATH, Follower } from "./constants";
+import githubService from "./services/github";
 
-type ResponseFollower = NonNullable<
-  RestEndpointMethodTypes["users"]["listFollowersForAuthenticatedUser"]["response"]["data"][number]
->;
+const fetchFollowers = async (): Promise<Follower[]> => {
+  Logger.log("Getting followers...");
+  const data = await githubService.graphqlRequest(`
+  {
+    viewer {
+      followers(first:100) {
+        nodes {
+          name
+          login
+          url
+        }
+      }
+    }
+  }`);
 
-const octokit = new Octokit({
-  auth: `token ${process.env.GITHUB_TOKEN}`,
-  userAgent: "YashTotale",
-});
+  Logger.success("Got followers!");
+  return data.viewer.followers.nodes;
+};
 
 const getFollowers = async (): Promise<void> => {
   await mkdir(DATA_PATH, { recursive: true });
 
-  Logger.log("Getting followers...");
-  const response = await octokit.users.listFollowersForAuthenticatedUser();
-  const followers = response.data.filter(
-    (f): f is ResponseFollower => f !== null
-  );
-  const data: Follower[] = followers.map((follower) => ({
-    username: follower.login,
-    url: follower.html_url,
-    name: follower.name ?? undefined,
-  }));
-  Logger.success("Got followers!");
-
+  const followers = await fetchFollowers();
   Logger.log("Writing followers...");
-  const formattedData = format(JSON.stringify(data), {
+  const formattedData = format(JSON.stringify(followers), {
     parser: "json-stringify",
   });
 
