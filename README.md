@@ -50,7 +50,7 @@
 
 ## 👋 from Pleasanton, CA
 
-**Current Weather**: <!-- START WEATHER -->Sunny. High near 89, with temperatures falling to around 87 in the afternoon. West wind 2 to 8 mph.<!-- END WEATHER -->
+**Current Weather**: <!-- START WEATHER --><img src="assets/pleasanton/weather.png" alt="" height="10" /> Sunny. High near 89, with temperatures falling to around 87 in the afternoon. West wind 2 to 8 mph.<!-- END WEATHER -->
 
 <!-- START PICTURES -->
 
@@ -64,7 +64,7 @@
 
 ---
 
-<p align='center'>This <code>README</code> file is generated <strong>every 6 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Sunday, September 12, 10:26 AM PDT<!-- END REFRESH --></p>
+<p align='center'>This <code>README</code> file is generated <strong>every 6 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Sunday, September 12, 10:51 AM PDT<!-- END REFRESH --></p>
 
 <p align="center">
   <a href="https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml" target="_blank"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" /></a>

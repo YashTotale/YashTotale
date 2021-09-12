@@ -2,11 +2,19 @@
 import axios from "axios";
 import { format } from "prettier";
 import { writeFile, mkdir } from "fs/promises";
+import { join, relative } from "path";
 import Logger from "@hack4impact/logger";
 
 // Internals
-import { DATA_PATH, Weather, WEATHER_PATH } from "./constants";
+import {
+  DATA_PATH,
+  PLEASANTON_ASSETS_PATH,
+  ROOT_PATH,
+  Weather,
+  WEATHER_PATH,
+} from "./constants";
 import { retry } from "./services/helpers";
+import download from "./services/download";
 
 interface RawWeather {
   detailedForecast: string;
@@ -24,10 +32,21 @@ const fetchWeather = async (): Promise<RawWeather> => {
   return weather;
 };
 
+const downloadWeatherIcon = async (icon: string) => {
+  Logger.log("Downloading weather icon...");
+  let file = join(PLEASANTON_ASSETS_PATH, "weather");
+  file = await download(icon, file);
+  file = relative(ROOT_PATH, file);
+  Logger.success("Downloaded weather icon!");
+
+  return file;
+};
+
 const getWeather = async () => {
   await mkdir(DATA_PATH, { recursive: true });
 
   const weather = await fetchWeather();
+  weather.icon = await downloadWeatherIcon(weather.icon);
 
   const data: Weather = {
     forecast: weather.detailedForecast,

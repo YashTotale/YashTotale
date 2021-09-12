@@ -89,11 +89,12 @@ const generateWeather = async (src: string) => {
 
   const raw = await readFile(WEATHER_PATH, "utf-8");
   const weather = JSON.parse(raw) as Weather;
+  const img = `<img src="${weather.icon}" alt="" height="10" />`;
 
   const before = src.substring(0, src.indexOf(START) + START.length);
   const after = src.substring(src.indexOf(END));
 
-  return `${before}${weather.forecast}${after}`;
+  return `${before}${img} ${weather.forecast}${after}`;
 };
 
 const generatePictures = async (src: string) => {

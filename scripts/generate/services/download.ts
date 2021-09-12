@@ -1,31 +1,32 @@
 // Externals
+import axios from "axios";
 import { createWriteStream, WriteStream } from "fs";
-import { unlink } from "fs/promises";
-import { get } from "https";
 
-const download = (src: string, dest: string): Promise<string> =>
-  new Promise<string>((resolve, reject) => {
-    let file: WriteStream;
+const awaitWrite = (w: WriteStream) =>
+  new Promise<void>((resolve, reject) => {
+    w.on("finish", () => {
+      w.close();
+      resolve();
+    });
 
-    get(src, (res) => {
-      let fileName: string;
-      if (!file) {
-        const ext = getExt(res.headers["content-type"] ?? "");
-        fileName = `${dest}${ext}`;
-        file = createWriteStream(fileName);
-      }
-
-      res.pipe(file);
-      file.on("finish", () => {
-        file.close();
-        resolve(fileName);
-      });
-    }).on("error", function (err) {
-      unlink(dest)
-        .then(() => reject(err.message))
-        .catch(() => reject(err.message));
+    w.on("error", (err) => {
+      w.close();
+      reject(err);
     });
   });
+
+const download = async (src: string, dest: string): Promise<string> => {
+  const res = await axios.get(src, {
+    responseType: "stream",
+  });
+  const ext = getExt(res.headers["content-type"] ?? "");
+  const fileName = `${dest}${ext}`;
+  const file = createWriteStream(fileName);
+  res.data.pipe(file);
+
+  await awaitWrite(file);
+  return fileName;
+};
 
 const getExt = (type: string) => {
   switch (type) {

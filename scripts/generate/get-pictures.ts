@@ -21,11 +21,12 @@ import download from "./services/download";
 const getStaticImages = async () => {
   Logger.log("Fetching static images...");
   const assets = await readdir(PLEASANTON_STATIC_ASSETS_PATH);
-
-  Logger.success("Fetched static images!");
-  return assets.map((asset) =>
+  const files = assets.map((asset) =>
     relative(ROOT_PATH, join(PLEASANTON_STATIC_ASSETS_PATH, asset))
   );
+  Logger.success("Fetched static images!");
+
+  return files;
 };
 
 const getInstagramImages = async () => {
