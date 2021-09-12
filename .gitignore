@@ -28,5 +28,6 @@ build/
 *.pem
 
 # misc
-data/
+data/*
+!data/projects.json
 .DS_Store

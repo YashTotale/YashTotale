@@ -1,0 +1,42 @@
+{
+  "Personal": [
+    {
+      "owner": "YashTotale",
+      "repo": "terminal-all-in-one"
+    },
+    {
+      "owner": "YashTotale",
+      "repo": "react-hash-scroll"
+    },
+    {
+      "owner": "YashTotale",
+      "repo": "introspect"
+    },
+    {
+      "owner": "YashTotale",
+      "repo": "ap-questions"
+    },
+    {
+      "owner": "YashTotale",
+      "repo": "goodreads-user-scraper"
+    }
+  ],
+  "Hack4Impact": [
+    {
+      "owner": "hack4impact",
+      "repo": "feedback-survey-automation"
+    },
+    {
+      "owner": "hack4impact",
+      "repo": "jetbrains-plugin"
+    },
+    {
+      "owner": "hack4impact",
+      "repo": "vscode-extension"
+    },
+    {
+      "owner": "hack4impact",
+      "repo": "logger"
+    }
+  ]
+}

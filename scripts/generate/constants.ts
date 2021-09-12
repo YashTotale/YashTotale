@@ -28,6 +28,13 @@ export interface Release {
   isPrerelease: boolean;
 }
 
+interface Project {
+  owner: string;
+  repo: string;
+}
+
+export type Projects = Record<string, Project[]>;
+
 export const INSTAGRAM_ACCOUNT = "visittrivalley";
 export const NUM_INSTA_PICS = 3;
 
@@ -51,3 +58,4 @@ export const FOLLOWERS_PATH = join(DATA_PATH, "followers.json");
 export const WEATHER_PATH = join(DATA_PATH, "weather.json");
 export const PICTURES_PATH = join(DATA_PATH, "pictures.json");
 export const RELEASES_PATH = join(DATA_PATH, "releases.json");
+export const PROJECTS_PATH = join(DATA_PATH, "projects.json");

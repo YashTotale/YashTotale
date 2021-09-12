@@ -11,18 +11,23 @@ import {
   NUM_INSTA_PICS,
   Pictures,
   PICTURES_PATH,
+  Projects,
+  PROJECTS_PATH,
   README_PATH,
   Release,
   RELEASES_PATH,
   Weather,
   WEATHER_PATH,
 } from "./constants";
+import { markdownTable } from "./services/markdown";
+import { largestArrLength } from "./services/helpers";
 
 const generateReadme = async () => {
   const currentReadme = await readFile(README_PATH, "utf-8");
   const withFollowers = await generateFollowers(currentReadme);
   const withReleases = await generateReleases(withFollowers);
-  const withWeather = await generateWeather(withReleases);
+  const withProjects = await generateProjects(withReleases);
+  const withWeather = await generateWeather(withProjects);
   const withPictures = await generatePictures(withWeather);
   const withRefresh = await generateRefresh(withPictures);
   const formatted = format(withRefresh, {
@@ -43,7 +48,7 @@ const generateFollowers = async (src: string) => {
     .map((follower) => {
       const name = follower.name ? follower.name : `@${follower.login}`;
       const encodedName = encodeURI(name).replace("-", "--");
-      return `[![${name}](https://img.shields.io/badge/${encodedName}-24292e?style=flat&logo=Github&logoColor=white&link=${follower.url})](${follower.url})`;
+      return `<a href="${follower.url}" title="${name}"><img src="https://img.shields.io/badge/${encodedName}-24292e?style=flat&logo=Github&logoColor=white&link=${follower.url}" alt="${name}" /></a>`;
     })
     .join(" ");
 
@@ -63,14 +68,20 @@ const generateReleases = async (src: string) => {
   const list = releases
     .map((release) => {
       const sup = release.isPrerelease
-        ? `pre-release`
+        ? "pre-release"
         : release.isDraft
         ? "draft"
         : null;
 
-      const link = `<a href="${release.url}" target="_blank">${
+      const name = `${
         release.owner !== "YashTotale" ? `${release.owner}/` : ""
-      }${release.repo}@${release.tagName}${sup ? `<sup>${sup}</sup>` : ""}</a>`;
+      }${release.repo}`;
+
+      const link = `<a href="${
+        release.url
+      }" target="_blank" title="${name}">${name}@${release.tagName}${
+        sup ? `<sup>${sup}</sup>` : ""
+      }</a>`;
       const date = moment(release.updatedAt).format("YYYY-MM-DD");
 
       return `- ${link} - ${date}`;
@@ -81,6 +92,32 @@ const generateReleases = async (src: string) => {
   const after = src.substring(src.indexOf(END));
 
   return `${before}\n${list}\n\n${after}`;
+};
+
+const generateProjects = async (src: string) => {
+  const START = "<!-- START PROJECTS -->";
+  const END = "<!-- END PROJECTS -->";
+
+  const raw = await readFile(PROJECTS_PATH, "utf-8");
+  const projects = JSON.parse(raw) as Projects;
+  const repos = Object.values(projects);
+
+  const arr = [...new Array(largestArrLength(repos))].map((x, i) =>
+    repos.map((projects) => {
+      const project = projects[i];
+      if (!project) return null;
+      return `<a href="https://github.com/${project.owner}/${project.repo}"><img src="https://github-readme-stats.vercel.app/api/pin?username=${project.owner}&repo=${project.repo}&theme=slateorange&title_color=fff" alt="${project.owner}/${project.repo}" title="${project.owner}/${project.repo}" /></a>`;
+    })
+  );
+
+  const table = markdownTable([Object.keys(projects), ...arr], {
+    align: "c",
+  });
+
+  const before = src.substring(0, src.indexOf(START) + START.length);
+  const after = src.substring(src.indexOf(END));
+
+  return `${before}\n${table}\n${after}`;
 };
 
 const generateWeather = async (src: string) => {
