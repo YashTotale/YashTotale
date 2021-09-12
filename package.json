@@ -29,6 +29,7 @@
     "get": "npm-run-all -p --aggregate-output get:*",
     "get:followers": "ts-node scripts/generate/get-followers.ts",
     "get:weather": "ts-node scripts/generate/get-weather.ts",
-    "get:releases": "ts-node scripts/generate/get-releases.ts"
+    "get:releases": "ts-node scripts/generate/get-releases.ts",
+    "get:pictures": "ts-node scripts/generate/get-pictures.ts"
   }
 }

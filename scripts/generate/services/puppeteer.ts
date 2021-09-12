@@ -1,4 +1,5 @@
 // Externals
+import Logger from "@hack4impact/logger";
 import puppeteer from "puppeteer";
 
 class PuppeteerService {
@@ -6,6 +7,7 @@ class PuppeteerService {
   page: puppeteer.Page;
 
   async init() {
+    Logger.log("Initializing puppeteer...");
     this.browser = await puppeteer.launch({
       args: [
         "--no-sandbox",
@@ -18,6 +20,7 @@ class PuppeteerService {
         "--proxy-server=http=194.67.37.90:3128",
       ],
     });
+    Logger.success("Initialized puppeteer!");
   }
 
   async goToPage(url: string) {
@@ -41,6 +44,7 @@ class PuppeteerService {
   }
 
   async getLatestInstagramPostsFromAccount(acc: string, n: 3) {
+    Logger.log(`Getting ${n} images for '@${acc}'...`);
     const page = `https://www.picuki.com/profile/${acc}`;
     await this.goToPage(page);
 
@@ -52,6 +56,7 @@ class PuppeteerService {
       return [].map.call(images, (img: Record<string, unknown>) => img.src);
     });
 
+    Logger.success(`Got ${n} images for '@${acc}'!`);
     return nodes.slice(0, n);
   }
 }

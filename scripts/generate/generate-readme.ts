@@ -9,6 +9,8 @@ import {
   FOLLOWERS_PATH,
   INSTAGRAM_ACCOUNT,
   NUM_INSTA_PICS,
+  Pictures,
+  PICTURES_PATH,
   README_PATH,
   Release,
   RELEASES_PATH,
@@ -21,7 +23,8 @@ const generateReadme = async () => {
   const withFollowers = await generateFollowers(currentReadme);
   const withReleases = await generateReleases(withFollowers);
   const withWeather = await generateWeather(withReleases);
-  const withRefresh = await generateRefresh(withWeather);
+  const withPictures = await generatePictures(withWeather);
+  const withRefresh = await generateRefresh(withPictures);
   const formatted = format(withRefresh, {
     parser: "markdown",
   });
@@ -90,16 +93,28 @@ const generateWeather = async (src: string) => {
   const before = src.substring(0, src.indexOf(START) + START.length);
   const after = src.substring(src.indexOf(END));
 
-  const forecast = `**Current Weather**: ${weather.forecast}`;
-  const staticImages = weather.staticImages
+  return `${before}${weather.forecast}${after}`;
+};
+
+const generatePictures = async (src: string) => {
+  const START = "<!-- START PICTURES -->";
+  const END = "<!-- END PICTURES -->";
+
+  const raw = await readFile(PICTURES_PATH, "utf-8");
+  const weather = JSON.parse(raw) as Pictures;
+
+  const before = src.substring(0, src.indexOf(START) + START.length);
+  const after = src.substring(src.indexOf(END));
+
+  const staticImages = weather.static
     .map((img) => `<img src="${img}" height="120" />`)
     .join(" ");
   const instagramHeading = `🔽 Below are the last ${NUM_INSTA_PICS} pictures posted by <a href="https://www.instagram.com/${INSTAGRAM_ACCOUNT}/" target="_blank"><img src="assets/instagram.png" width="10"/> @${INSTAGRAM_ACCOUNT}</a>!`;
-  const instagramImages = weather.instagramImages
+  const instagramImages = weather.instagram
     .map((img) => `<img src="${img}" height="120" />`)
     .join(" ");
 
-  return `${before}\n${forecast}\n\n${staticImages}\n\n${instagramHeading}\n\n${instagramImages}\n\n${after}`;
+  return `${before}\n${staticImages}\n\n${instagramHeading}\n\n${instagramImages}\n\n${after}`;
 };
 
 const generateRefresh = async (src: string) => {

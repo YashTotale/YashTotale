@@ -50,9 +50,9 @@
 
 ## 👋 from Pleasanton, CA
 
-<!-- START WEATHER -->
+**Current Weather**: <!-- START WEATHER -->Sunny, with a high near 80. West wind around 9 mph, with gusts as high as 18 mph.<!-- END WEATHER -->
 
-**Current Weather**: Sunny, with a high near 80. West wind around 9 mph, with gusts as high as 18 mph.
+<!-- START PICTURES -->
 
 <img src="assets/pleasanton/static/1.jpeg" height="120" /> <img src="assets/pleasanton/static/2.png" height="120" /> <img src="assets/pleasanton/static/3.jpeg" height="120" />
 
@@ -60,11 +60,11 @@
 
 <img src="assets/pleasanton/instagram/0.jpg" height="120" /> <img src="assets/pleasanton/instagram/1.jpg" height="120" /> <img src="assets/pleasanton/instagram/2.jpg" height="120" />
 
-<!-- END WEATHER -->
+<!-- END PICTURES -->
 
 ---
 
-<p align='center'>This <code>README</code> file is generated <strong>every 6 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Saturday, September 11, 5:10 PM PDT<!-- END REFRESH --></p>
+<p align='center'>This <code>README</code> file is generated <strong>every 6 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Saturday, September 11, 5:26 PM PDT<!-- END REFRESH --></p>
 
 <p align="center">
   <a href="https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml" target="_blank"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" /></a>
