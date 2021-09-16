@@ -54,7 +54,7 @@
 
 ## 👋 from Pleasanton, CA
 
-**Current Weather**: <!-- START WEATHER --><img src="assets/pleasanton/weather.png" alt="" height="10" /> Partly cloudy, with a low around 54. Northwest wind around 7 mph.<!-- END WEATHER -->
+**Current Weather**: <!-- START WEATHER --><img src="assets/pleasanton/weather.png" alt="" height="10" /> Partly cloudy. Low around 54, with temperatures rising to around 56 overnight. West northwest wind around 5 mph.<!-- END WEATHER -->
 
 <!-- START PICTURES -->
 
@@ -68,7 +68,7 @@
 
 ---
 
-<p align='center'>This <code>README</code> file is generated <strong>every 6 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Wednesday, September 15, 11:09 PM PDT<!-- END REFRESH --></p>
+<p align='center'>This <code>README</code> file is generated <strong>every 6 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Thursday, September 16, 5:11 AM PDT<!-- END REFRESH --></p>
 
 <p align="center">
   <a href="https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml" target="_blank" title="Build Workflow Badge"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build Workflow Badge" /></a>
