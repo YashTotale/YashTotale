@@ -39,7 +39,7 @@ const getInstagramImages = async () => {
   );
   const files = await Promise.all(
     images.map(async (img, i) => {
-      const file = join(PLEASANTON_INSTAGRAM_ASSETS_PATH, i.toString());
+      const file = join(PLEASANTON_INSTAGRAM_ASSETS_PATH, (i + 1).toString());
       const createdFile = await download(img, file);
       return relative(ROOT_PATH, createdFile);
     })

@@ -62,13 +62,13 @@
 
 🔽 Below are the last 5 pictures posted by <a href="https://www.instagram.com/visittrivalley/" target="_blank"><img src="assets/instagram.png" width="10"/> @visittrivalley</a>!
 
-<img src="assets/pleasanton/instagram/0.jpg" height="120" /> <img src="assets/pleasanton/instagram/1.jpg" height="120" /> <img src="assets/pleasanton/instagram/2.jpg" height="120" /> <img src="assets/pleasanton/instagram/3.jpg" height="120" /> <img src="assets/pleasanton/instagram/4.jpg" height="120" />
+<img src="assets/pleasanton/instagram/1.jpg" height="120" /> <img src="assets/pleasanton/instagram/2.jpg" height="120" /> <img src="assets/pleasanton/instagram/3.jpg" height="120" /> <img src="assets/pleasanton/instagram/4.jpg" height="120" /> <img src="assets/pleasanton/instagram/5.jpg" height="120" />
 
 <!-- END PICTURES -->
 
 ---
 
-<p align="center">This <code>README</code> file is generated <strong>every 6 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Thursday, September 16, 6:32 PM PDT<!-- END REFRESH --></p>
+<p align="center">This <code>README</code> file is generated <strong>every 6 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Thursday, September 16, 6:33 PM PDT<!-- END REFRESH --></p>
 
 <p align="center">
   <a href="https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml" target="_blank" title="Build Workflow Badge"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build Workflow Badge" /></a>
