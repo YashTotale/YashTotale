@@ -30,10 +30,10 @@
 <!-- START RELEASES -->
 
 - <a href="https://github.com/YashTotale/goodreads-user-scraper/releases/tag/v1.1.0" target="_blank" title="goodreads-user-scraper">goodreads-user-scraper@v1.1.0</a> - 2021-09-03
-- <a href="https://github.com/YashTotale/react-hash-scroll/releases/tag/v1.4.6" target="_blank" title="react-hash-scroll">react-hash-scroll@v1.4.6</a> - 2021-08-26
+- <a href="https://github.com/YashTotale/react-hash-scroll/releases/tag/v1.4.6" target="_blank" title="react-hash-scroll">react-hash-scroll@v1.4.6</a> - 2021-08-25
 - <a href="https://github.com/hack4impact/logger/releases/tag/v3.0.3" target="_blank" title="hack4impact/logger">hack4impact/logger@v3.0.3</a> - 2021-04-18
 - <a href="https://github.com/hack4impact/jetbrains-plugin/releases/tag/v0.1.0" target="_blank" title="hack4impact/jetbrains-plugin">hack4impact/jetbrains-plugin@v0.1.0</a> - 2021-03-17
-- <a href="https://github.com/YashTotale/introspect/releases/tag/v1.1.0" target="_blank" title="introspect">introspect@v1.1.0</a> - 2021-03-16
+- <a href="https://github.com/YashTotale/introspect/releases/tag/v1.1.0" target="_blank" title="introspect">introspect@v1.1.0</a> - 2021-03-15
 - <a href="https://github.com/hack4impact/vscode-extension/releases/tag/v0.8.0" target="_blank" title="hack4impact/vscode-extension">hack4impact/vscode-extension@v0.8.0</a> - 2021-03-13
 
 <!-- END RELEASES -->
@@ -54,21 +54,21 @@
 
 ## 👋 from Pleasanton, CA
 
-**Current Weather**: <!-- START WEATHER --><img src="assets/pleasanton/weather.png" alt="" height="10" /> Sunny. High near 78, with temperatures falling to around 76 in the afternoon. West wind around 9 mph.<!-- END WEATHER -->
+**Current Weather**: <!-- START WEATHER --><img src="assets/pleasanton/weather.png" alt="" height="10" /> Mostly clear. Low around 52, with temperatures rising to around 54 overnight. Northwest wind 2 to 8 mph.<!-- END WEATHER -->
 
 <!-- START PICTURES -->
 
 <img src="assets/pleasanton/static/1.jpeg" height="120" /> <img src="assets/pleasanton/static/2.png" height="120" /> <img src="assets/pleasanton/static/3.jpeg" height="120" />
 
-🔽 Below are the last 3 pictures posted by <a href="https://www.instagram.com/visittrivalley/" target="_blank"><img src="assets/instagram.png" width="10"/> @visittrivalley</a>!
+🔽 Below are the last 5 pictures posted by <a href="https://www.instagram.com/visittrivalley/" target="_blank"><img src="assets/instagram.png" width="10"/> @visittrivalley</a>!
 
-<img src="assets/pleasanton/instagram/0.jpg" height="120" /> <img src="assets/pleasanton/instagram/1.jpg" height="120" /> <img src="assets/pleasanton/instagram/2.jpg" height="120" />
+<img src="assets/pleasanton/instagram/0.jpg" height="120" /> <img src="assets/pleasanton/instagram/1.jpg" height="120" /> <img src="assets/pleasanton/instagram/2.jpg" height="120" /> <img src="assets/pleasanton/instagram/3.jpg" height="120" /> <img src="assets/pleasanton/instagram/4.jpg" height="120" />
 
 <!-- END PICTURES -->
 
 ---
 
-<p align='center'>This <code>README</code> file is generated <strong>every 6 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Thursday, September 16, 5:29 PM PDT<!-- END REFRESH --></p>
+<p align="center">This <code>README</code> file is generated <strong>every 6 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Thursday, September 16, 6:32 PM PDT<!-- END REFRESH --></p>
 
 <p align="center">
   <a href="https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml" target="_blank" title="Build Workflow Badge"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build Workflow Badge" /></a>

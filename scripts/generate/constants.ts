@@ -36,7 +36,7 @@ interface Project {
 export type Projects = Record<string, Project[]>;
 
 export const INSTAGRAM_ACCOUNT = "visittrivalley";
-export const NUM_INSTA_PICS = 3;
+export const NUM_INSTA_PICS = 5;
 
 export const ROOT_PATH = join(__dirname, "..", "..");
 

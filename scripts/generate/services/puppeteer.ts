@@ -43,7 +43,7 @@ class PuppeteerService {
     await this.browser.close();
   }
 
-  async getLatestInstagramPostsFromAccount(acc: string, n: 3) {
+  async getLatestInstagramPostsFromAccount(acc: string, n = 3) {
     Logger.log(`Getting ${n} images for '@${acc}'...`);
     const page = `https://www.picuki.com/profile/${acc}`;
     await this.goToPage(page);
@@ -51,13 +51,19 @@ class PuppeteerService {
     await this.page.evaluate("window.scrollTo(0, document.body.scrollHeight)");
     await this.page.waitForTimeout(1000);
 
-    const nodes = await this.page.evaluate<() => string[]>(() => {
-      const images = document.querySelectorAll(".post-image");
-      return [].map.call(images, (img: Record<string, unknown>) => img.src);
-    });
+    const images = await this.page.evaluate<(n: number) => string[]>((n) => {
+      const nodes = document.querySelectorAll<HTMLImageElement>(".post-image");
+      const images = [];
+
+      for (let i = 0; i < n; i++) {
+        images.push(nodes[i].src);
+      }
+
+      return images;
+    }, n);
 
     Logger.success(`Got ${n} images for '@${acc}'!`);
-    return nodes.slice(0, n);
+    return images;
   }
 }
 

@@ -22,25 +22,37 @@ import {
 import { markdownTable } from "./services/markdown";
 import { largestArrLength } from "./services/helpers";
 
+type Promisable<T> = T | Promise<T>;
+type Generator = () => Promisable<{ find: string; replace: string }>;
+
 const generateReadme = async () => {
-  const currentReadme = await readFile(README_PATH, "utf-8");
-  const withFollowers = await generateFollowers(currentReadme);
-  const withReleases = await generateReleases(withFollowers);
-  const withProjects = await generateProjects(withReleases);
-  const withWeather = await generateWeather(withProjects);
-  const withPictures = await generatePictures(withWeather);
-  const withRefresh = await generateRefresh(withPictures);
-  const formatted = format(withRefresh, {
+  const [current, ...data] = await Promise.all([
+    readFile(README_PATH, "utf-8"),
+    generateFollowers(),
+    generateReleases(),
+    generateProjects(),
+    generateWeather(),
+    generatePictures(),
+    generateRefresh(),
+  ]);
+
+  const final = data.reduce((src, { find, replace }) => {
+    const START = `<!-- START ${find} -->`;
+    const END = `<!-- END ${find} -->`;
+
+    const before = src.substring(0, src.indexOf(START) + START.length);
+    const after = src.substring(src.indexOf(END));
+
+    return `${before}${replace}${after}`;
+  }, current);
+
+  const formatted = format(final, {
     parser: "markdown",
   });
-
   await writeFile(README_PATH, formatted);
 };
 
-const generateFollowers = async (src: string) => {
-  const START = "<!-- START FOLLOWERS -->";
-  const END = "<!-- END FOLLOWERS -->";
-
+const generateFollowers: Generator = async () => {
   const raw = await readFile(FOLLOWERS_PATH, "utf-8");
   const followers = JSON.parse(raw) as Follower[];
 
@@ -52,16 +64,10 @@ const generateFollowers = async (src: string) => {
     })
     .join(" ");
 
-  const before = src.substring(0, src.indexOf(START) + START.length);
-  const after = src.substring(src.indexOf(END));
-
-  return `${before}\n${list}\n${after}`;
+  return { find: "FOLLOWERS", replace: `\n${list}\n` };
 };
 
-const generateReleases = async (src: string) => {
-  const START = "<!-- START RELEASES -->";
-  const END = "<!-- END RELEASES -->";
-
+const generateReleases: Generator = async () => {
   const raw = await readFile(RELEASES_PATH, "utf-8");
   const releases = JSON.parse(raw) as Release[];
 
@@ -88,16 +94,10 @@ const generateReleases = async (src: string) => {
     })
     .join("\n");
 
-  const before = src.substring(0, src.indexOf(START) + START.length);
-  const after = src.substring(src.indexOf(END));
-
-  return `${before}\n${list}\n\n${after}`;
+  return { find: "RELEASES", replace: `\n${list}\n\n` };
 };
 
-const generateProjects = async (src: string) => {
-  const START = "<!-- START PROJECTS -->";
-  const END = "<!-- END PROJECTS -->";
-
+const generateProjects: Generator = async () => {
   const raw = await readFile(PROJECTS_PATH, "utf-8");
   const projects = JSON.parse(raw) as Projects;
   const repos = Object.values(projects);
@@ -114,35 +114,23 @@ const generateProjects = async (src: string) => {
     align: "c",
   });
 
-  const before = src.substring(0, src.indexOf(START) + START.length);
-  const after = src.substring(src.indexOf(END));
-
-  return `${before}\n${table}\n${after}`;
+  return { find: "PROJECTS", replace: `\n${table}\n` };
 };
 
-const generateWeather = async (src: string) => {
-  const START = "<!-- START WEATHER -->";
-  const END = "<!-- END WEATHER -->";
-
+const generateWeather: Generator = async () => {
   const raw = await readFile(WEATHER_PATH, "utf-8");
   const weather = JSON.parse(raw) as Weather;
   const img = `<img src="${weather.icon}" alt="" height="10" />`;
 
-  const before = src.substring(0, src.indexOf(START) + START.length);
-  const after = src.substring(src.indexOf(END));
-
-  return `${before}${img} ${weather.forecast}${after}`;
+  return {
+    find: "WEATHER",
+    replace: `${img} ${weather.forecast}`,
+  };
 };
 
-const generatePictures = async (src: string) => {
-  const START = "<!-- START PICTURES -->";
-  const END = "<!-- END PICTURES -->";
-
+const generatePictures: Generator = async () => {
   const raw = await readFile(PICTURES_PATH, "utf-8");
   const weather = JSON.parse(raw) as Pictures;
-
-  const before = src.substring(0, src.indexOf(START) + START.length);
-  const after = src.substring(src.indexOf(END));
 
   const staticImages = weather.static
     .map((img) => `<img src="${img}" height="120" />`)
@@ -152,16 +140,13 @@ const generatePictures = async (src: string) => {
     .map((img) => `<img src="${img}" height="120" />`)
     .join(" ");
 
-  return `${before}\n${staticImages}\n\n${instagramHeading}\n\n${instagramImages}\n\n${after}`;
+  return {
+    find: "PICTURES",
+    replace: `\n${staticImages}\n\n${instagramHeading}\n\n${instagramImages}\n\n`,
+  };
 };
 
-const generateRefresh = async (src: string) => {
-  const START = "<!-- START REFRESH -->";
-  const END = "<!-- END REFRESH -->";
-
-  const before = src.substring(0, src.indexOf(START) + START.length);
-  const after = src.substring(src.indexOf(END));
-
+const generateRefresh: Generator = () => {
   const date = new Date().toLocaleDateString("en-US", {
     weekday: "long",
     month: "long",
@@ -172,7 +157,7 @@ const generateRefresh = async (src: string) => {
     timeZone: "America/Los_Angeles",
   });
 
-  return `${before}${date}${after}`;
+  return { find: "REFRESH", replace: date };
 };
 
 generateReadme();
