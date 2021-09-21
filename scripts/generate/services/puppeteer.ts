@@ -2,24 +2,32 @@
 import Logger from "@hack4impact/logger";
 import puppeteer from "puppeteer";
 
+// Internals
+import { retry } from "./helpers";
+
 class PuppeteerService {
   browser: puppeteer.Browser;
   page: puppeteer.Page;
 
   async init() {
     Logger.log("Initializing puppeteer...");
-    this.browser = await puppeteer.launch({
-      args: [
-        "--no-sandbox",
-        "--disable-setuid-sandbox",
-        "--disable-infobars",
-        "--window-position=0,0",
-        "--ignore-certifcate-errors",
-        "--ignore-certifcate-errors-spki-list",
-        "--incognito",
-        "--proxy-server=http=194.67.37.90:3128",
-      ],
-    });
+    this.browser = await retry(
+      () =>
+        puppeteer.launch({
+          args: [
+            "--no-sandbox",
+            "--disable-setuid-sandbox",
+            "--disable-gpu",
+            "--disable-infobars",
+            "--window-position=0,0",
+            "--ignore-certifcate-errors",
+            "--ignore-certifcate-errors-spki-list",
+            "--incognito",
+            "--proxy-server=http=194.67.37.90:3128",
+          ],
+        }),
+      3
+    );
     Logger.success("Initialized puppeteer!");
   }
 
