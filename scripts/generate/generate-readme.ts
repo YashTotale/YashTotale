@@ -2,6 +2,7 @@
 import { readFile, writeFile } from "fs/promises";
 import { format } from "prettier";
 import moment from "moment";
+import Logger from "@hack4impact/logger";
 
 // Internals
 import {
@@ -23,9 +24,11 @@ import { markdownTable } from "./services/markdown";
 import { largestArrLength } from "./services/helpers";
 
 type Promisable<T> = T | Promise<T>;
-type Generator = () => Promisable<{ find: string; replace: string }>;
+type ReadmeData = { find: string; replace: string };
+type Generator = () => Promisable<ReadmeData>;
 
 const generateReadme = async () => {
+  Logger.log("Creating README...");
   const [current, ...data] = await Promise.all([
     readFile(README_PATH, "utf-8"),
     generateFollowers(),
@@ -45,11 +48,14 @@ const generateReadme = async () => {
 
     return `${before}${replace}${after}`;
   }, current);
+  Logger.success("Created README!");
 
+  Logger.log("Writing README...");
   const formatted = format(final, {
     parser: "markdown",
   });
   await writeFile(README_PATH, formatted);
+  Logger.success("Wrote README!");
 };
 
 const generateFollowers: Generator = async () => {
