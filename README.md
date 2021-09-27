@@ -9,7 +9,7 @@
 
 <!-- START FOLLOWERS -->
 
-<a href="https://github.com/SingularisArt" title="Hashem A. Damrah"><img src="https://img.shields.io/badge/Hashem%20A.%20Damrah-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/SingularisArt" alt="Hashem A. Damrah" /></a> <a href="https://github.com/Skatan666" title="Mark O'deBeast"><img src="https://img.shields.io/badge/Mark%20O'deBeast-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/Skatan666" alt="Mark O'deBeast" /></a> <a href="https://github.com/swim86unifyd" title="@swim86unifyd"><img src="https://img.shields.io/badge/@swim86unifyd-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/swim86unifyd" alt="@swim86unifyd" /></a> <a href="https://github.com/jeremy-coleman" title="Jeremy"><img src="https://img.shields.io/badge/Jeremy-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/jeremy-coleman" alt="Jeremy" /></a> <a href="https://github.com/evanjt06" title="Evan Tu"><img src="https://img.shields.io/badge/Evan%20Tu-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/evanjt06" alt="Evan Tu" /></a> <a href="https://github.com/subatuba21" title="Subha Das"><img src="https://img.shields.io/badge/Subha%20Das-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/subatuba21" alt="Subha Das" /></a> <a href="https://github.com/eduwass" title="Edu Wass"><img src="https://img.shields.io/badge/Edu%20Wass-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/eduwass" alt="Edu Wass" /></a> <a href="https://github.com/rupaltotale" title="Rupal Totale"><img src="https://img.shields.io/badge/Rupal%20Totale-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/rupaltotale" alt="Rupal Totale" /></a>
+<a href="https://github.com/Skatan666" title="Mark O'deBeast"><img src="https://img.shields.io/badge/Mark%20O'deBeast-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/Skatan666" alt="Mark O'deBeast" /></a> <a href="https://github.com/swim86unifyd" title="@swim86unifyd"><img src="https://img.shields.io/badge/@swim86unifyd-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/swim86unifyd" alt="@swim86unifyd" /></a> <a href="https://github.com/jeremy-coleman" title="Jeremy"><img src="https://img.shields.io/badge/Jeremy-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/jeremy-coleman" alt="Jeremy" /></a> <a href="https://github.com/evanjt06" title="Evan Tu"><img src="https://img.shields.io/badge/Evan%20Tu-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/evanjt06" alt="Evan Tu" /></a> <a href="https://github.com/subatuba21" title="Subha Das"><img src="https://img.shields.io/badge/Subha%20Das-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/subatuba21" alt="Subha Das" /></a> <a href="https://github.com/eduwass" title="Edu Wass"><img src="https://img.shields.io/badge/Edu%20Wass-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/eduwass" alt="Edu Wass" /></a> <a href="https://github.com/rupaltotale" title="Rupal Totale"><img src="https://img.shields.io/badge/Rupal%20Totale-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/rupaltotale" alt="Rupal Totale" /></a>
 
 <!-- END FOLLOWERS -->
 
@@ -54,7 +54,7 @@
 
 ## 👋 from Pleasanton, CA
 
-**Current Weather**: <!-- START WEATHER --><img src="assets/pleasanton/weather.png" alt="" height="10" /> Mostly cloudy. Low around 54, with temperatures rising to around 56 overnight. West southwest wind around 6 mph.<!-- END WEATHER -->
+**Current Weather**: <!-- START WEATHER --><img src="assets/pleasanton/weather.png" alt="" height="10" /> Mostly cloudy. Low around 54, with temperatures rising to around 56 overnight. West southwest wind around 5 mph.<!-- END WEATHER -->
 
 <!-- START PICTURES -->
 
@@ -68,7 +68,7 @@
 
 ---
 
-<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Sunday, September 26, 11:05 PM PDT<!-- END REFRESH --></p>
+<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Monday, September 27, 2:03 AM PDT<!-- END REFRESH --></p>
 
 <p align="center">
   <a href="https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml" target="_blank" title="Build Workflow Badge"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build Workflow Badge" /></a>
