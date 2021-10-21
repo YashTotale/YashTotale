@@ -29,8 +29,8 @@
 
 <!-- START RELEASES -->
 
+- <a href="https://github.com/YashTotale/react-hash-scroll/releases/tag/v1.4.7" target="_blank" title="react-hash-scroll">react-hash-scroll@v1.4.7</a> - 2021-10-20
 - <a href="https://github.com/YashTotale/goodreads-user-scraper/releases/tag/v1.1.0" target="_blank" title="goodreads-user-scraper">goodreads-user-scraper@v1.1.0</a> - 2021-09-03
-- <a href="https://github.com/YashTotale/react-hash-scroll/releases/tag/v1.4.6" target="_blank" title="react-hash-scroll">react-hash-scroll@v1.4.6</a> - 2021-08-26
 - <a href="https://github.com/hack4impact/logger/releases/tag/v3.0.3" target="_blank" title="hack4impact/logger">hack4impact/logger@v3.0.3</a> - 2021-04-18
 - <a href="https://github.com/hack4impact/jetbrains-plugin/releases/tag/v0.1.0" target="_blank" title="hack4impact/jetbrains-plugin">hack4impact/jetbrains-plugin@v0.1.0</a> - 2021-03-17
 - <a href="https://github.com/YashTotale/introspect/releases/tag/v1.1.0" target="_blank" title="introspect">introspect@v1.1.0</a> - 2021-03-16
@@ -54,7 +54,7 @@
 
 ## 👋 from Pleasanton, CA
 
-**Current Weather**: <!-- START WEATHER --><img src="assets/pleasanton/weather.png" alt="" height="10" /> A chance of rain showers before 5pm, then rain likely. Cloudy, with a high near 66. South southwest wind around 6 mph, with gusts as high as 18 mph. Chance of precipitation is 70%. New rainfall amounts less than a tenth of an inch possible.<!-- END WEATHER -->
+**Current Weather**: <!-- START WEATHER --><img src="assets/pleasanton/weather.png" alt="" height="10" /> Rain likely. Cloudy, with a high near 66. South southwest wind around 6 mph. Chance of precipitation is 70%. New rainfall amounts less than a tenth of an inch possible.<!-- END WEATHER -->
 
 <!-- START PICTURES -->
 
@@ -68,7 +68,7 @@
 
 ---
 
-<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Wednesday, October 20, 2:02 PM PDT<!-- END REFRESH --></p>
+<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Wednesday, October 20, 5:18 PM PDT<!-- END REFRESH --></p>
 
 <p align="center">
   <a href="https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml" target="_blank" title="Build Workflow Badge"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build Workflow Badge" /></a>
