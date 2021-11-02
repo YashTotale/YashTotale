@@ -54,7 +54,7 @@
 
 ## 👋 from Pleasanton, CA
 
-**Current Weather**: <!-- START WEATHER --><img src="assets/pleasanton/weather.png" alt="" height="10" /> Rain before 5pm, then a chance of rain showers. Cloudy, with a high near 64. South wind around 8 mph, with gusts as high as 21 mph. Chance of precipitation is 80%. New rainfall amounts less than a tenth of an inch possible.<!-- END WEATHER -->
+**Current Weather**: <!-- START WEATHER --><img src="assets/pleasanton/weather.png" alt="" height="10" /> A chance of rain. Mostly cloudy, with a high near 64. South wind around 7 mph, with gusts as high as 18 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible.<!-- END WEATHER -->
 
 <!-- START PICTURES -->
 
@@ -68,7 +68,7 @@
 
 ---
 
-<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Monday, November 1, 11:04 AM PDT<!-- END REFRESH --></p>
+<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Monday, November 1, 5:16 PM PDT<!-- END REFRESH --></p>
 
 <p align="center">
   <a href="https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml" target="_blank" title="Build Workflow Badge"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build Workflow Badge" /></a>
