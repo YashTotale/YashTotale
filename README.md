@@ -18,11 +18,11 @@
 ## 📊 Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YashTotale&count_private=true&show_icons=true&theme=slateorange&title_color=fff" alt="GitHub Stats" title="GitHub Stats">
+  <a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api?username=YashTotale&count_private=true&show_icons=true&theme=slateorange&title_color=fff" alt="GitHub Stats" title="GitHub Stats"></a>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=YashT&theme=slateorange&layout=compact&custom_title=Yash%20Totale%27s%20Weekly%20Wakatime%20Stats&title_color=fff" alt="Wakatime Stats" title="Wakatime Stats">
+  <a href="https://wakatime.com/@YashT"><img src="https://github-readme-stats.vercel.app/api/wakatime?username=YashT&theme=slateorange&layout=compact&custom_title=Yash%20Totale%27s%20Weekly%20Wakatime%20Stats&title_color=fff" alt="Wakatime Stats" title="Wakatime Stats"></a>
 </p>
 
 ## ⛳️ Project Releases
@@ -33,7 +33,7 @@
 - <a href="https://github.com/YashTotale/goodreads-user-scraper/releases/tag/v1.1.0" target="_blank" title="goodreads-user-scraper">goodreads-user-scraper@v1.1.0</a> - 2021-09-03
 - <a href="https://github.com/hack4impact/logger/releases/tag/v3.0.3" target="_blank" title="hack4impact/logger">hack4impact/logger@v3.0.3</a> - 2021-04-18
 - <a href="https://github.com/hack4impact/jetbrains-plugin/releases/tag/v0.1.0" target="_blank" title="hack4impact/jetbrains-plugin">hack4impact/jetbrains-plugin@v0.1.0</a> - 2021-03-17
-- <a href="https://github.com/YashTotale/introspect/releases/tag/v1.1.0" target="_blank" title="introspect">introspect@v1.1.0</a> - 2021-03-16
+- <a href="https://github.com/YashTotale/introspect/releases/tag/v1.1.0" target="_blank" title="introspect">introspect@v1.1.0</a> - 2021-03-15
 - <a href="https://github.com/hack4impact/vscode-extension/releases/tag/v0.8.0" target="_blank" title="hack4impact/vscode-extension">hack4impact/vscode-extension@v0.8.0</a> - 2021-03-13
 
 <!-- END RELEASES -->
@@ -68,7 +68,7 @@
 
 ---
 
-<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Saturday, November 6, 3:14 PM PDT<!-- END REFRESH --></p>
+<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Saturday, November 6, 3:21 PM PDT<!-- END REFRESH --></p>
 
 <p align="center">
   <a href="https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml" target="_blank" title="Build Workflow Badge"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build Workflow Badge" /></a>
