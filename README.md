@@ -29,6 +29,7 @@
 
 <!-- START RELEASES -->
 
+- <a href="https://github.com/YashTotale/terminal-all-in-one/releases/tag/v1.12.0" target="_blank" title="terminal-all-in-one">terminal-all-in-one@v1.12.0</a> - 2021-11-09
 - <a href="https://github.com/YashTotale/react-hash-scroll/releases/tag/v1.4.7" target="_blank" title="react-hash-scroll">react-hash-scroll@v1.4.7</a> - 2021-10-20
 - <a href="https://github.com/YashTotale/goodreads-user-scraper/releases/tag/v1.1.0" target="_blank" title="goodreads-user-scraper">goodreads-user-scraper@v1.1.0</a> - 2021-09-03
 - <a href="https://github.com/hack4impact/logger/releases/tag/v3.0.3" target="_blank" title="hack4impact/logger">hack4impact/logger@v3.0.3</a> - 2021-04-18
@@ -54,7 +55,7 @@
 
 ## 👋 from Pleasanton, CA
 
-**Current Weather**: <!-- START WEATHER --><img src="assets/pleasanton/weather.png" alt="" height="10" /> Rain likely. Mostly cloudy. Low around 50, with temperatures rising to around 54 overnight. South southwest wind around 12 mph, with gusts as high as 31 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible.<!-- END WEATHER -->
+**Current Weather**: <!-- START WEATHER --><img src="assets/pleasanton/weather.png" alt="" height="10" /> Rain showers likely before 4pm. Partly sunny. High near 65, with temperatures falling to around 62 in the afternoon. Southwest wind 3 to 8 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible.<!-- END WEATHER -->
 
 <!-- START PICTURES -->
 
@@ -68,7 +69,7 @@
 
 ---
 
-<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Tuesday, November 9, 4:07 AM PST<!-- END REFRESH --></p>
+<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Tuesday, November 9, 9:29 AM PST<!-- END REFRESH --></p>
 
 <p align="center">
   <a href="https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml" target="_blank" title="Build Workflow Badge"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build Workflow Badge" /></a>
