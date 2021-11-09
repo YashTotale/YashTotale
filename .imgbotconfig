@@ -1,0 +1,6 @@
+{
+    "ignoredFiles": [
+        "assets/pleasanton/instagram/*",
+        "assets/pleasanton/weather.png",
+    ],
+}
