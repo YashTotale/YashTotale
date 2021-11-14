@@ -34,10 +34,9 @@ jobs:
         uses: UnicornGlobal/has-changes-action@v1.0.11
 
       - name: Commit Files
-        if: steps.changes.outputs.changed == 1
         run: |
-          git config --local user.email "totaleyash@gmail.com"
-          git config --local user.name "Yash Totale"
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
           git add .
           git commit -m "Update README (automated)" --no-verify
 
@@ -45,5 +44,5 @@ jobs:
         if: steps.changes.outputs.changed == 1
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.GH_PAT }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
