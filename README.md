@@ -29,7 +29,7 @@
 
 <!-- START RELEASES -->
 
-- <a href="https://github.com/hack4impact/logger/releases/tag/v4.0.0" target="_blank" title="hack4impact/logger">hack4impact/logger@v4.0.0</a> - 2021-11-17
+- <a href="https://github.com/hack4impact/logger/releases/tag/v4.0.2" target="_blank" title="hack4impact/logger">hack4impact/logger@v4.0.2</a> - 2021-11-17
 - <a href="https://github.com/YashTotale/terminal-all-in-one/releases/tag/v1.12.0" target="_blank" title="terminal-all-in-one">terminal-all-in-one@v1.12.0</a> - 2021-11-09
 - <a href="https://github.com/YashTotale/react-hash-scroll/releases/tag/v1.4.7" target="_blank" title="react-hash-scroll">react-hash-scroll@v1.4.7</a> - 2021-10-20
 - <a href="https://github.com/YashTotale/goodreads-user-scraper/releases/tag/v1.1.0" target="_blank" title="goodreads-user-scraper">goodreads-user-scraper@v1.1.0</a> - 2021-09-03
@@ -55,7 +55,7 @@
 
 ## 👋 from Pleasanton, CA
 
-**Current Weather**: <!-- START WEATHER --><img src="assets/pleasanton/weather.png" alt="" height="10" /> Sunny. High near 64, with temperatures falling to around 58 in the afternoon. Northeast wind around 5 mph.<!-- END WEATHER -->
+**Current Weather**: <!-- START WEATHER --><img src="assets/pleasanton/weather.png" alt="" height="10" /> Sunny. High near 66, with temperatures falling to around 60 in the afternoon. East northeast wind around 7 mph.<!-- END WEATHER -->
 
 <!-- START PICTURES -->
 
@@ -69,7 +69,7 @@
 
 ---
 
-<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Wednesday, November 17, 10:03 AM PST<!-- END REFRESH --></p>
+<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Wednesday, November 17, 4:17 PM PST<!-- END REFRESH --></p>
 
 <p align="center">
   <a href="https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml" target="_blank" title="Build Workflow Badge"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build Workflow Badge" /></a>
