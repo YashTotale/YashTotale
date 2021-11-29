@@ -1,7 +1,8 @@
-<h1 align="center">Yash Totale</h1>
+<p align="center"><a href="https://yashtotale.dev/"><img src="https://yashtotale.dev/logo512.png" alt="Yash Totale's Icon" width="100"></a></p>
+<h1 align="center"><a href="https://yashtotale.dev/">Yash Totale</a></h1>
 
 <p align="center">
-  <a href="https://yashtotale.dev/" title="Portfolio"><img src="https://img.shields.io/badge/Portfolio-lightblue?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portfolio"/></a>
+  <a href="https://yashtotale.dev/" title="Portfolio"><img src="https://img.shields.io/badge/Portfolio-lightblue?style=for-the-badge" alt="Portfolio"/></a>
   <a href="https://www.linkedin.com/in/yash-totale/" title="LinkedIn"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
@@ -69,7 +70,7 @@
 
 ---
 
-<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Sunday, November 28, 10:04 PM PST<!-- END REFRESH --></p>
+<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: <!-- START REFRESH -->Sunday, November 28, 7:03 PM PST<!-- END REFRESH --></p>
 
 <p align="center">
   <a href="https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml" target="_blank" title="Build Workflow Badge"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build Workflow Badge" /></a>
