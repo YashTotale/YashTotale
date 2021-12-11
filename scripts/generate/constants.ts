@@ -2,9 +2,9 @@
 import { join } from "path";
 
 export interface Follower {
-  login: string;
   url: string;
-  name: string | null;
+  name: string;
+  encodedName: string;
 }
 
 export interface Weather {
@@ -15,17 +15,15 @@ export interface Weather {
 export interface Pictures {
   static: string[];
   instagram: string[];
+  instaAmount: number;
+  instaAccount: string;
 }
 
 export interface Release {
-  repo: string;
-  url: string;
-  tagName: string;
-  updatedAt: string;
   name: string;
-  owner: string;
-  isDraft: boolean;
-  isPrerelease: boolean;
+  url: string;
+  date: string;
+  version: string;
 }
 
 interface Project {
@@ -40,6 +38,7 @@ export const NUM_INSTA_PICS = 5;
 
 export const ROOT_PATH = join(__dirname, "..", "..");
 
+export const README_TEMPLATE_PATH = join(ROOT_PATH, "README_TEMPLATE.mustache");
 export const README_PATH = join(ROOT_PATH, "README.md");
 
 export const ASSETS_PATH = join(ROOT_PATH, "assets");

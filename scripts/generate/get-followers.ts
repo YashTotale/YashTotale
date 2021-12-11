@@ -7,7 +7,13 @@ import Logger from "@hack4impact/logger";
 import { DATA_PATH, FOLLOWERS_PATH, Follower } from "./constants";
 import githubService from "./services/github";
 
-const fetchFollowers = async (): Promise<Follower[]> => {
+interface RawFollower {
+  login: string;
+  url: string;
+  name: string | null;
+}
+
+const fetchFollowers = async (): Promise<RawFollower[]> => {
   Logger.log("Getting followers...");
   const data = await githubService.graphqlRequest(`
   {
@@ -29,7 +35,18 @@ const fetchFollowers = async (): Promise<Follower[]> => {
 const getFollowers = async (): Promise<void> => {
   await mkdir(DATA_PATH, { recursive: true });
 
-  const followers = await fetchFollowers();
+  const rawFollowers = await fetchFollowers();
+  const followers: Follower[] = rawFollowers.map((f) => {
+    const name = f.name ? f.name : `@${f.login}`;
+    const encodedName = encodeURI(name).replace("-", "--");
+
+    return {
+      name,
+      encodedName,
+      url: f.url,
+    };
+  });
+
   Logger.log("Writing followers...");
   const formattedData = format(JSON.stringify(followers), {
     parser: "json-stringify",

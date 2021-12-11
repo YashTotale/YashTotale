@@ -3,6 +3,7 @@
   "devDependencies": {
     "@hack4impact/logger": "^3.0.3",
     "@types/dotenv-safe": "^8.1.2",
+    "@types/mustache": "^4.1.2",
     "@types/prettier": "^2.3.2",
     "@typescript-eslint/eslint-plugin": "^4.28.5",
     "@typescript-eslint/parser": "^4.28.5",
@@ -33,5 +34,8 @@
     "get:weather": "ts-node scripts/generate/get-weather.ts",
     "get:releases": "ts-node scripts/generate/get-releases.ts",
     "get:pictures": "ts-node scripts/generate/get-pictures.ts"
+  },
+  "dependencies": {
+    "mustache": "^4.2.0"
   }
 }

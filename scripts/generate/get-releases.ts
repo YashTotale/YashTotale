@@ -1,4 +1,5 @@
 // Externals
+import moment from "moment";
 import { format } from "prettier";
 import { writeFile, mkdir } from "fs/promises";
 import Logger from "@hack4impact/logger";
@@ -7,7 +8,23 @@ import Logger from "@hack4impact/logger";
 import { DATA_PATH, Release, RELEASES_PATH } from "./constants";
 import githubService from "./services/github";
 
-const fetchReleases = async (): Promise<any[]> => {
+interface RawRelease {
+  url: string;
+  updatedAt: string;
+  tagName: string;
+}
+
+interface Repo {
+  name: string;
+  owner: {
+    login: string;
+  };
+  releases: {
+    nodes: RawRelease[];
+  };
+}
+
+const fetchReleases = async (): Promise<Repo[]> => {
   Logger.log("Fetching releases...");
   const data = await githubService.graphqlRequest(`
   {
@@ -17,11 +34,8 @@ const fetchReleases = async (): Promise<any[]> => {
           releases(last: 1) {
             nodes {
               url
-              tagName
               updatedAt
-              name
-              isDraft
-              isPrerelease
+              tagName
             }
           }
           owner {
@@ -39,22 +53,27 @@ const fetchReleases = async (): Promise<any[]> => {
 
 const formatReleases = (raw: any[]) => {
   Logger.log("Formatting releases...");
-  const releases: Release[] = raw.reduce((arr: Release[], repo: any) => {
+  const releases: Release[] = raw.reduce((arr: Release[], repo: Repo) => {
     if (!repo.releases.nodes.length) return arr;
-    const release = repo.releases.nodes[0];
+
+    const rawRelease = repo.releases.nodes[0];
+    const owner = repo.owner.login;
+    const name = `${owner === "YashTotale" ? "" : `${owner}/`}${repo.name}`;
+    const date = moment(rawRelease.updatedAt).format("YYYY-MM-DD");
 
     return [
       ...arr,
       {
-        ...release,
-        repo: repo.name,
-        owner: repo.owner.login,
+        name,
+        url: rawRelease.url,
+        date,
+        version: rawRelease.tagName,
       },
     ];
-  }, []);
+  }, [] as Release[]);
 
-  const sorted = releases.sort(
-    (a, b) => Date.parse(b.updatedAt) - Date.parse(a.updatedAt)
+  const sorted = releases.sort((a, b) =>
+    moment(a.date).isBefore(moment(b.date)) ? 1 : -1
   );
 
   Logger.success("Formatted releases!");

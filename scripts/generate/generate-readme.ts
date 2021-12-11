@@ -1,53 +1,44 @@
 // Externals
 import { readFile, writeFile } from "fs/promises";
+import { basename, extname } from "path";
 import { format } from "prettier";
-import moment from "moment";
 import Logger from "@hack4impact/logger";
+import Mustache from "mustache";
 
 // Internals
 import {
   Follower,
   FOLLOWERS_PATH,
-  INSTAGRAM_ACCOUNT,
-  NUM_INSTA_PICS,
-  Pictures,
   PICTURES_PATH,
   Projects,
   PROJECTS_PATH,
   README_PATH,
-  Release,
+  README_TEMPLATE_PATH,
   RELEASES_PATH,
-  Weather,
   WEATHER_PATH,
 } from "./constants";
 import { markdownTable } from "./services/markdown";
 import { largestArrLength } from "./services/helpers";
 
 type Promisable<T> = T | Promise<T>;
-type ReadmeData = { find: string; replace: string };
-type Generator = () => Promisable<ReadmeData>;
+type ReadmeData = Record<string, any>;
+type Generator = (...args: any[]) => Promisable<ReadmeData>;
 
 const generateReadme = async () => {
   Logger.log("Creating README...");
   const [current, ...data] = await Promise.all([
-    readFile(README_PATH, "utf-8"),
-    generateFollowers(),
-    generateReleases(),
+    readFile(README_TEMPLATE_PATH, "utf-8"),
+    getFileData(FOLLOWERS_PATH),
+    getFileData(RELEASES_PATH),
+    getFileData(WEATHER_PATH),
+    getFileData(PICTURES_PATH),
     generateProjects(),
-    generateWeather(),
-    generatePictures(),
-    generateRefresh(),
+    generateDate(),
   ]);
 
-  const final = data.reduce((src, { find, replace }) => {
-    const START = `<!-- START ${find} -->`;
-    const END = `<!-- END ${find} -->`;
+  const dataObj = data.reduce((src, d) => ({ ...src, ...d }), {});
+  const final = Mustache.render(current, dataObj);
 
-    const before = src.substring(0, src.indexOf(START) + START.length);
-    const after = src.substring(src.indexOf(END));
-
-    return `${before}${replace}${after}`;
-  }, current);
   Logger.success("Created README!");
 
   Logger.log("Writing README...");
@@ -58,49 +49,12 @@ const generateReadme = async () => {
   Logger.success("Wrote README!");
 };
 
-const generateFollowers: Generator = async () => {
-  const raw = await readFile(FOLLOWERS_PATH, "utf-8");
-  const followers = JSON.parse(raw) as Follower[];
+const getFileData: Generator = async (path: string) => {
+  const raw = await readFile(path, "utf-8");
+  const name = basename(path, extname(path));
+  const data = JSON.parse(raw) as Follower[];
 
-  const list = followers
-    .map((follower) => {
-      const name = follower.name ? follower.name : `@${follower.login}`;
-      const encodedName = encodeURI(name).replace("-", "--");
-      return `<a href="${follower.url}" title="${name}"><img src="https://img.shields.io/badge/${encodedName}-24292e?style=flat&logo=Github&logoColor=white&link=${follower.url}" alt="${name}" /></a>`;
-    })
-    .join(" ");
-
-  return { find: "FOLLOWERS", replace: `\n${list}\n` };
-};
-
-const generateReleases: Generator = async () => {
-  const raw = await readFile(RELEASES_PATH, "utf-8");
-  const releases = JSON.parse(raw) as Release[];
-
-  const list = releases
-    .map((release) => {
-      const sup = release.isPrerelease
-        ? "pre-release"
-        : release.isDraft
-        ? "draft"
-        : null;
-
-      const name = `${
-        release.owner !== "YashTotale" ? `${release.owner}/` : ""
-      }${release.repo}`;
-
-      const link = `<a href="${
-        release.url
-      }" target="_blank" title="${name}">${name}@${release.tagName}${
-        sup ? `<sup>${sup}</sup>` : ""
-      }</a>`;
-      const date = moment(release.updatedAt).format("YYYY-MM-DD");
-
-      return `- ${link} - ${date}`;
-    })
-    .join("\n");
-
-  return { find: "RELEASES", replace: `\n${list}\n\n` };
+  return { [name]: data };
 };
 
 const generateProjects: Generator = async () => {
@@ -120,39 +74,10 @@ const generateProjects: Generator = async () => {
     align: "c",
   });
 
-  return { find: "PROJECTS", replace: `\n${table}\n` };
+  return { projects: table };
 };
 
-const generateWeather: Generator = async () => {
-  const raw = await readFile(WEATHER_PATH, "utf-8");
-  const weather = JSON.parse(raw) as Weather;
-  const img = `<img src="${weather.icon}" alt="" height="10" />`;
-
-  return {
-    find: "WEATHER",
-    replace: `${img} ${weather.forecast}`,
-  };
-};
-
-const generatePictures: Generator = async () => {
-  const raw = await readFile(PICTURES_PATH, "utf-8");
-  const weather = JSON.parse(raw) as Pictures;
-
-  const staticImages = weather.static
-    .map((img) => `<img src="${img}" height="120" />`)
-    .join(" ");
-  const instagramHeading = `🔽 Below are the last ${NUM_INSTA_PICS} pictures posted by <a href="https://www.instagram.com/${INSTAGRAM_ACCOUNT}/" target="_blank"><img src="assets/instagram.png" width="10"/> @${INSTAGRAM_ACCOUNT}</a>!`;
-  const instagramImages = weather.instagram
-    .map((img) => `<img src="${img}" height="120" />`)
-    .join(" ");
-
-  return {
-    find: "PICTURES",
-    replace: `\n${staticImages}\n\n${instagramHeading}\n\n${instagramImages}\n\n`,
-  };
-};
-
-const generateRefresh: Generator = () => {
+const generateDate: Generator = () => {
   const date = new Date().toLocaleDateString("en-US", {
     weekday: "long",
     month: "long",
@@ -163,7 +88,7 @@ const generateRefresh: Generator = () => {
     timeZone: "America/Los_Angeles",
   });
 
-  return { find: "REFRESH", replace: date };
+  return { date };
 };
 
 generateReadme();

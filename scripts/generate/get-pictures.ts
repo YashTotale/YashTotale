@@ -60,6 +60,8 @@ const getPictures = async () => {
   const data: Pictures = {
     static: staticImages,
     instagram,
+    instaAccount: INSTAGRAM_ACCOUNT,
+    instaAmount: NUM_INSTA_PICS,
   };
 
   Logger.log("Writing pictures...");
