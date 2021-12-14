@@ -1,5 +1,4 @@
-<p align="center"><a href="https://yashtotale.dev/"><img src="https://yashtotale.dev/logo192.png" alt="Yash Totale's Icon" width="100"></a></p>
-<h1 align="center"><a href="https://yashtotale.dev/">Yash Totale</a></h1>
+<h1 align="center">Yash Totale</h1>
 
 <p align="center">
   <a href="https://yashtotale.dev/" title="Portfolio"><img src="https://img.shields.io/badge/Portfolio-lightblue?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portfolio"/></a>
@@ -8,7 +7,7 @@
 
 ## ⭐️ My Followers
 
-<a href="https:&#x2F;&#x2F;github.com&#x2F;Skatan666" title="Mark O&#39;deBeast"><img src="https://img.shields.io/badge/Mark%20O&#39;deBeast-24292e?style=flat&logo=Github&logoColor=white&link=https:&#x2F;&#x2F;github.com&#x2F;Skatan666" alt="Mark O&#39;deBeast" /></a> <a href="https:&#x2F;&#x2F;github.com&#x2F;swim86unifyd" title="@swim86unifyd"><img src="https://img.shields.io/badge/@swim86unifyd-24292e?style=flat&logo=Github&logoColor=white&link=https:&#x2F;&#x2F;github.com&#x2F;swim86unifyd" alt="@swim86unifyd" /></a> <a href="https:&#x2F;&#x2F;github.com&#x2F;jeremy-coleman" title="Jeremy"><img src="https://img.shields.io/badge/Jeremy-24292e?style=flat&logo=Github&logoColor=white&link=https:&#x2F;&#x2F;github.com&#x2F;jeremy-coleman" alt="Jeremy" /></a> <a href="https:&#x2F;&#x2F;github.com&#x2F;evanjt06" title="Evan Tu"><img src="https://img.shields.io/badge/Evan%20Tu-24292e?style=flat&logo=Github&logoColor=white&link=https:&#x2F;&#x2F;github.com&#x2F;evanjt06" alt="Evan Tu" /></a> <a href="https:&#x2F;&#x2F;github.com&#x2F;subatuba21" title="Subha Das"><img src="https://img.shields.io/badge/Subha%20Das-24292e?style=flat&logo=Github&logoColor=white&link=https:&#x2F;&#x2F;github.com&#x2F;subatuba21" alt="Subha Das" /></a> <a href="https:&#x2F;&#x2F;github.com&#x2F;eduwass" title="Edu Wass"><img src="https://img.shields.io/badge/Edu%20Wass-24292e?style=flat&logo=Github&logoColor=white&link=https:&#x2F;&#x2F;github.com&#x2F;eduwass" alt="Edu Wass" /></a> <a href="https:&#x2F;&#x2F;github.com&#x2F;rupaltotale" title="Rupal Totale"><img src="https://img.shields.io/badge/Rupal%20Totale-24292e?style=flat&logo=Github&logoColor=white&link=https:&#x2F;&#x2F;github.com&#x2F;rupaltotale" alt="Rupal Totale" /></a>
+<a href="https:&#x2F;&#x2F;github.com&#x2F;AnthonyKuang" title="Anthony Kuang"><img src="https://img.shields.io/badge/Anthony%20Kuang-24292e?style=flat&logo=Github&logoColor=white&link=https:&#x2F;&#x2F;github.com&#x2F;AnthonyKuang" alt="Anthony Kuang" /></a> <a href="https:&#x2F;&#x2F;github.com&#x2F;Skatan666" title="Mark O&#39;deBeast"><img src="https://img.shields.io/badge/Mark%20O&#39;deBeast-24292e?style=flat&logo=Github&logoColor=white&link=https:&#x2F;&#x2F;github.com&#x2F;Skatan666" alt="Mark O&#39;deBeast" /></a> <a href="https:&#x2F;&#x2F;github.com&#x2F;swim86unifyd" title="@swim86unifyd"><img src="https://img.shields.io/badge/@swim86unifyd-24292e?style=flat&logo=Github&logoColor=white&link=https:&#x2F;&#x2F;github.com&#x2F;swim86unifyd" alt="@swim86unifyd" /></a> <a href="https:&#x2F;&#x2F;github.com&#x2F;jeremy-coleman" title="Jeremy"><img src="https://img.shields.io/badge/Jeremy-24292e?style=flat&logo=Github&logoColor=white&link=https:&#x2F;&#x2F;github.com&#x2F;jeremy-coleman" alt="Jeremy" /></a> <a href="https:&#x2F;&#x2F;github.com&#x2F;evanjt06" title="Evan Tu"><img src="https://img.shields.io/badge/Evan%20Tu-24292e?style=flat&logo=Github&logoColor=white&link=https:&#x2F;&#x2F;github.com&#x2F;evanjt06" alt="Evan Tu" /></a> <a href="https:&#x2F;&#x2F;github.com&#x2F;subatuba21" title="Subha Das"><img src="https://img.shields.io/badge/Subha%20Das-24292e?style=flat&logo=Github&logoColor=white&link=https:&#x2F;&#x2F;github.com&#x2F;subatuba21" alt="Subha Das" /></a> <a href="https:&#x2F;&#x2F;github.com&#x2F;eduwass" title="Edu Wass"><img src="https://img.shields.io/badge/Edu%20Wass-24292e?style=flat&logo=Github&logoColor=white&link=https:&#x2F;&#x2F;github.com&#x2F;eduwass" alt="Edu Wass" /></a> <a href="https:&#x2F;&#x2F;github.com&#x2F;rupaltotale" title="Rupal Totale"><img src="https://img.shields.io/badge/Rupal%20Totale-24292e?style=flat&logo=Github&logoColor=white&link=https:&#x2F;&#x2F;github.com&#x2F;rupaltotale" alt="Rupal Totale" /></a>
 
 > Generated from [this script](https://github.com/YashTotale/YashTotale/blob/main/scripts/generate/get-followers.ts). Add yourself by following 🙂
 
@@ -44,7 +43,7 @@
 
 ## 👋 from Pleasanton, CA
 
-**Current Weather**: <img src="assets&#x2F;pleasanton&#x2F;weather.png" alt="" height="10" /> Rain before 5am, then a chance of rain and patchy fog. Cloudy. Low around 41, with temperatures rising to around 43 overnight. East northeast wind around 5 mph. Chance of precipitation is 90%. New rainfall amounts between a quarter and half of an inch possible.
+**Current Weather**: <img src="assets&#x2F;pleasanton&#x2F;weather.png" alt="" height="10" /> Rain before 5am, then a chance of rain and patchy fog. Cloudy. Low around 41, with temperatures rising to around 43 overnight. Southeast wind around 5 mph. Chance of precipitation is 90%. New rainfall amounts between a quarter and half of an inch possible.
 
 <img src="assets&#x2F;pleasanton&#x2F;static&#x2F;1.jpeg" height="120" /> <img src="assets&#x2F;pleasanton&#x2F;static&#x2F;2.png" height="120" /> <img src="assets&#x2F;pleasanton&#x2F;static&#x2F;3.jpeg" height="120" />
 
@@ -54,7 +53,7 @@
 
 ---
 
-<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: Monday, December 13, 10:05 PM PST</p>
+<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: Tuesday, December 14, 1:04 AM PST</p>
 
 <p align="center">
   <a href="https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml" target="_blank" title="Build Workflow Badge"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build Workflow Badge" /></a>
