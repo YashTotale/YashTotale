@@ -43,7 +43,7 @@
 
 ## 👋 from Pleasanton, CA
 
-**Current Weather**: <img src="assets&#x2F;pleasanton&#x2F;weather.png" alt="" height="10" /> Rain before 10pm, then showers and thunderstorms between 10pm and 1am, then rain between 1am and 4am, then a chance of showers and thunderstorms. Cloudy. Low around 45, with temperatures rising to around 48 overnight. Southwest wind 3 to 16 mph, with gusts as high as 40 mph. Chance of precipitation is 100%. New rainfall amounts between a half and three quarters of an inch possible.
+**Current Weather**: <img src="assets&#x2F;pleasanton&#x2F;weather.png" alt="" height="10" /> Showers and thunderstorms before 1am, then rain between 1am and 4am, then a chance of showers and thunderstorms. Mostly cloudy. Low around 45, with temperatures rising to around 48 overnight. Southwest wind 3 to 14 mph, with gusts as high as 35 mph. Chance of precipitation is 90%. New rainfall amounts between a quarter and half of an inch possible.
 
 <img src="assets&#x2F;pleasanton&#x2F;static&#x2F;1.jpeg" height="120" /> <img src="assets&#x2F;pleasanton&#x2F;static&#x2F;2.png" height="120" /> <img src="assets&#x2F;pleasanton&#x2F;static&#x2F;3.jpeg" height="120" />
 
@@ -53,7 +53,7 @@
 
 ---
 
-<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: Wednesday, December 15, 7:03 PM PST</p>
+<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: Wednesday, December 15, 10:04 PM PST</p>
 
 <p align="center">
   <a href="https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml" target="_blank" title="Build Workflow Badge"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build Workflow Badge" /></a>
