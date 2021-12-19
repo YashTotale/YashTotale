@@ -1,4 +1,5 @@
-<h1 align="center">Yash Totale</h1>
+<p align="center"><a href="https://yashtotale.dev/"><img src="https://yashtotale.dev/logo192.png" alt="Yash Totale's Icon" width="100"></a></p>
+<h1 align="center"><a href="https://yashtotale.dev/">Yash Totale</a></h1>
 
 <p align="center">
   <a href="https://yashtotale.dev/" title="Portfolio"><img src="https://img.shields.io/badge/Portfolio-lightblue?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portfolio"/></a>
@@ -28,7 +29,7 @@
 - <a href="https:&#x2F;&#x2F;github.com&#x2F;YashTotale&#x2F;react-hash-scroll&#x2F;releases&#x2F;tag&#x2F;v1.4.7" target="_blank" title="react-hash-scroll@v1.4.7">react-hash-scroll@v1.4.7</a> - 2021-10-20
 - <a href="https:&#x2F;&#x2F;github.com&#x2F;YashTotale&#x2F;goodreads-user-scraper&#x2F;releases&#x2F;tag&#x2F;v1.1.0" target="_blank" title="goodreads-user-scraper@v1.1.0">goodreads-user-scraper@v1.1.0</a> - 2021-09-03
 - <a href="https:&#x2F;&#x2F;github.com&#x2F;hack4impact&#x2F;jetbrains-plugin&#x2F;releases&#x2F;tag&#x2F;v0.1.0" target="_blank" title="hack4impact&#x2F;jetbrains-plugin@v0.1.0">hack4impact&#x2F;jetbrains-plugin@v0.1.0</a> - 2021-03-17
-- <a href="https:&#x2F;&#x2F;github.com&#x2F;YashTotale&#x2F;introspect&#x2F;releases&#x2F;tag&#x2F;v1.1.0" target="_blank" title="introspect@v1.1.0">introspect@v1.1.0</a> - 2021-03-16
+- <a href="https:&#x2F;&#x2F;github.com&#x2F;YashTotale&#x2F;introspect&#x2F;releases&#x2F;tag&#x2F;v1.1.0" target="_blank" title="introspect@v1.1.0">introspect@v1.1.0</a> - 2021-03-15
 - <a href="https:&#x2F;&#x2F;github.com&#x2F;hack4impact&#x2F;vscode-extension&#x2F;releases&#x2F;tag&#x2F;v0.8.0" target="_blank" title="hack4impact&#x2F;vscode-extension@v0.8.0">hack4impact&#x2F;vscode-extension@v0.8.0</a> - 2021-03-13
 
 ## 🛠 Featured Projects
@@ -43,7 +44,7 @@
 
 ## 👋 from Pleasanton, CA
 
-**Current Weather**: <img src="assets&#x2F;pleasanton&#x2F;weather.png" alt="" height="10" /> Patchy fog before 11am. Mostly sunny. High near 53, with temperatures falling to around 49 in the afternoon. South southeast wind around 3 mph.
+**Current Weather**: <img src="assets&#x2F;pleasanton&#x2F;weather.png" alt="" height="10" /> Mostly sunny. High near 53, with temperatures falling to around 49 in the afternoon. South southeast wind around 3 mph.
 
 <img src="assets&#x2F;pleasanton&#x2F;static&#x2F;1.jpeg" height="120" /> <img src="assets&#x2F;pleasanton&#x2F;static&#x2F;2.png" height="120" /> <img src="assets&#x2F;pleasanton&#x2F;static&#x2F;3.jpeg" height="120" />
 
@@ -53,7 +54,7 @@
 
 ---
 
-<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: Sunday, December 19, 10:04 AM PST</p>
+<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: Sunday, December 19, 12:39 PM PST</p>
 
 <p align="center">
   <a href="https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml" target="_blank" title="Build Workflow Badge"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build Workflow Badge" /></a>

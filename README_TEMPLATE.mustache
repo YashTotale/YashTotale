@@ -1,4 +1,5 @@
-<h1 align="center">Yash Totale</h1>
+<p align="center"><a href="https://yashtotale.dev/"><img src="https://yashtotale.dev/logo192.png" alt="Yash Totale's Icon" width="100"></a></p>
+<h1 align="center"><a href="https://yashtotale.dev/">Yash Totale</a></h1>
 
 <p align="center">
   <a href="https://yashtotale.dev/" title="Portfolio"><img src="https://img.shields.io/badge/Portfolio-lightblue?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portfolio"/></a>
