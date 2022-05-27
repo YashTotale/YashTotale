@@ -44,6 +44,7 @@ const downloadWeatherIcon = async (icon: string) => {
 
 const getWeather = async () => {
   await mkdir(DATA_PATH, { recursive: true });
+  await mkdir(PLEASANTON_ASSETS_PATH, { recursive: true });
 
   const weather = await fetchWeather();
   weather.icon = await downloadWeatherIcon(weather.icon);

@@ -31,7 +31,7 @@ jobs:
 
       - name: Check for Changes
         id: changes
-        uses: UnicornGlobal/has-changes-action@v1.0.11
+        run: echo "::set-output name=changed::$(git status --porcelain | wc -l)"
 
       - name: Commit Files
         run: |

@@ -35,15 +35,24 @@ const getInstagramImages = async () => {
   await mkdir(PLEASANTON_INSTAGRAM_ASSETS_PATH, { recursive: true });
   const images = await puppeteerService.getLatestInstagramPostsFromAccount(
     INSTAGRAM_ACCOUNT,
-    NUM_INSTA_PICS
+    NUM_INSTA_PICS + 3 // Add 3 for possible non-existent images
   );
-  const files = await Promise.all(
-    images.map(async (img, i) => {
-      const file = join(PLEASANTON_INSTAGRAM_ASSETS_PATH, (i + 1).toString());
-      const createdFile = await download(img, file);
-      return relative(ROOT_PATH, createdFile);
-    })
-  );
+
+  const files: string[] = [];
+
+  for (const image of images) {
+    const file = join(
+      PLEASANTON_INSTAGRAM_ASSETS_PATH,
+      (files.length + 1).toString()
+    );
+    try {
+      const createdFile = await download(image, file);
+      files.push(relative(ROOT_PATH, createdFile));
+      if (files.length === 5) break;
+    } catch (e) {
+      continue;
+    }
+  }
 
   Logger.success("Fetched instagram images!");
   return files;
@@ -51,6 +60,7 @@ const getInstagramImages = async () => {
 
 const getPictures = async () => {
   await mkdir(DATA_PATH, { recursive: true });
+  await mkdir(PLEASANTON_INSTAGRAM_ASSETS_PATH, { recursive: true });
 
   const [staticImages, instagram] = await Promise.all([
     getStaticImages(),
