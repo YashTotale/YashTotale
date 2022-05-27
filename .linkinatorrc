@@ -1,3 +1,6 @@
 {
-  "skip": "https://www.linkedin.com"
+  "skip": [
+    "https://www.linkedin.com",
+    "https://www.instagram.com"
+  ]
 }
