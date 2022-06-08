@@ -41,7 +41,7 @@ jobs:
           git commit -m "Update README (automated)" --no-verify
 
       - name: Push Changes
-        if: steps.changes.outputs.changed == 1
+        if: steps.changes.outputs.changed != 0
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
