@@ -4,9 +4,6 @@ node_modules/
 # testing
 coverage/
 
-# secret
-functions/src/service-account.json
-
 # production
 dist/
 out/
