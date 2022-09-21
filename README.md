@@ -24,7 +24,7 @@
 
 ## ⛳️ Project Releases
 
-- <a href="https:&#x2F;&#x2F;github.com&#x2F;YashTotale&#x2F;eliminassian&#x2F;releases&#x2F;tag&#x2F;v0.0.7" target="_blank" title="eliminassian@v0.0.7">eliminassian@v0.0.7</a> - 2022-09-19
+- <a href="https:&#x2F;&#x2F;github.com&#x2F;YashTotale&#x2F;eliminassian&#x2F;releases&#x2F;tag&#x2F;v0.0.8" target="_blank" title="eliminassian@v0.0.8">eliminassian@v0.0.8</a> - 2022-09-20
 - <a href="https:&#x2F;&#x2F;github.com&#x2F;hack4impact&#x2F;logger&#x2F;releases&#x2F;tag&#x2F;v4.0.2" target="_blank" title="hack4impact&#x2F;logger@v4.0.2">hack4impact&#x2F;logger@v4.0.2</a> - 2021-11-17
 - <a href="https:&#x2F;&#x2F;github.com&#x2F;YashTotale&#x2F;terminal-all-in-one&#x2F;releases&#x2F;tag&#x2F;v1.12.0" target="_blank" title="terminal-all-in-one@v1.12.0">terminal-all-in-one@v1.12.0</a> - 2021-11-09
 - <a href="https:&#x2F;&#x2F;github.com&#x2F;YashTotale&#x2F;react-hash-scroll&#x2F;releases&#x2F;tag&#x2F;v1.4.7" target="_blank" title="react-hash-scroll@v1.4.7">react-hash-scroll@v1.4.7</a> - 2021-10-20
@@ -45,7 +45,7 @@
 
 ## 👋 from Pleasanton, CA
 
-**Current Weather**: <img src="assets&#x2F;pleasanton&#x2F;weather.png" alt="" height="10" /> A chance of rain showers. Partly sunny. High near 77, with temperatures falling to around 75 in the afternoon. West southwest wind 1 to 10 mph. Chance of precipitation is 30%.
+**Current Weather**: <img src="assets&#x2F;pleasanton&#x2F;weather.png" alt="" height="10" /> Scattered rain showers before 11pm, then scattered showers and thunderstorms. Mostly cloudy, with a low around 57. West wind 1 to 9 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible.
 
 <img src="assets&#x2F;pleasanton&#x2F;static&#x2F;1.jpeg" height="120" /> <img src="assets&#x2F;pleasanton&#x2F;static&#x2F;2.png" height="120" /> <img src="assets&#x2F;pleasanton&#x2F;static&#x2F;3.jpeg" height="120" />
 
@@ -55,7 +55,7 @@
 
 ---
 
-<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: Tuesday, September 20 at 11:08 AM PDT</p>
+<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: Tuesday, September 20 at 9:43 PM PDT</p>
 
 <p align="center">
   <a href="https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml" target="_blank" title="Build Workflow Badge"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build Workflow Badge" /></a>
