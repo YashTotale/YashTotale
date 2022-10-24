@@ -25,12 +25,12 @@
 ## ⛳️ Project Releases
 
 - <a href="https:&#x2F;&#x2F;github.com&#x2F;YashTotale&#x2F;alzebra&#x2F;releases&#x2F;tag&#x2F;v0.0.1" target="_blank" title="alzebra@v0.0.1">alzebra@v0.0.1</a> - 2022-10-07
-- <a href="https:&#x2F;&#x2F;github.com&#x2F;hack4impact&#x2F;logger&#x2F;releases&#x2F;tag&#x2F;v2.0.4" target="_blank" title="hack4impact&#x2F;logger@v2.0.4">hack4impact&#x2F;logger@v2.0.4</a> - 2021-11-17
 - <a href="https:&#x2F;&#x2F;github.com&#x2F;YashTotale&#x2F;terminal-all-in-one&#x2F;releases&#x2F;tag&#x2F;v1.12.0" target="_blank" title="terminal-all-in-one@v1.12.0">terminal-all-in-one@v1.12.0</a> - 2021-11-09
 - <a href="https:&#x2F;&#x2F;github.com&#x2F;YashTotale&#x2F;goodreads-user-scraper&#x2F;releases&#x2F;tag&#x2F;v0.0.3" target="_blank" title="goodreads-user-scraper@v0.0.3">goodreads-user-scraper@v0.0.3</a> - 2021-06-15
-- <a href="https:&#x2F;&#x2F;github.com&#x2F;hack4impact&#x2F;vscode-extension&#x2F;releases&#x2F;tag&#x2F;v0.1.4" target="_blank" title="hack4impact&#x2F;vscode-extension@v0.1.4">hack4impact&#x2F;vscode-extension@v0.1.4</a> - 2021-03-09
 - <a href="https:&#x2F;&#x2F;github.com&#x2F;hack4impact&#x2F;jetbrains-plugin&#x2F;releases&#x2F;tag&#x2F;v0.0.1" target="_blank" title="hack4impact&#x2F;jetbrains-plugin@v0.0.1">hack4impact&#x2F;jetbrains-plugin@v0.0.1</a> - 2021-03-09
-- <a href="https:&#x2F;&#x2F;github.com&#x2F;YashTotale&#x2F;react-hash-scroll&#x2F;releases&#x2F;tag&#x2F;v1.3.1" target="_blank" title="react-hash-scroll@v1.3.1">react-hash-scroll@v1.3.1</a> - 2021-02-28
+- <a href="https:&#x2F;&#x2F;github.com&#x2F;YashTotale&#x2F;react-hash-scroll&#x2F;releases&#x2F;tag&#x2F;v1.1.0" target="_blank" title="react-hash-scroll@v1.1.0">react-hash-scroll@v1.1.0</a> - 2021-02-28
+- <a href="https:&#x2F;&#x2F;github.com&#x2F;hack4impact&#x2F;vscode-extension&#x2F;releases&#x2F;tag&#x2F;v0.0.1" target="_blank" title="hack4impact&#x2F;vscode-extension@v0.0.1">hack4impact&#x2F;vscode-extension@v0.0.1</a> - 2021-02-26
+- <a href="https:&#x2F;&#x2F;github.com&#x2F;hack4impact&#x2F;logger&#x2F;releases&#x2F;tag&#x2F;v1.0.0" target="_blank" title="hack4impact&#x2F;logger@v1.0.0">hack4impact&#x2F;logger@v1.0.0</a> - 2021-02-17
 - <a href="https:&#x2F;&#x2F;github.com&#x2F;YashTotale&#x2F;introspect&#x2F;releases&#x2F;tag&#x2F;v1.0.0" target="_blank" title="introspect@v1.0.0">introspect@v1.0.0</a> - 2021-01-17
 
 ## 🛠 Featured Projects
@@ -45,7 +45,7 @@
 
 ## 👋 from Pleasanton, CA
 
-**Current Weather**: <img src="assets&#x2F;pleasanton&#x2F;weather.png" alt="" height="10" /> Clear. Low around 40, with temperatures rising to around 43 overnight. North northwest wind around 2 mph.
+**Current Weather**: <img src="assets&#x2F;pleasanton&#x2F;weather.png" alt="" height="10" /> Sunny. High near 75, with temperatures falling to around 72 in the afternoon. West northwest wind 3 to 7 mph.
 
 <img src="assets&#x2F;pleasanton&#x2F;static&#x2F;1.jpeg" height="120" /> <img src="assets&#x2F;pleasanton&#x2F;static&#x2F;2.png" height="120" /> <img src="assets&#x2F;pleasanton&#x2F;static&#x2F;3.jpeg" height="120" />
 
@@ -55,7 +55,7 @@
 
 ---
 
-<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: Sunday, October 23 at 11:48 PM PDT</p>
+<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: Monday, October 24 at 2:08 PM PDT</p>
 
 <p align="center">
   <a href="https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml" target="_blank" title="Build Workflow Badge"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build Workflow Badge" /></a>
