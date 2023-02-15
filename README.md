@@ -45,17 +45,15 @@
 
 ## 👋 from Pleasanton, CA
 
-**Current Weather**: <img src="assets&#x2F;pleasanton&#x2F;weather.png" alt="" height="10" /> Clear. Low around 33, with temperatures rising to around 35 overnight. North northwest wind 13 to 17 mph, with gusts as high as 25 mph.
+**Current Weather**: <img src="assets&#x2F;pleasanton&#x2F;weather.png" alt="" height="10" /> Clear, with a low around 33. Northwest wind around 12 mph.
 
 <img src="assets&#x2F;pleasanton&#x2F;static&#x2F;1.jpeg" height="120" /> <img src="assets&#x2F;pleasanton&#x2F;static&#x2F;2.png" height="120" /> <img src="assets&#x2F;pleasanton&#x2F;static&#x2F;3.jpeg" height="120" />
 
 🔽 Below are the last 5 pictures posted by <a href="https://www.instagram.com/visittrivalley/" target="_blank"><img src="assets/instagram.png" width="10"/> @visittrivalley</a>!
 
-<img src="assets&#x2F;pleasanton&#x2F;instagram&#x2F;1.jpg" height="120" /> <img src="assets&#x2F;pleasanton&#x2F;instagram&#x2F;2.jpg" height="120" /> <img src="assets&#x2F;pleasanton&#x2F;instagram&#x2F;3.jpg" height="120" /> <img src="assets&#x2F;pleasanton&#x2F;instagram&#x2F;4.jpg" height="120" /> <img src="assets&#x2F;pleasanton&#x2F;instagram&#x2F;5.jpg" height="120" />
-
 ---
 
-<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: Tuesday, February 14 at 10:08 PM PST</p>
+<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: Wednesday, February 15 at 4:11 AM PST</p>
 
 <p align="center">
   <a href="https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml" target="_blank" title="Build Workflow Badge"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build Workflow Badge" /></a>
