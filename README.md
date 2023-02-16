@@ -51,9 +51,11 @@
 
 🔽 Below are the last 5 pictures posted by <a href="https://www.instagram.com/visittrivalley/" target="_blank"><img src="assets/instagram.png" width="10"/> @visittrivalley</a>!
 
+<img src="assets&#x2F;pleasanton&#x2F;instagram&#x2F;1.jpg" height="120" /> <img src="assets&#x2F;pleasanton&#x2F;instagram&#x2F;2.jpg" height="120" /> <img src="assets&#x2F;pleasanton&#x2F;instagram&#x2F;3.jpg" height="120" /> <img src="assets&#x2F;pleasanton&#x2F;instagram&#x2F;4.jpg" height="120" /> <img src="assets&#x2F;pleasanton&#x2F;instagram&#x2F;5.jpg" height="120" />
+
 ---
 
-<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: Wednesday, February 15 at 7:11 PM PST</p>
+<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: Wednesday, February 15 at 10:08 PM PST</p>
 
 <p align="center">
   <a href="https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml" target="_blank" title="Build Workflow Badge"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build Workflow Badge" /></a>
