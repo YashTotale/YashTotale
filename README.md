@@ -45,15 +45,17 @@
 
 ## 👋 from Pleasanton, CA
 
-**Current Weather**: <img src="assets&#x2F;pleasanton&#x2F;weather.png" alt="" height="10" /> Rain showers. Mostly cloudy. Low around 37, with temperatures rising to around 40 overnight. South southwest wind 5 to 14 mph, with gusts as high as 26 mph. Chance of precipitation is 90%. New rainfall amounts between a quarter and half of an inch possible.
+**Current Weather**: <img src="assets&#x2F;pleasanton&#x2F;weather.png" alt="" height="10" /> Rain showers. Mostly cloudy. Low around 37, with temperatures rising to around 40 overnight. South wind 13 to 21 mph, with gusts as high as 25 mph. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible.
 
 <img src="assets&#x2F;pleasanton&#x2F;static&#x2F;1.jpeg" height="120" /> <img src="assets&#x2F;pleasanton&#x2F;static&#x2F;2.png" height="120" /> <img src="assets&#x2F;pleasanton&#x2F;static&#x2F;3.jpeg" height="120" />
 
 🔽 Below are the last 5 pictures posted by <a href="https://www.instagram.com/visittrivalley/" target="_blank"><img src="assets/instagram.png" width="10"/> @visittrivalley</a>!
 
+<img src="assets&#x2F;pleasanton&#x2F;instagram&#x2F;1.jpg" height="120" /> <img src="assets&#x2F;pleasanton&#x2F;instagram&#x2F;2.jpg" height="120" /> <img src="assets&#x2F;pleasanton&#x2F;instagram&#x2F;3.jpg" height="120" /> <img src="assets&#x2F;pleasanton&#x2F;instagram&#x2F;4.jpg" height="120" /> <img src="assets&#x2F;pleasanton&#x2F;instagram&#x2F;5.jpg" height="120" />
+
 ---
 
-<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: Monday, February 27 at 7:12 PM PST</p>
+<p align="center">This <code>README</code> file is generated <strong>every 3 hours</strong>!<br>Last refresh: Tuesday, February 28 at 1:07 AM PST</p>
 
 <p align="center">
   <a href="https://github.com/YashTotale/YashTotale/actions/workflows/integrate.yml" target="_blank" title="Build Workflow Badge"><img src="https://img.shields.io/github/workflow/status/YashTotale/YashTotale/Integrate?logo=github&logoColor=FFFFFF&labelColor=000000&label=Build&style=flat-square" alt="Build Workflow Badge" /></a>
