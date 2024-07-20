@@ -1,7 +1,5 @@
 {
   "files.associations": {
-    ".gitignore": "ignore",
-
     ".env": "text",
     ".env.example": "text",
 
@@ -18,7 +16,6 @@
     ".lintstagedrc": "json",
 
     ".imgbotconfig": "json",
-
     ".linkinatorrc": "json"
   },
   "markdown.extension.toc.levels": "1..2"
