@@ -12,9 +12,7 @@
     ".eslintignore": "ignore",
     ".eslintrc": "json",
 
-    ".huskyrc": "json",
     ".lintstagedrc": "json",
-
     ".imgbotconfig": "json",
     ".linkinatorrc": "json"
   },
